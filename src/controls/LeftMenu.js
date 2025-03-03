@@ -67,7 +67,7 @@ const LeftMenu = ({ open, onClose }) => {
       onClose={onClose}
       sx={{
         '& .MuiDrawer-paper': {
-          backgroundColor: theme.palette.background.paper,
+          background: `linear-gradient(to bottom, ${theme.palette.primary.dark} 0%, ${theme.palette.background.paper} 60%, ${theme.palette.background.default} 100%)`,
           color: theme.palette.text.primary,
           width: 240,
         },
@@ -83,7 +83,7 @@ const LeftMenu = ({ open, onClose }) => {
           borderColor: theme.palette.divider,
         }}
       >
-        <Avatar sx={{ width: 60, height: 60, marginBottom: '8px' }}>
+        <Avatar sx={{ width: 60, height: 60, marginBottom: '8px' , cursor: 'pointer'}}>
           <AccountCircle sx={{ width: 40, height: 40 }} />
         </Avatar>
         <Typography variant="subtitle1">Shahul Karthik Chandra</Typography>
@@ -101,6 +101,7 @@ const LeftMenu = ({ open, onClose }) => {
               '&:hover': {
                 backgroundColor: theme.palette.action.hover,
               },
+              cursor: 'pointer', // 👈 Add hand cursor
             }}
           >
             <ListItemIcon sx={{ color: theme.palette.text.primary }}>

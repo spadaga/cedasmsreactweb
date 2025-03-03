@@ -583,11 +583,7 @@ const modalStyle = {
                                            {/* Warning Icon and Price in the same TableCell */}
                 <TableCell sx={{ textAlign: 'center', p: 1 , display: 'flex', alignItems: 'center' }}>
                    
-                    { (
-                        <Tooltip title="Available quantity is less than minimum quantity">
-                            <WarningAmberIcon color="warning"  sx={{p:0.3}} />
-                        </Tooltip>
-                    )} {item.price}
+                {item.price}
                 </TableCell>
 
                 <TableCell sx={{ textAlign: 'center' }}>{item.Min_Qty}</TableCell> {/* Centered Data */}

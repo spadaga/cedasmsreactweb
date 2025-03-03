@@ -12,6 +12,7 @@ import {
   ListItemText,
   ListItemIcon,
   Button,
+  Tooltip,
 } from '@mui/material';
 import {
   Brightness4,
@@ -64,35 +65,40 @@ const Header = ({ title }) => {
 
   return (
     <Box
-      sx={{
-        backgroundColor: theme.palette.primary.main,
-        color: 'white',
-        padding: '16px',
-        width: '100%',
-        boxSizing: 'border-box',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-      }}
-    >
+  sx={{
+    background: `linear-gradient(to right, ${theme.palette.primary.main} 0%, ${theme.palette.primary.light} 30%, ${theme.palette.primary.light} 70%, ${theme.palette.primary.main} 100%)`,
+    color: 'white',
+    padding: '16px',
+    width: '100%',
+    boxSizing: 'border-box',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  }}
+>
+
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
-        <IconButton onClick={toggleMenu} color="inherit">
+        <IconButton onClick={toggleMenu} color="inherit" sx={{ cursor: 'pointer' }}>
           <Menu />
         </IconButton>
-        <Avatar src={logo} alt="Logo" sx={{ mr: 2, width: 100, height: 40 }} />
+        <Avatar src={logo} alt="Logo" sx={{ mr: 2, width: 100, height: 40, cursor: 'pointer' }} />
       </Box>
 
       <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center' }}>
         <Typography variant="h4">{title}</Typography>
       </Box>
 
-      <IconButton onClick={toggleDarkMode} color="inherit">
-        {darkMode ? <Brightness7 /> : <Brightness4 />}
-      </IconButton>
+      <Tooltip title="Toggle Light/Dark Mode">
+  <IconButton onClick={toggleDarkMode} color="inherit" sx={{ cursor: 'pointer' }}>
+    {darkMode ? <Brightness7 /> : <Brightness4 />}
+  </IconButton>
+</Tooltip>
 
-      <IconButton onClick={toggleNotificationDrawer} color="inherit">
-        <Notifications />
-      </IconButton>
+<Tooltip title="View Notifications">
+  <IconButton onClick={toggleNotificationDrawer} color="inherit" sx={{ cursor: 'pointer' }}>
+    <Notifications />
+  </IconButton>
+</Tooltip>
 
       <LeftMenu open={menuOpen} onClose={toggleMenu} />
 
