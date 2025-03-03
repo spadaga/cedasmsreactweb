@@ -1,0 +1,72 @@
+[
+  {
+    "userid": 1,
+    "email": "john.doe@example.com",
+    "firstname": "John",
+    "lastname": "Doe",
+    "status": "active"
+  },
+  {
+    "userid": 2,
+    "email": "jane.smith@example.com",
+    "firstname": "Jane",
+    "lastname": "Smith",
+    "status": "active"
+  },
+  {
+    "userid": 3,
+    "email": "michael.jones@example.com",
+    "firstname": "Michael",
+    "lastname": "Jones",
+    "status": "active"
+  },
+  {
+    "userid": 4,
+    "email": "emily.brown@example.com",
+    "firstname": "Emily",
+    "lastname": "Brown",
+    "status": "inactive"
+  },
+  {
+    "userid": 5,
+    "email": "david.wilson@example.com",
+    "firstname": "David",
+    "lastname": "Wilson",
+    "status": "active"
+  },
+  {
+    "userid": 6,
+    "email": "sarah.miller@example.com",
+    "firstname": "Sarah",
+    "lastname": "Miller",
+    "status": "active"
+  },
+  {
+    "userid": 7,
+    "email": "james.davis@example.com",
+    "firstname": "James",
+    "lastname": "Davis",
+    "status": "inactive"
+  },
+  {
+    "userid": 8,
+    "email": "linda.garcia@example.com",
+    "firstname": "Linda",
+    "lastname": "Garcia",
+    "status": "active"
+  },
+  {
+    "userid": 9,
+    "email": "robert.martin@example.com",
+    "firstname": "Robert",
+    "lastname": "Martin",
+    "status": "inactive"
+  },
+  {
+    "userid": 10,
+    "email": "patricia.rodriguez@example.com",
+    "firstname": "Patricia",
+    "lastname": "Rodriguez",
+    "status": "inactive"
+  }
+]

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import EmployeeList from './components/EmployeeList';
+import EmployeeForm from './components/EmployeeForm';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+import { ThemeContextProvider } from './context/ThemeContext';
+import NotificationsPage from './components/NotificationsPage';
+import AmsUsers from './components/AmsUsers';
+import ToolData from './components/ToolData';
+const theme = createTheme();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContextProvider>
+    <Router>
+      <Routes>
+        <Route path="/" element={<EmployeeList />} />
+        <Route path="/add" element={<EmployeeForm />} />
+        <Route path="/edit/:id" element={<EmployeeForm />} />
+        <Route path="/notifications" element={<NotificationsPage />} /> {/* Add NotificationsPage route */}
+
+
+        <Route path="/amsusers" element={<AmsUsers />} />
+        
+
+
+        <Route path="/tooldata" element={<ToolData />} />
+
+
+      </Routes>
+    </Router>
+  </ThemeContextProvider>
   );
 }
 
