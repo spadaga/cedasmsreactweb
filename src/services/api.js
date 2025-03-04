@@ -32,6 +32,6 @@ export const deleteAmsuserByUserid = (userid) => api.delete(`amsusers/deleteAmsu
 
 
 // TOOLDATA API
-export const getToolData = () => api.get('tooldata');
+export const getToolData = () => api.get('/tooldata/gettooldata');
 
 export default api;
