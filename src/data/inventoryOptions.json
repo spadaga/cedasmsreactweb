@@ -1,0 +1,22 @@
+[
+    { "label": "Warehouse A" },
+    { "label": "Warehouse B" },
+    { "label": "Main Inventory" },
+    { "label": "Regional Stock 1" },
+    { "label": "Regional Stock 2" },
+    { "label": "Online Store Inventory" },
+    { "label": "Retail Store 1" },
+    { "label": "Retail Store 2" },
+    { "label": "Supplier A Stock" },
+    { "label": "Supplier B Stock" },
+    { "label": "Damaged Goods Storage" },
+    { "label": "Returns Inventory" },
+    { "label": "Production Line 1" },
+    { "label": "Production Line 2" },
+    { "label": "Quality Control Hold" },
+    { "label": "Shipping Department" },
+    { "label": "Receiving Department" },
+    { "label": "Temporary Storage" },
+    { "label": "Seasonal Inventory" },
+    { "label": "Showroom Inventory" }
+  ]

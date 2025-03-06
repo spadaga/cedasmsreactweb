@@ -8,6 +8,7 @@ import { ThemeContextProvider } from './context/ThemeContext';
 import NotificationsPage from './components/NotificationsPage';
 import AmsUsers from './components/AmsUsers';
 import ToolData from './components/ToolData';
+import AmsToolData from './components/AmsToolData';
 const theme = createTheme();
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
         
 
 
-        <Route path="/tooldata" element={<ToolData />} />
+        <Route path="/tooldata" element={<AmsToolData />} />
 
 
       </Routes>

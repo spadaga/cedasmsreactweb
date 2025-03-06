@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getToolData } from "../services/api";
 import { useThemeContext } from "../context/ThemeContext";
+import inventoryOptions from "../data/inventoryOptions.json"; // Import the JSON
 import {
   Table,
   TableBody,
@@ -22,6 +23,7 @@ import {
   Link,
   Stack,
   Hidden, // Import Link component
+  Autocomplete, // Import Autocomplete
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { ToastContainer } from "react-toastify";
@@ -38,8 +40,10 @@ import IconButton from "@mui/material/IconButton";
 import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid"; // Import Grid for layout
 import Button from "@mui/material/Button";
+import Productdetailmodal from "../modals/Productdetailmodal";
+import AddItemModal from "../modals/AddItemModal";
 
-const ToolData = () => {
+const AmsToolData = () => {
   const [toolData, setToolData] = useState([]);
   const [invToolData, setInvToolData] = useState([]); // Corrected state name
   const [order, setOrder] = useState("asc");
@@ -59,6 +63,21 @@ const ToolData = () => {
   const [invOrderBy, setInvOrderBy] = useState("Item");
   const [invPage, setInvPage] = useState(0);
   const [invRowsPerPage, setInvRowsPerPage] = useState(5);
+  // New state for inventory selection
+  const [selectedInventory, setSelectedInventory] = useState(null);
+
+  // ... your state variables
+  const [isAddItemModalOpen, setIsAddItemModalOpen] = useState(false);
+
+  // ... your functions
+
+  const handleOpenAddItemModal = () => {
+    setIsAddItemModalOpen(true);
+  };
+
+  const handleCloseAddItemModal = () => {
+    setIsAddItemModalOpen(false);
+  };
 
   useEffect(() => {
     fetchToolData();
@@ -192,37 +211,6 @@ const ToolData = () => {
     setSelectedItemForModal(null); // Clear selected item when modal closes
   };
 
-  const modalStyle = {
-    position: "absolute",
-    top: "5%", // Adjust this value as needed
-    left: "50%", // This will center it horizontally
-    transform: "translateX(-50%)", // This will center it horizontally
-    width: "90%",
-    maxHeight: "80vh",
-    overflowY: "auto",
-    backgroundColor: darkMode ? "#444" : "white",
-    border: "2px solid #000",
-    boxShadow: 24,
-    p: 4,
-    color: darkMode ? "white" : "black",
-    marginTop: "20px",
-    marginBottom: "20px",
-    // ... (other modal styles)
-    "&::-webkit-scrollbar": {
-      width: "8px",
-    },
-    "&::-webkit-scrollbar-track": {
-      backgroundColor: darkMode ? "#222" : "#f0f0f0",
-      borderRadius: "4px",
-    },
-    "&::-webkit-scrollbar-thumb": {
-      backgroundColor: darkMode ? "#666" : "#ccc",
-      borderRadius: "4px",
-    },
-    "&::-webkit-scrollbar-thumb:hover": {
-      backgroundColor: darkMode ? "#888" : "#aaa",
-    },
-  };
   const handleInvRequestSort = (property) => {
     const isAsc = invOrderBy === property && invOrder === "asc";
     setInvOrder(isAsc ? "desc" : "asc");
@@ -280,9 +268,48 @@ const ToolData = () => {
         backgroundColor: (theme) => theme.palette.background.default,
       }}
     >
-      <Header title="Tool Data" />
+      <Header title="AMS Tool Data" />
       <Container sx={{ flex: 1, paddingBottom: "60px", marginTop: "16px" }}>
         <Box sx={{ flex: "1 0 auto" }}>
+          <Box
+            sx={{
+              border: "1px solid #ccc",
+              borderRadius: "4px",
+              padding: "8px",
+              marginBottom: "8px",
+              display: "flex", // Make the box a flex container
+              alignItems: "center", // Align items vertically in the center
+              justifyContent: "space-between", // Add this line
+            }}
+          >
+            {/* Inventory Autocomplete */}
+            <Autocomplete
+              options={inventoryOptions} // Use the imported JSON // Replace with your actual inventory options
+              getOptionLabel={(option) => option.label} // Specify how to get the label
+              value={selectedInventory}
+              onChange={(event, newValue) => {
+                setSelectedInventory(newValue);
+              }}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="Inventory"
+                  variant="outlined"
+                  sx={{ mr: 2, minWidth: 200 }} // Add margin right
+                />
+              )}
+            />
+
+            {/* Add Item Button */}
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleOpenAddItemModal}
+            >
+              Add Item
+            </Button>
+          </Box>
+
           <Box
             sx={{
               border: "1px solid #ccc",
@@ -325,24 +352,11 @@ const ToolData = () => {
                         selectedItems.length === sortedToolData.length
                       }
                       sx={{
-                       
                         "&.Mui-checked": {
                           color: "green",
                         },
                       }}
                     />
-
-                    {/* <Checkbox
-                      onChange={handleHeaderCheckboxChange}
-                      indeterminate={
-                        selectedItems.length > 0 &&
-                        selectedItems.length < sortedToolData.length
-                      }
-                      checked={
-                        sortedToolData.length > 0 &&
-                        selectedItems.length === sortedToolData.length
-                      }
-                    /> */}
                   </TableCell>
                   <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
                     <TableSortLabel
@@ -353,8 +367,6 @@ const ToolData = () => {
                       Product
                     </TableSortLabel>
                   </TableCell>
-                  {/* Warning Icon Column Header */}
-                  {/*                   <TableCell> </TableCell> Empty header */}
                   <TableCell
                     sx={{
                       textAlign: "center",
@@ -445,8 +457,14 @@ const ToolData = () => {
                 {sortedToolData
                   .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                   .map((item) => (
-                    <TableRow key={item._id} sx={{ borderBottom: '1px solid #ddd' }}>
-                      <TableCell padding="checkbox" sx={{ borderBottom: '0px solid green' }}>
+                    <TableRow
+                      key={item._id}
+                      sx={{ borderBottom: "1px solid #ddd" }}
+                    >
+                      <TableCell
+                        padding="checkbox"
+                        sx={{ borderBottom: "0px solid green" }}
+                      >
                         <StyledCheckbox
                           checked={selectedItems.includes(item._id)}
                           onChange={(event) =>
@@ -458,15 +476,14 @@ const ToolData = () => {
                             },
                           }}
                         />
-
-                        {/* Checkbox Row Cell */}
-                        {/* <CustomCheckbox
-                          item={item}
-                          selectedItems={selectedItems}
-                          handleCheckboxChange={handleCheckboxChange}
-                        /> */}
                       </TableCell>
-                      <TableCell style={{ width: "300px", maxWidth: "300px",borderBottom:"0px solid" }}>
+                      <TableCell
+                        style={{
+                          width: "300px",
+                          maxWidth: "300px",
+                          borderBottom: "0px solid",
+                        }}
+                      >
                         <Tooltip
                           title={
                             <>
@@ -549,7 +566,6 @@ const ToolData = () => {
                               style={{ display: "flex", alignItems: "center" }}
                             >
                               <img
-                                // src={item.url ? item.url : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg?20200913095930"}
                                 src={
                                   item.url && item.url.startsWith("example.com")
                                     ? "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg?20200913095930"
@@ -562,7 +578,7 @@ const ToolData = () => {
                                   width: "40px",
                                 }}
                                 onError={(e) => {
-                                  e.target.onerror = null; // Prevent infinite loop
+                                  e.target.onerror = null;
                                   e.target.src =
                                     "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg?20200913095930";
                                 }}
@@ -572,7 +588,7 @@ const ToolData = () => {
                                   whiteSpace: "nowrap",
                                   overflow: "hidden",
                                   textOverflow: "ellipsis",
-                                  flex: 1, // Allow text to take remaining space
+                                  flex: 1,
                                 }}
                               >
                                 <div
@@ -596,12 +612,11 @@ const ToolData = () => {
                                         overflow: "hidden",
                                         textOverflow: "ellipsis",
                                         whiteSpace: "nowrap",
-                                        color: "green", // Add the color property here
+                                        color: "green",
                                       }}
                                     >
-                                      {/* {item.Description} */}
                                       <Typography
-                                        component="button" // Use Typography as a button
+                                        component="button"
                                         onClick={() => handleOpenModal(item)}
                                         style={{
                                           textDecoration: "underline",
@@ -609,9 +624,9 @@ const ToolData = () => {
                                           color: darkMode
                                             ? "lightblue"
                                             : "blue",
-                                          textAlign: "left", // Align text to the left within the cell
-                                          display: "block", // Make it take full width for better click area
-                                          padding: "0", // Reset padding for button-like appearance
+                                          textAlign: "left",
+                                          display: "block",
+                                          padding: "0",
                                           border: "none",
                                           backgroundColor: "transparent",
                                         }}
@@ -685,7 +700,7 @@ const ToolData = () => {
                                     style={{ fontWeight: "bold" }}
                                   >
                                     Customer:
-                                  </Typography>{" "}
+                                  </Typography>
                                   <div
                                     style={{
                                       overflow: "hidden",
@@ -701,14 +716,12 @@ const ToolData = () => {
                           </div>
                         </Tooltip>
                       </TableCell>
-                      {/* Warning Icon TableCell */}                   {" "}
-                      {/* Warning Icon and Price in the same TableCell */}
                       <TableCell
                         sx={{
                           width: "100px",
                           display: "flex",
-                          alignItems: "center", // Align items vertically in the center
-                          justifyContent: "flex-end", // Align items to the right end of the flex container
+                          alignItems: "center",
+                          justifyContent: "flex-end",
                           paddingRight: "10px",
                           fontFamily: "Arial, sans-serif",
                           fontSize: "14px",
@@ -723,34 +736,59 @@ const ToolData = () => {
                             paddingBottom: "20px",
                           }}
                         >
-                          {" "}
-                          {/* Add a wrapper div */}
                           <WarningAmberIcon sx={{ mr: 1, color: "orange" }} />
                           {item.price}
                         </div>
                       </TableCell>
-                      <TableCell sx={{ textAlign: "center",borderBottom: '0px solid green' }}>
+                      <TableCell
+                        sx={{
+                          textAlign: "center",
+                          borderBottom: "0px solid green",
+                        }}
+                      >
                         {item.Min_Qty}
-                      </TableCell>{" "}
-                      {/* Centered Data */}
-                      <TableCell sx={{ textAlign: "center" ,borderBottom: '0px solid green'}}>
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          textAlign: "center",
+                          borderBottom: "0px solid green",
+                        }}
+                      >
                         {item.Max_Qty}
-                      </TableCell>{" "}
-                      {/* Centered Data */}
-                      <TableCell sx={{ textAlign: "center" ,borderBottom: '0px solid green'}}>
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          textAlign: "center",
+                          borderBottom: "0px solid green",
+                        }}
+                      >
                         {item.Available}
-                      </TableCell>{" "}
-                      {/* Centered Data */}
-                      <TableCell sx={{ textAlign: "center" ,borderBottom: '0px solid green'}}>
+                      </TableCell>
+                      <TableCell
+                        sx={{
+                          textAlign: "center",
+                          borderBottom: "0px solid green",
+                        }}
+                      >
                         {item.Ordered}
-                      </TableCell>{" "}
-                      {/* Centered Data */}
-                      <TableCell sx={{ borderBottom: '0px solid green'}}>{item.BinLocation}</TableCell>
+                      </TableCell>
+                      <TableCell sx={{ borderBottom: "0px solid green" }}>
+                        {item.BinLocation}
+                      </TableCell>
                     </TableRow>
                   ))}
               </TableBody>
             </Table>
           </TableContainer>
+          <TablePagination
+            rowsPerPageOptions={[10, 20, 30]}
+            component="div"
+            count={sortedToolData.length}
+            rowsPerPage={rowsPerPage}
+            page={page}
+            onPageChange={handleChangePage}
+            onRowsPerPageChange={handleChangeRowsPerPage}
+          />
           <TablePagination
             rowsPerPageOptions={[10, 20, 30]}
             component="div"
@@ -767,359 +805,29 @@ const ToolData = () => {
       <Loading isLoading={isLoading} />
       {/*  Modal Component */}
 
-      <Modal
-        open={isModalOpen}
-        onClose={handleCloseModal}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={modalStyle}>
-          {/* Modal Header */}
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              marginBottom: "1rem",
-            }}
-          >
-            <Typography
-              id="modal-modal-title"
-              variant="h6"
-              component="h2"
-              sx={{ fontWeight: "bold" }}
-            >
-              Product Details
-            </Typography>
-            <IconButton onClick={handleCloseModal} aria-label="close">
-              <CloseIcon />
-            </IconButton>
-          </Box>
-          <Divider />
-          {selectedItemForModal && (
-            <Stack spacing={2} sx={{ mt: 1 }}>
-              {" "}
-              {/* Use Stack for vertical layout */}
-              <Box sx={{ display: "flex" }}>
-                {" "}
-                {/* Use Box for horizontal layout */}
-                {/* Left Column: Image */}
-                <Box sx={{ flex: 1 }}>
-                  {" "}
-                  {/* Use Box with flex for image container */}
-                  <img
-                    src="https://cdn.myced.com/images/Products/000000/082472/30000/08247230014_O1_600x600.jpg"
-                    alt="Product"
-                    style={{ width: "80%", maxHeight: "400px" }}
-                  />
-                </Box>
-                {/* Right Column: Product Details */}
-                <Box sx={{ flex: 2, ml: 2 }}>
-                  {" "}
-                  {/* Use Box with flex and margin for details */}
-                  <TextField
-                    label="Description"
-                    fullWidth
-                    margin="normal"
-                    variant="outlined"
-                    size="small"
-                    value={selectedItemForModal.Description}
-                  />
-                  <Tooltip
-                    title={
-                      <>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                          <Typography
-                            variant="subtitle2"
-                            style={{ fontWeight: "bold" }}
-                          >
-                            Mfr:
-                          </Typography>{" "}
-                          {selectedItemForModal.MfrCode
-                            ? ` ${selectedItemForModal.MfrCode}`
-                            : ""}
-                        </div>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                          <Typography
-                            variant="subtitle2"
-                            style={{ fontWeight: "bold" }}
-                          >
-                            Catalog:
-                          </Typography>{" "}
-                          {selectedItemForModal.Catalog
-                            ? ` ${selectedItemForModal.Catalog}`
-                            : ""}
-                        </div>
-                      </>
-                    }
-                  >
-                    <Box sx={{ display: "flex", alignItems: "center" }}>
-                      <Typography
-                        sx={{
-                          display: "inline-block",
-                          maxWidth: "150px",
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        Mfr:{" "}
-                        {selectedItemForModal.MfrCode
-                          ? ` ${selectedItemForModal.MfrCode}`
-                          : ""}
-                      </Typography>
-                      <Typography sx={{ mx: 1 }}>|</Typography>
-                      <Typography
-                        sx={{
-                          display: "inline-block",
-                          maxWidth: "150px",
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        Catalog #:{" "}
-                        {selectedItemForModal.Catalog
-                          ? ` ${selectedItemForModal.Catalog}`
-                          : ""}
-                      </Typography>
-                    </Box>
-                  </Tooltip>
-                  <TextField
-                    label="Your Catalog #"
-                    fullWidth
-                    margin="normal"
-                    variant="outlined"
-                    size="small"
-                    value="POWST"
-                  />
-                  <Typography>$9999999.99 UOM</Typography>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      marginTop: "1rem",
-                    }}
-                  >
-                    <Button variant="contained" color="primary">
-                      Save
-                    </Button>
-                    <Button variant="outlined">Cancel</Button>
-                    <Button variant="outlined">Revert to default</Button>
-                  </Box>
-                  <Typography variant="body2" sx={{ marginTop: "1rem" }}>
-                    Changes made to the product description or your catalog #
-                    will be reflected in all inventories. Clicking on "Revert to
-                    Default" will remove your customized product description and
-                    your catalog #.
-                  </Typography>
-                </Box>
-              </Box>
-              {/* Table Section */}
-              <TableContainer component={Paper} sx={{ overflow: "Hidden" }}>
-                <TextField
-                  label="Search"
-                  variant="outlined"
-                  fullWidth
-                  margin="normal"
-                  value={invSearch}
-                  onChange={handleInvSearch}
-                  placeholder="Search across all columns"
-                  InputProps={{
-                    startAdornment: (
-                      <InputAdornment position="start">
-                        <SearchIcon />
-                      </InputAdornment>
-                    ),
-                  }}
-                  sx={{ mr: 1, minHeight: "56px", p: 1 }}
-                />
-                <Table sx={{ tableLayout: "fixed" }}>
-                  <TableHead>
-                    <TableRow
-                      style={{ backgroundColor: darkMode ? "#333" : "#f5f5f5" }}
-                    >
-                      <TableCell
-                        sx={{ fontWeight: "bold", fontSize: "1.1rem" }}
-                      >
-                        <TableSortLabel
-                          active={invOrderBy === "Item"}
-                          direction={invOrderBy === "Item" ? invOrder : "asc"}
-                          onClick={() => handleInvRequestSort("Item")}
-                        >
-                          Item
-                        </TableSortLabel>
-                      </TableCell>
-                      <TableCell
-                        sx={{
-                          fontWeight: "bold",
-                          fontSize: "1.1rem",
-                        }}
-                      >
-                        <TableSortLabel
-                          active={invOrderBy === "BinLocation"}
-                          direction={
-                            invOrderBy === "BinLocation" ? invOrder : "asc"
-                          }
-                          onClick={() => handleInvRequestSort("BinLocation")}
-                        >
-                          Bin Location
-                        </TableSortLabel>
-                      </TableCell>
-                      <TableCell
-                        sx={{
-                          textAlign: "center",
-                          fontWeight: "bold",
-                          fontSize: "1.1rem",
-                        }}
-                      >
-                        <TableSortLabel
-                          active={invOrderBy === "Min_Qty"}
-                          direction={
-                            invOrderBy === "Min_Qty" ? invOrder : "asc"
-                          }
-                          onClick={() => handleInvRequestSort("Min_Qty")}
-                          sx={{ textAlign: "center" }} // Add textAlign to TableSortLabel
-                        >
-                          Min Qty
-                        </TableSortLabel>
-                      </TableCell>
-                      <TableCell
-                        sx={{
-                          textAlign: "center",
-                          fontWeight: "bold",
-                          fontSize: "1.1rem",
-                        }}
-                      >
-                        <TableSortLabel
-                          active={invOrderBy === "Max_Qty"}
-                          direction={
-                            invOrderBy === "Max_Qty" ? invOrder : "asc"
-                          }
-                          onClick={() => handleInvRequestSort("Max_Qty")}
-                          sx={{ textAlign: "center" }} // Add textAlign to TableSortLabel
-                        >
-                          Max Qty
-                        </TableSortLabel>
-                      </TableCell>
-                      <TableCell
-                        sx={{
-                          textAlign: "center",
-                          fontWeight: "bold",
-                          fontSize: "1.1rem",
-                        }}
-                      >
-                        <TableSortLabel
-                          active={invOrderBy === "Available"}
-                          direction={
-                            invOrderBy === "Available" ? invOrder : "asc"
-                          }
-                          onClick={() => handleInvRequestSort("Available")}
-                          sx={{ textAlign: "center" }} // Add textAlign to TableSortLabel
-                        >
-                          Available
-                        </TableSortLabel>
-                      </TableCell>
-                      <TableCell
-                        sx={{
-                          textAlign: "center",
-                          fontWeight: "bold",
-                          fontSize: "1.1rem",
-                        }}
-                      >
-                        <TableSortLabel
-                          active={invOrderBy === "Ordered"}
-                          direction={
-                            invOrderBy === "Ordered" ? invOrder : "asc"
-                          }
-                          onClick={() => handleInvRequestSort("Ordered")}
-                        >
-                          Ordered
-                        </TableSortLabel>
-                      </TableCell>
-                    </TableRow>
-                  </TableHead>
-                  <TableBody>
-                    {sortedInvToolData
-                      .slice(
-                        invPage * invRowsPerPage,
-                        invPage * invRowsPerPage + invRowsPerPage
-                      )
-                      .map((item) => (
-                        <TableRow key={item._id}>
-                          <TableCell
-                            sx={{
-                              whiteSpace: "nowrap",
-                              overflow: "hidden",
-                              textOverflow: "ellipsis",
-                              maxWidth: "150px",
-                            }}
-                          >
-                            <Tooltip title={item.Item}>
-                              <span>{item.Item}</span>
-                            </Tooltip>
-                          </TableCell>
-                          <TableCell
-                            sx={{
-                              whiteSpace: "nowrap",
-                              overflow: "hidden",
-                              textOverflow: "ellipsis",
-                              textAlign: "center",
-                              maxWidth: "100px",
-                            }}
-                          >
-                            <Tooltip title={item.BinLocation}>
-                              <span>{item.BinLocation}</span>
-                            </Tooltip>
-                          </TableCell>
-                          <TableCell sx={{ textAlign: "center" }}>
-                            {item.Min_Qty}
-                          </TableCell>
-                          <TableCell sx={{ textAlign: "center" }}>
-                            {item.Max_Qty}
-                          </TableCell>
-                          <TableCell sx={{ textAlign: "center" }}>
-                            {item.Available}
-                          </TableCell>
-                          <TableCell sx={{ textAlign: "center" }}>
-                            {item.Ordered}
-                          </TableCell>
-                        </TableRow>
-                      ))}
-                  </TableBody>
-                </Table>
-                <TablePagination
-                  rowsPerPageOptions={[5, 10, 25]}
-                  component="div"
-                  count={sortedInvToolData.length}
-                  rowsPerPage={invRowsPerPage}
-                  page={invPage}
-                  onPageChange={handleInvChangePage}
-                  onRowsPerPageChange={handleInvChangeRowsPerPage}
-                />
-              </TableContainer>
-            </Stack>
-          )}
-          <Divider sx={{ my: 2 }} />
-          <Stack direction="row" justifyContent="flex-end" spacing={2}>
-            <Button variant="contained" color="success">
-              Save
-            </Button>
-            <Button
-              variant="outlined"
-              color="primary"
-              onClick={handleCloseModal}
-            >
-              Cancel
-            </Button>
-            <Button variant="contained" color="success">
-              Done
-            </Button>
-          </Stack>
-        </Box>
-      </Modal>
+      {/* Modal Component */}
+      <Productdetailmodal
+        isModalOpen={isModalOpen}
+        handleCloseModal={handleCloseModal}
+        selectedItemForModal={selectedItemForModal}
+        invSearch={invSearch}
+        handleInvSearch={handleInvSearch}
+        invOrder={invOrder}
+        invOrderBy={invOrderBy}
+        handleInvRequestSort={handleInvRequestSort}
+        invPage={invPage}
+        invRowsPerPage={invRowsPerPage}
+        handleInvChangePage={handleInvChangePage}
+        handleInvChangeRowsPerPage={handleInvChangeRowsPerPage}
+        sortedInvToolData={sortedInvToolData} // Pass the sorted inventory data
+      />
+      {/* AddItemModal Component */}
+      <AddItemModal
+        open={isAddItemModalOpen}
+        onClose={handleCloseAddItemModal}
+      />
     </Box>
   );
 };
 
-export default ToolData;
+export default AmsToolData;
