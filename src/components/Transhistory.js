@@ -38,6 +38,11 @@ import { styled } from "@mui/material/styles";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import dayjs from "dayjs";
+
 // Styled components
 const StyledTableContainer = styled(TableContainer)(({ theme }) => ({
   border: `1px solid ${theme.palette.divider}`,
@@ -134,12 +139,22 @@ const Transhistory = () => {
 
   const [dateAnchorEl, setDateAnchorEl] = useState(null);
   const [dateOpen, setDateOpen] = useState(false);
-  const [startDate, setStartDate] = useState(null);
-  const [endDate, setEndDate] = useState(null);
+  const [startDate, setStartDate] = useState(dayjs()); // Initialize with today's date
+  const [endDate, setEndDate] = useState(dayjs()); // Initialize with today's date
 
   const [typeAnchorEl, setTypeAnchorEl] = useState(null);
   const [typeOpen, setTypeOpen] = useState(false);
   const [selectedTypes, setSelectedTypes] = useState([]);
+
+  const [mfrFilter, setMfrFilter] = useState("");
+const [catalogFilter, setCatalogFilter] = useState("");
+const [yourCatalogFilter, setYourCatalogFilter] = useState("");
+const [selectedStartDate, setSelectedStartDate] = useState(null);
+const [selectedEndDate, setSelectedEndDate] = useState(null);
+
+const [productApplyClicked, setProductApplyClicked] = useState(false);
+const [dateApplyClicked, setDateApplyClicked] = useState(false);
+
 
   const handleProductClick = (event) => {
     setProductAnchorEl(event.currentTarget);
@@ -371,6 +386,8 @@ const Transhistory = () => {
                   size="small"
                   fullWidth
                   sx={{ mb: 1 }}
+                  value={mfrFilter}
+                  onChange={(e) => setMfrFilter(e.target.value)}
                 />
                 <TextField
                   label="Catalog #"
@@ -378,6 +395,8 @@ const Transhistory = () => {
                   size="small"
                   fullWidth
                   sx={{ mb: 1 }}
+                  value={catalogFilter}
+                  onChange={(e) => setCatalogFilter(e.target.value)}
                 />
                 <TextField
                   label="Your Catalog #"
@@ -385,8 +404,19 @@ const Transhistory = () => {
                   size="small"
                   fullWidth
                   sx={{ mb: 2 }}
+                  value={yourCatalogFilter}
+                  onChange={(e) => setYourCatalogFilter(e.target.value)}
                 />
-                <Button variant="contained" color="primary" fullWidth>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  fullWidth
+                  onClick={() => {
+                    // Apply logic here (you can add filter logic later)
+                    setProductOpen(false);
+                    setProductApplyClicked(true); // Update state
+                  }}
+                >
                   Apply
                 </Button>
               </Box>
@@ -414,11 +444,11 @@ const Transhistory = () => {
               anchorEl={dateAnchorEl}
               open={dateOpen}
               onClose={() => setDateOpen(false)}
-              anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
-              transformOrigin={{ vertical: "top", horizontal: "left" }}
+              anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+              transformOrigin={{ vertical: "top", horizontal: "right" }}
               PaperProps={{
                 sx: {
-                  width: 240, // Set an explicit width
+                  width: 450, // Set an explicit width
                   mt: 0.5,
                 },
               }}
@@ -428,7 +458,7 @@ const Transhistory = () => {
                 },
               }}
             >
-              <Box sx={{ padding: '0 16px', minWidth: 250 }}>
+              <Box sx={{ padding: "0 16px", minWidth: 450 }}>
                 <Box
                   sx={{
                     display: "flex",
@@ -436,26 +466,58 @@ const Transhistory = () => {
                     mb: 2,
                   }}
                 >
-                  <TextField
-                    label="Start Date"
-                    variant="outlined"
-                    size="small"
-                    sx={{ width: "48%" }}
-                    value={startDate}
-                    onChange={(e) => setStartDate(e.target.value)}
-                  />
-                  <TextField
-                    label="End Date"
-                    variant="outlined"
-                    size="small"
-                    sx={{ width: "48%" }}
-                    value={endDate}
-                    onChange={(e) => setEndDate(e.target.value)}
-                  />
+                  <LocalizationProvider dateAdapter={AdapterDayjs}>
+                    <Box sx={{ p: 2 }}>
+                      <Box
+                        sx={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          mb: 2,
+                        }}
+                      >
+                        <DatePicker
+                          label="Start Date"
+                          value={startDate}
+                          onChange={(newValue) => setStartDate(newValue)}
+                          renderInput={(params) => (
+                            <TextField
+                              {...params}
+                              size="small"
+                              sx={{ width: "48%" }}
+                            />
+                          )}
+                          sx={{ mr: 1 }} // Added right margin to DatePicker
+                        />
+                        <DatePicker
+                          label="End Date"
+                          value={endDate}
+                          onChange={(newValue) => setEndDate(newValue)}
+                          renderInput={(params) => (
+                            <TextField
+                              {...params}
+                              size="small"
+                              sx={{ width: "48%" }}
+                            />
+                          )}
+                          sx={{ ml: 1 }} // Added left margin to DatePicker
+                        />
+                      </Box>
+                      <Button
+                        variant="contained"
+                        color="primary"
+                        fullWidth
+                        onClick={() => {
+                          setSelectedStartDate(startDate);
+                          setSelectedEndDate(endDate);
+                          setDateOpen(false);
+                          setDateApplyClicked(true); // Update state
+                        }}
+                      >
+                        Apply
+                      </Button>
+                    </Box>
+                  </LocalizationProvider>
                 </Box>
-                <Button variant="contained" color="primary" fullWidth>
-                  Apply
-                </Button>
               </Box>
             </Menu>
 
@@ -496,54 +558,122 @@ const Transhistory = () => {
                 },
               }}
             >
-              
-              <div style={{ padding: '0 16px' }}> {/* Removed MenuListProps */}
-    <Box sx={{ display: "block" }}>
-      <FormControlLabel
-        control={
-          <Checkbox
-            checked={selectedTypes.includes("Replenishments")}
-            onChange={() => handleTypeChange("Replenishments")}
-          />
-        }
-        label="Replenishments"
-      />
-    </Box>
-    <Box sx={{ display: "block" }}>
-      <FormControlLabel
-        control={
-          <Checkbox
-            checked={selectedTypes.includes("Adjustment")}
-            onChange={() => handleTypeChange("Adjustment")}
-          />
-        }
-        label="Adjustment"
-      />
-    </Box>
-    <Box sx={{ display: "block" }}>
-      <FormControlLabel
-        control={
-          <Checkbox
-            checked={selectedTypes.includes("Cycle Count")}
-            onChange={() => handleTypeChange("Cycle Count")}
-          />
-        }
-        label="Cycle Count"
-      />
-    </Box>
-    <Box sx={{ display: "block" }}>
-      <FormControlLabel
-        control={
-          <Checkbox
-            checked={selectedTypes.includes("Transfer")}
-            onChange={() => handleTypeChange("Transfer")}
-          />
-        }
-        label="Transfer"
-      />
-    </Box>
-  </div>
-</Menu>
+              <div style={{ padding: "0 16px" }}>
+                {" "}
+                {/* Removed MenuListProps */}
+                <Box sx={{ display: "block" }}>
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        checked={selectedTypes.includes("Replenishments")}
+                        onChange={() => handleTypeChange("Replenishments")}
+                      />
+                    }
+                    label="Replenishments"
+                  />
+                </Box>
+                <Box sx={{ display: "block" }}>
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        checked={selectedTypes.includes("Adjustment")}
+                        onChange={() => handleTypeChange("Adjustment")}
+                      />
+                    }
+                    label="Adjustment"
+                  />
+                </Box>
+                <Box sx={{ display: "block" }}>
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        checked={selectedTypes.includes("Cycle Count")}
+                        onChange={() => handleTypeChange("Cycle Count")}
+                      />
+                    }
+                    label="Cycle Count"
+                  />
+                </Box>
+                <Box sx={{ display: "block" }}>
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        checked={selectedTypes.includes("Transfer")}
+                        onChange={() => handleTypeChange("Transfer")}
+                      />
+                    }
+                    label="Transfer"
+                  />
+                </Box>
+              </div>
+            </Menu>
+          </Box>
+
+          <Box sx={{ display: "flex", flexWrap: "wrap", mt: 1 }}>
+            {productApplyClicked && mfrFilter && (
+              <Chip
+                label={`MFR: ${mfrFilter}`}
+                sx={{ mr: 1, mb: 1 }}
+                onDelete={() => {
+                  setMfrFilter("");
+                  setProductApplyClicked(false);
+                }}
+              />
+            )}
+            {productApplyClicked && catalogFilter && (
+              <Chip
+                label={`Catalog #: ${catalogFilter}`}
+                sx={{ mr: 1, mb: 1 }}
+                onDelete={() => {
+                  setCatalogFilter("");
+                  setProductApplyClicked(false);
+                }}
+              />
+            )}
+            {productApplyClicked && yourCatalogFilter && (
+              <Chip
+                label={`Your Catalog #: ${yourCatalogFilter}`}
+                sx={{ mr: 1, mb: 1 }}
+                onDelete={() => {
+                  setYourCatalogFilter("");
+                  setProductApplyClicked(false);
+                }}
+              />
+            )}
+            {dateApplyClicked && selectedStartDate && (
+              <Chip
+                label={`Start Date: ${selectedStartDate.format(
+                  "YYYY-MM-DD"
+                )} `}
+                sx={{ mr: 1, mb: 1 }}
+                onDelete={() => {
+                  setSelectedStartDate(null);
+                  setSelectedEndDate(null);
+                  setDateApplyClicked(false);
+                }}
+              />
+            )}
+
+
+      {dateApplyClicked &&  selectedEndDate && (
+                    <Chip
+                      label={`End Date:  ${selectedEndDate.format("YYYY-MM-DD")}`}
+                      sx={{ mr: 1, mb: 1 }}
+                      onDelete={() => {
+                        setSelectedStartDate(null);
+                        setSelectedEndDate(null);
+                        setDateApplyClicked(false);
+                      }}
+                    />
+                  )}
+            {selectedTypes.map((type) => (
+              <Chip
+                key={type}
+                label={type}
+                sx={{ mr: 1, mb: 1 }}
+                onDelete={() => handleTypeChange(type)}
+              />
+            ))}
           </Box>
         </Box>
 

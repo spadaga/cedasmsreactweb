@@ -16,7 +16,7 @@ import {
   AccountCircle,
   Settings,
   Notifications,
-  People, Build, // Import the new icon
+  People, Build, Timeline// Import the new icon
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useThemeContext } from '../context/ThemeContext';
@@ -61,7 +61,7 @@ const LeftMenu = ({ open, onClose }) => {
 
       { // Add AMS Users menu item
         text: 'Transaction History',
-        icon: <Build  />,
+        icon: <Timeline  />,
         onClick: () => navigate('/orders'), // Navigate to AMS Users component
       },
   ];
