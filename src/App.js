@@ -9,6 +9,7 @@ import NotificationsPage from './components/NotificationsPage';
 import AmsUsers from './components/AmsUsers';
 import ToolData from './components/ToolData';
 import AmsToolData from './components/AmsToolData';
+import Transhistory from './components/Transhistory';
 const theme = createTheme();
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
 
 
         <Route path="/tooldata" element={<AmsToolData />} />
+
+
+        <Route path="/orders" element={<Transhistory />} />
 
 
       </Routes>

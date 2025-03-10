@@ -57,6 +57,13 @@ const LeftMenu = ({ open, onClose }) => {
         icon: <Build  />,
         onClick: () => navigate('/tooldata'), // Navigate to AMS Users component
       },
+
+
+      { // Add AMS Users menu item
+        text: 'Transaction History',
+        icon: <Build  />,
+        onClick: () => navigate('/orders'), // Navigate to AMS Users component
+      },
   ];
   const appVersion = '1.0.0';
 
