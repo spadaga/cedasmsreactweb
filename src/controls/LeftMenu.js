@@ -20,6 +20,7 @@ import {
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useThemeContext } from '../context/ThemeContext';
+import ToolMgrSettings from '../components/ToolMgrSettings';
 
 const LeftMenu = ({ open, onClose }) => {
   const navigate = useNavigate();
@@ -38,8 +39,8 @@ const LeftMenu = ({ open, onClose }) => {
     },
     {
       text: 'Settings',
-      icon: <Settings />,
-      onClick: () => console.log('Settings clicked'),
+      icon: <AccountCircle />,
+      onClick: () => navigate('/toolMgrSettings'),
     },
     {
       text: 'Notifications',

@@ -34,6 +34,11 @@ export const deleteAmsuserByUserid = (userid) => api.delete(`amsusers/deleteAmsu
 // TOOLDATA API
 export const getToolData = () => api.get('/tooldata/gettooldata');
 
+//TooldataSeeting api
+
+
+export const getAllSettings = () => api.get('/toolMgrSettings/getAllSettings');
+
 
 
 // Transhistory API
