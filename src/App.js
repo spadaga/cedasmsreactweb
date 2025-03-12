@@ -11,6 +11,8 @@ import ToolData from './components/ToolData';
 import AmsToolData from './components/AmsToolData';
 import Transhistory from './components/Transhistory';
 import ToolMgrSettings from './components/ToolMgrSettings';
+import AmsCatalog from './components/AmsCatalog';
+import InvMgrSettings from './components/InvMgrSettings';
 const theme = createTheme();
 
 function App() {
@@ -34,6 +36,11 @@ function App() {
         <Route path="/orders" element={<Transhistory />} />
 
         <Route path="/toolMgrSettings" element={<ToolMgrSettings />} />
+
+        <Route path="/amscatalog" element={<AmsCatalog />} />
+
+        
+        <Route path="/invmgrsets" element={<InvMgrSettings />} />
 
 
       </Routes>

@@ -40,6 +40,12 @@ export const getToolData = () => api.get('/tooldata/gettooldata');
 export const getAllSettings = () => api.get('/toolMgrSettings/getAllSettings');
 
 
+export const getAllAMSCatalogs = () => api.get('/amscatalogs/getAllAMSCatalogs');
+
+
+export const getAllSecondaryInventory = () => api.get('/secondaryinventory/getAllSecondaryInventory');
+
+
 
 // Transhistory API
 export const getOrders = () => api.get('/orders/getorders');

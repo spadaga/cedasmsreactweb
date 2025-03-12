@@ -932,7 +932,9 @@ const AddItemModal = ({ open, onClose }) => {
               <TableContainer component={Paper}>
                 <Table>
                   <TableHead>
-                    <TableRow sx={{ backgroundColor: "#eee" }}>
+                    <TableRow
+                                        style={{ backgroundColor: darkMode ? "#333" : "#f5f5f5" }}
+                                      >
                       <StyledHeaderCell>MFR Code</StyledHeaderCell>
                       <StyledHeaderCell>Catalog #</StyledHeaderCell>
                       <StyledHeaderCell>Your Part #</StyledHeaderCell>

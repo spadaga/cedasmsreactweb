@@ -16,7 +16,11 @@ import {
   AccountCircle,
   Settings,
   Notifications,
-  People, Build, Timeline// Import the new icon
+  People, Build, Timeline,// Import the new icon
+  Assignment,
+  AssignmentTurnedIn,
+  ViewList,
+  Inventory
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useThemeContext } from '../context/ThemeContext';
@@ -39,7 +43,7 @@ const LeftMenu = ({ open, onClose }) => {
     },
     {
       text: 'Settings',
-      icon: <AccountCircle />,
+      icon: <Settings />, // Changed to Settings icon
       onClick: () => navigate('/toolMgrSettings'),
     },
     {
@@ -47,24 +51,33 @@ const LeftMenu = ({ open, onClose }) => {
       icon: <Notifications />,
       onClick: () => navigate('/notifications'),
     },
-    { // Add AMS Users menu item
-        text: 'AMS Users',
-        icon: <People />,
-        onClick: () => navigate('/amsusers'), // Navigate to AMS Users component
-      },
+    {
+      text: 'AMS Users',
+      icon: <People />,
+      onClick: () => navigate('/amsusers'),
+    },
+    {
+      text: 'Tool Data',
+      icon: <Assignment />, // Changed to Assignment icon
+      onClick: () => navigate('/tooldata'),
+    },
+    {
+      text: 'Transaction History',
+      icon: <AssignmentTurnedIn />, // Changed to AssignmentTurnedIn icon
+      onClick: () => navigate('/orders'),
+    },
+    {
+      text: 'AMS Catalog',
+      icon: <ViewList />, // Changed to ViewList icon
+      onClick: () => navigate('/amscatalog'),
+    },
 
-      { // Add AMS Users menu item
-        text: 'Tool Data',
-        icon: <Build  />,
-        onClick: () => navigate('/tooldata'), // Navigate to AMS Users component
-      },
-
-
-      { // Add AMS Users menu item
-        text: 'Transaction History',
-        icon: <Timeline  />,
-        onClick: () => navigate('/orders'), // Navigate to AMS Users component
-      },
+    {
+      text: 'Inventory Manager Settings',
+      icon: <Inventory />, // Changed to ViewList icon
+      onClick: () => navigate('/invmgrsets'),
+    },
+    
   ];
   const appVersion = '1.0.0';
 
