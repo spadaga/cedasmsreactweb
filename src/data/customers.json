@@ -1,0 +1,7166 @@
+[
+  {
+    "custid": 1,
+    "customername": "1804 LTD"
+  },
+  {
+    "custid": 2,
+    "customername": "CASH SALES"
+  },
+  {
+    "custid": 3,
+    "customername": "CHECK/CASH"
+  },
+  {
+    "custid": 4,
+    "customername": "COST ADJUSTMENT ACCOUNT"
+  },
+  {
+    "custid": 5,
+    "customername": "1872-M/C-VISA-AX"
+  },
+  {
+    "custid": 6,
+    "customername": "1872 COD - BRYAN MCCORMICK"
+  },
+  {
+    "custid": 7,
+    "customername": "1872-COD CRAIG GALLOGLY"
+  },
+  {
+    "custid": 8,
+    "customername": "1872-COD-MIKE BARBOUR"
+  },
+  {
+    "custid": 9,
+    "customername": "1872-COD-STEVE LIVRAN"
+  },
+  {
+    "custid": 10,
+    "customername": "1872-COD-BARRY HENDRON"
+  },
+  {
+    "custid": 11,
+    "customername": "1872-COD-BILL AKI"
+  },
+  {
+    "custid": 12,
+    "customername": "1872-COD-BILL HOLLOWAY"
+  },
+  {
+    "custid": 13,
+    "customername": "1872-COD-BILL OREILLY"
+  },
+  {
+    "custid": 14,
+    "customername": "1872-COD-BRIAN ADAMO"
+  },
+  {
+    "custid": 15,
+    "customername": "1872-COD-BRUCE ZICK"
+  },
+  {
+    "custid": 16,
+    "customername": "1872-COD-BRYAN BROWN"
+  },
+  {
+    "custid": 17,
+    "customername": "1872-COD-COLETON SHIFFLET"
+  },
+  {
+    "custid": 18,
+    "customername": "1872-COD-DENISE CITO"
+  },
+  {
+    "custid": 19,
+    "customername": "1872-COD-DEREK NAYDEN"
+  },
+  {
+    "custid": 20,
+    "customername": "1872-COD-DICK PANISSIDI"
+  },
+  {
+    "custid": 21,
+    "customername": "1872-COD-DYRL SCHWEITZER"
+  },
+  {
+    "custid": 22,
+    "customername": "1872-COD-JIM BARBOUR"
+  },
+  {
+    "custid": 23,
+    "customername": "1872-COD-JOSHUA GRAGES"
+  },
+  {
+    "custid": 24,
+    "customername": "1872-COD-MIKE MILLER"
+  },
+  {
+    "custid": 25,
+    "customername": "1872-COD-NICK HUBEL"
+  },
+  {
+    "custid": 26,
+    "customername": "1872-COD-ROBB HAMINA"
+  },
+  {
+    "custid": 27,
+    "customername": "CED/AMERICAN ELECTRIC"
+  },
+  {
+    "custid": 28,
+    "customername": "1ST ELECTRIC CONTR"
+  },
+  {
+    "custid": 29,
+    "customername": "2460 WELTON ST LLC"
+  },
+  {
+    "custid": 30,
+    "customername": "303 ELECTRIC LLC"
+  },
+  {
+    "custid": 31,
+    "customername": "3D ELECTRIC SERVICE LLC"
+  },
+  {
+    "custid": 32,
+    "customername": "3D IDENTITY LLC"
+  },
+  {
+    "custid": 33,
+    "customername": "3E ELECTRICAL CONTR"
+  },
+  {
+    "custid": 34,
+    "customername": "4240 ARCHITECTURE"
+  },
+  {
+    "custid": 35,
+    "customername": "9 KUSA"
+  },
+  {
+    "custid": 36,
+    "customername": "A & B BUILDERS INC"
+  },
+  {
+    "custid": 37,
+    "customername": "A + ODD JOBS"
+  },
+  {
+    "custid": 38,
+    "customername": "A 1 SOLAR"
+  },
+  {
+    "custid": 39,
+    "customername": "A DIVERSIFIED ELECTRIC CO"
+  },
+  {
+    "custid": 40,
+    "customername": "A FEINER ELECTRICIAN"
+  },
+  {
+    "custid": 41,
+    "customername": "A J ELECTRIC SYSTEMS INC"
+  },
+  {
+    "custid": 42,
+    "customername": "A PLUS ELECTRIC SERVICES"
+  },
+  {
+    "custid": 43,
+    "customername": "A-PHASE ELECTRIC"
+  },
+  {
+    "custid": 44,
+    "customername": "A.W.B. LLC DBA PEAK ELEC"
+  },
+  {
+    "custid": 45,
+    "customername": "A/C SOLAR SOLUTIONS"
+  },
+  {
+    "custid": 46,
+    "customername": "AA CLEAN-UP"
+  },
+  {
+    "custid": 47,
+    "customername": "AAA ELECTRIC LONGMONT"
+  },
+  {
+    "custid": 48,
+    "customername": "AAA ELECTRICAL"
+  },
+  {
+    "custid": 49,
+    "customername": "AAA SERVICE PLUMBING INC"
+  },
+  {
+    "custid": 50,
+    "customername": "AAA SOLAR SALES & SERVICE"
+  },
+  {
+    "custid": 51,
+    "customername": "AAA TRADING POST"
+  },
+  {
+    "custid": 52,
+    "customername": "AAARK HEATING & AIR COND"
+  },
+  {
+    "custid": 53,
+    "customername": "AARCO WIRELESS & ELECT"
+  },
+  {
+    "custid": 54,
+    "customername": "ABBOTTS PUMP CO INC"
+  },
+  {
+    "custid": 55,
+    "customername": "AC MECHANICAL & ENGINEERING"
+  },
+  {
+    "custid": 56,
+    "customername": "AC SYSTEMS"
+  },
+  {
+    "custid": 57,
+    "customername": "ACCEL PROJECT SYSTEMS"
+  },
+  {
+    "custid": 58,
+    "customername": "ACCELL ELECTRIC LLC"
+  },
+  {
+    "custid": 59,
+    "customername": "ACCENT ELECTRICAL SVC"
+  },
+  {
+    "custid": 60,
+    "customername": "ACCESS PRODUCTS INC"
+  },
+  {
+    "custid": 61,
+    "customername": "ACCURACY ELECTRIC"
+  },
+  {
+    "custid": 62,
+    "customername": "ACCURATE CONTROL CO"
+  },
+  {
+    "custid": 63,
+    "customername": "ACE COMMERCIAL SERVICE LLC"
+  },
+  {
+    "custid": 64,
+    "customername": "ACE ELECTRIC CORP"
+  },
+  {
+    "custid": 65,
+    "customername": "ACOLBY ELECTRIC INC"
+  },
+  {
+    "custid": 66,
+    "customername": "ACTION MACHINERY INTL"
+  },
+  {
+    "custid": 67,
+    "customername": "ACTIVE ENERGIES"
+  },
+  {
+    "custid": 68,
+    "customername": "AD LIGHT & SIGN"
+  },
+  {
+    "custid": 69,
+    "customername": "ADA TECHNOLOGIES INC"
+  },
+  {
+    "custid": 70,
+    "customername": "ADA-ES INC"
+  },
+  {
+    "custid": 71,
+    "customername": "ADAMS CNTY FACILITIES"
+  },
+  {
+    "custid": 72,
+    "customername": "ADAMS CNTY SCH DIST #1"
+  },
+  {
+    "custid": 73,
+    "customername": "ADAMS CNTY SCH DIST 12"
+  },
+  {
+    "custid": 74,
+    "customername": "ADAMS CNTY SCH DIST 14"
+  },
+  {
+    "custid": 75,
+    "customername": "ADAMS CNTY SCH DIST 50"
+  },
+  {
+    "custid": 76,
+    "customername": "ADAPTIVE INNOVATIONS CORP"
+  },
+  {
+    "custid": 77,
+    "customername": "ADDISON INC"
+  },
+  {
+    "custid": 78,
+    "customername": "ADEPT ELECTRIC & CONST SVCS"
+  },
+  {
+    "custid": 79,
+    "customername": "ADK ELECTRIC"
+  },
+  {
+    "custid": 80,
+    "customername": "ADVANCED ELECT SOLUTIONS"
+  },
+  {
+    "custid": 81,
+    "customername": "ADVANCED ENERGY SYSTEMS"
+  },
+  {
+    "custid": 82,
+    "customername": "ADVANCED HYDRONICS INC"
+  },
+  {
+    "custid": 83,
+    "customername": "ADVANCED LTG & ENERGY"
+  },
+  {
+    "custid": 84,
+    "customername": "ADVANCED REFRIGERATION INC"
+  },
+  {
+    "custid": 85,
+    "customername": "ADVANCED SOLAR PRODUCTS"
+  },
+  {
+    "custid": 86,
+    "customername": "ADVANTAGE ELECTRIC INC"
+  },
+  {
+    "custid": 87,
+    "customername": "AERIDYNE INC"
+  },
+  {
+    "custid": 88,
+    "customername": "AFFINITY ELECTRIC LLC"
+  },
+  {
+    "custid": 89,
+    "customername": "AFFORDABLE ALTERNATIVE ENERGY LLC"
+  },
+  {
+    "custid": 90,
+    "customername": "AGILE LANDSCAPING"
+  },
+  {
+    "custid": 91,
+    "customername": "AGVEST LLC"
+  },
+  {
+    "custid": 92,
+    "customername": "AHC METRO CHERRY CREEK"
+  },
+  {
+    "custid": 93,
+    "customername": "AHW CONSTRUCTION LLC"
+  },
+  {
+    "custid": 94,
+    "customername": "AID ELECTRIC CORP"
+  },
+  {
+    "custid": 95,
+    "customername": "AIKENS ELECTIC"
+  },
+  {
+    "custid": 96,
+    "customername": "AIM DYNAMICS"
+  },
+  {
+    "custid": 97,
+    "customername": "AIR CONDITIONING"
+  },
+  {
+    "custid": 98,
+    "customername": "AIR CONTROL SERVICES INC"
+  },
+  {
+    "custid": 99,
+    "customername": "AIR FORCE FILTER, LLC"
+  },
+  {
+    "custid": 100,
+    "customername": "AIRGAS USA LLC"
+  },
+  {
+    "custid": 101,
+    "customername": "AIRTECH MECHANICAL CORP"
+  },
+  {
+    "custid": 102,
+    "customername": "AIT INC"
+  },
+  {
+    "custid": 103,
+    "customername": "AK ELECTRIC"
+  },
+  {
+    "custid": 104,
+    "customername": "AKA ENERGY GROUP LLC"
+  },
+  {
+    "custid": 105,
+    "customername": "ALACRITY ELECTRIC"
+  },
+  {
+    "custid": 106,
+    "customername": "ALBEO TECHNOLOGIES INC"
+  },
+  {
+    "custid": 107,
+    "customername": "ALBERT ELECTRICAL SVCS"
+  },
+  {
+    "custid": 108,
+    "customername": "ALBERT FREI & SONS, INC"
+  },
+  {
+    "custid": 109,
+    "customername": "ALCOHOL MONITORING SYSTEMS"
+  },
+  {
+    "custid": 110,
+    "customername": "ALEUT MANAGEMENT SVCS"
+  },
+  {
+    "custid": 111,
+    "customername": "ALL ABOUT SOUND & CINEMA"
+  },
+  {
+    "custid": 112,
+    "customername": "ALL AMERICAN FOUR WHEELDRIVE PEPAIR"
+  },
+  {
+    "custid": 113,
+    "customername": "ALL ELECTRIC"
+  },
+  {
+    "custid": 114,
+    "customername": "ALL FACILITIES LIGHTING"
+  },
+  {
+    "custid": 115,
+    "customername": "ALL PHASE ELECTRICAL CONT"
+  },
+  {
+    "custid": 116,
+    "customername": "ALL REACH PROPERTY LIGHT"
+  },
+  {
+    "custid": 117,
+    "customername": "ALL SEASONS ELECT INC"
+  },
+  {
+    "custid": 118,
+    "customername": "ALL TRADES COOP"
+  },
+  {
+    "custid": 119,
+    "customername": "ALL-COAST FOREST PRODUCT"
+  },
+  {
+    "custid": 120,
+    "customername": "ALL-TECH ELECTRIC"
+  },
+  {
+    "custid": 121,
+    "customername": "ALLIANCE ELECTRIC"
+  },
+  {
+    "custid": 122,
+    "customername": "ALLIED POWER SERVICES INC"
+  },
+  {
+    "custid": 123,
+    "customername": "ALLSTAR ELECTRICAL SVC"
+  },
+  {
+    "custid": 124,
+    "customername": "ALLY ONSITE"
+  },
+  {
+    "custid": 125,
+    "customername": "ALPHA INTEGRATED SYSTEMS INC"
+  },
+  {
+    "custid": 126,
+    "customername": "ALPHA OMEGA ELECTRIC"
+  },
+  {
+    "custid": 127,
+    "customername": "ALPINE ELECTRIC LLC"
+  },
+  {
+    "custid": 128,
+    "customername": "ALPINE ELECTRICAL SERVICE INC"
+  },
+  {
+    "custid": 129,
+    "customername": "ALPINE REFRIGERATION INC"
+  },
+  {
+    "custid": 130,
+    "customername": "ALSET INNOVATIONS"
+  },
+  {
+    "custid": 131,
+    "customername": "ALSO ENERGY"
+  },
+  {
+    "custid": 132,
+    "customername": "ALT E WIND & SOLAR"
+  },
+  {
+    "custid": 133,
+    "customername": "ALTERNATIVE POWER ENT"
+  },
+  {
+    "custid": 134,
+    "customername": "ALWAYS BEST CHOICE ELECTRIC"
+  },
+  {
+    "custid": 135,
+    "customername": "AMER STAINLESS STEEL"
+  },
+  {
+    "custid": 136,
+    "customername": "AMERICAN ELECTRIC SERVICE"
+  },
+  {
+    "custid": 137,
+    "customername": "AMERICAN FURNITURE WHSE"
+  },
+  {
+    "custid": 138,
+    "customername": "AMERICAN INDUSTRIAL/CHOICE ELECT"
+  },
+  {
+    "custid": 139,
+    "customername": "AMERICAN INDUST/MCDADE-WOODCOCK"
+  },
+  {
+    "custid": 140,
+    "customername": "AMERICAN INDUSTRIAL"
+  },
+  {
+    "custid": 141,
+    "customername": "AMERICAN INDUSTRIAL/INTERMOUNTAIN"
+  },
+  {
+    "custid": 142,
+    "customername": "AMERICAN MILLENNIUM CORP"
+  },
+  {
+    "custid": 143,
+    "customername": "AMERICAN POWER SYSTEMS"
+  },
+  {
+    "custid": 144,
+    "customername": "AMERICAN PRIDE ELECTRIC"
+  },
+  {
+    "custid": 145,
+    "customername": "AMERICAN WEB INC"
+  },
+  {
+    "custid": 146,
+    "customername": "AMERICAN WEST SURPLUS LLC"
+  },
+  {
+    "custid": 147,
+    "customername": "AMERISTAR CASINO RESORT SPA"
+  },
+  {
+    "custid": 148,
+    "customername": "AMI MECHANICAL INC"
+  },
+  {
+    "custid": 149,
+    "customername": "AMPM ELECTRIC LLC"
+  },
+  {
+    "custid": 150,
+    "customername": "AMPS PLUS ELECTRIC LLC"
+  },
+  {
+    "custid": 151,
+    "customername": "AMS OF COLORADO INC"
+  },
+  {
+    "custid": 152,
+    "customername": "AMWEST CONTROL INC"
+  },
+  {
+    "custid": 153,
+    "customername": "ANADARKO E & P ONSHORE"
+  },
+  {
+    "custid": 154,
+    "customername": "ANADARKO PETROLEUM CORP"
+  },
+  {
+    "custid": 155,
+    "customername": "ANADARKO WATTENBERG"
+  },
+  {
+    "custid": 156,
+    "customername": "ANTERO ELECTRIC INC"
+  },
+  {
+    "custid": 157,
+    "customername": "ANTERO MIDSTREAM LLC"
+  },
+  {
+    "custid": 158,
+    "customername": "AP MOUNTAIN STATES LLC"
+  },
+  {
+    "custid": 159,
+    "customername": "APCO ELECTRIC INC"
+  },
+  {
+    "custid": 160,
+    "customername": "APEX HOME PERFORMANCE"
+  },
+  {
+    "custid": 161,
+    "customername": "APEX MARKETING GROUP"
+  },
+  {
+    "custid": 162,
+    "customername": "APOWER ELECTRIC SERVICE"
+  },
+  {
+    "custid": 163,
+    "customername": "APPLEWOOD PLUMBING & HTG CO."
+  },
+  {
+    "custid": 164,
+    "customername": "APPLIED CONTROL EQUIP LLLP"
+  },
+  {
+    "custid": 165,
+    "customername": "APPLIED ELECTRIC"
+  },
+  {
+    "custid": 166,
+    "customername": "APPLIED INGENUITY"
+  },
+  {
+    "custid": 167,
+    "customername": "APPLIED POWER SERVICES"
+  },
+  {
+    "custid": 168,
+    "customername": "AQUA SIERRA INC"
+  },
+  {
+    "custid": 169,
+    "customername": "ARAPAHOE CNTY SECURITY CNTR INC"
+  },
+  {
+    "custid": 170,
+    "customername": "ARAPAHOE COMM COLLEGE"
+  },
+  {
+    "custid": 171,
+    "customername": "ARAPAHOE COUNTY JUSTICE CNTR"
+  },
+  {
+    "custid": 172,
+    "customername": "ARAPAHOE LIBRARY DISTRICT"
+  },
+  {
+    "custid": 173,
+    "customername": "ARAPAHOE POOL & EQUIP CO"
+  },
+  {
+    "custid": 174,
+    "customername": "ARCHDIOCESE OF DENVER"
+  },
+  {
+    "custid": 175,
+    "customername": "ARDENT SERVICES"
+  },
+  {
+    "custid": 176,
+    "customername": "ARENS ELECTRIC INC"
+  },
+  {
+    "custid": 177,
+    "customername": "ARISE ENERGY SOLUTIONS"
+  },
+  {
+    "custid": 178,
+    "customername": "ARMENDARIZ & CO INC"
+  },
+  {
+    "custid": 179,
+    "customername": "ARRCON CONSTRUCTION SVCS"
+  },
+  {
+    "custid": 180,
+    "customername": "ARROW SHEET METAL PROD"
+  },
+  {
+    "custid": 181,
+    "customername": "ARTCRAFT SIGNS"
+  },
+  {
+    "custid": 182,
+    "customername": "ARTIS HRA 1700 BROADWAY LP"
+  },
+  {
+    "custid": 183,
+    "customername": "ASCENT ELECTRIC INC"
+  },
+  {
+    "custid": 184,
+    "customername": "ASG INTEGRATED SVCS"
+  },
+  {
+    "custid": 185,
+    "customername": "ASHLEY'S ELECTRIC, LLC."
+  },
+  {
+    "custid": 186,
+    "customername": "ASPEN GOLD INC"
+  },
+  {
+    "custid": 187,
+    "customername": "ASPEN PARK LTG & DESIGN"
+  },
+  {
+    "custid": 188,
+    "customername": "ASPEN RIDGE CHURCH"
+  },
+  {
+    "custid": 189,
+    "customername": "ASR COMPANIES INC"
+  },
+  {
+    "custid": 190,
+    "customername": "ATLAS PIPELINE MID-CONTINENT WESTOK"
+  },
+  {
+    "custid": 191,
+    "customername": "AUDIO VIDEO COLORADO"
+  },
+  {
+    "custid": 192,
+    "customername": "AURARIA HIGHER EDUCATION"
+  },
+  {
+    "custid": 193,
+    "customername": "AURORA CITY OF"
+  },
+  {
+    "custid": 194,
+    "customername": "AURORA PUBLIC SCHOOLS"
+  },
+  {
+    "custid": 195,
+    "customername": "AUTOCON INC"
+  },
+  {
+    "custid": 196,
+    "customername": "AUTOMATED BLDG SOLUTIONS"
+  },
+  {
+    "custid": 197,
+    "customername": "AUTOMATION & ELECTRONICS"
+  },
+  {
+    "custid": 198,
+    "customername": "AUTOMATION CONTROLS"
+  },
+  {
+    "custid": 199,
+    "customername": "AVALANCHE AIR COND&HEATING"
+  },
+  {
+    "custid": 200,
+    "customername": "AVALANCHE ELECTRIC"
+  },
+  {
+    "custid": 201,
+    "customername": "AXELS"
+  },
+  {
+    "custid": 202,
+    "customername": "AXIS COMMERCIAL REALTY"
+  },
+  {
+    "custid": 203,
+    "customername": "AXIS ELECTRICAL SERVICES"
+  },
+  {
+    "custid": 204,
+    "customername": "AZTECA ELECTRICAL CONTR"
+  },
+  {
+    "custid": 205,
+    "customername": "G&B SERVICES, INC"
+  },
+  {
+    "custid": 206,
+    "customername": "B&M CONSTRUCTION INC"
+  },
+  {
+    "custid": 207,
+    "customername": "B-TEC, INC"
+  },
+  {
+    "custid": 208,
+    "customername": "B.A.R. ELECTRIC CO INC"
+  },
+  {
+    "custid": 209,
+    "customername": "BAKER HUGHES"
+  },
+  {
+    "custid": 210,
+    "customername": "BAKER RENEWABLE ENERGY"
+  },
+  {
+    "custid": 211,
+    "customername": "BALRIMORE ELEC OF COLO"
+  },
+  {
+    "custid": 212,
+    "customername": "BAN ELECTRIC SERVICES"
+  },
+  {
+    "custid": 213,
+    "customername": "BARNES ELECTRIC"
+  },
+  {
+    "custid": 214,
+    "customername": "BARNES ELECTRICAL CONTRACTORS"
+  },
+  {
+    "custid": 215,
+    "customername": "BARNEYS ELECTRICAL SVC"
+  },
+  {
+    "custid": 216,
+    "customername": "BARTS HVAC SERVICE CO"
+  },
+  {
+    "custid": 217,
+    "customername": "BASIL ELECTRIC"
+  },
+  {
+    "custid": 218,
+    "customername": "BAYSWATER EXPLORATION & PRODICTION"
+  },
+  {
+    "custid": 219,
+    "customername": "BCER ENGINEERING"
+  },
+  {
+    "custid": 220,
+    "customername": "BE ELECTRIC"
+  },
+  {
+    "custid": 221,
+    "customername": "BEACON ILLUMINATIONS"
+  },
+  {
+    "custid": 222,
+    "customername": "BEAL ELECTRIC LLC"
+  },
+  {
+    "custid": 223,
+    "customername": "BEAR ELECTRIC LLC"
+  },
+  {
+    "custid": 224,
+    "customername": "BEAR TRACKER ENERGY LLC"
+  },
+  {
+    "custid": 225,
+    "customername": "BEAVER SUSTAINABLE ENERGY SOLUTIONS"
+  },
+  {
+    "custid": 226,
+    "customername": "BEEKMAN CO"
+  },
+  {
+    "custid": 227,
+    "customername": "BEEPAT"
+  },
+  {
+    "custid": 228,
+    "customername": "BELL PLUMBING & HEATING"
+  },
+  {
+    "custid": 229,
+    "customername": "BELLA ENERGY"
+  },
+  {
+    "custid": 230,
+    "customername": "BELLA GLASS PRODUCTION"
+  },
+  {
+    "custid": 231,
+    "customername": "BEN FRANKLIN ELECTRIC"
+  },
+  {
+    "custid": 232,
+    "customername": "BENCHMARK ELECTRICAL SOL"
+  },
+  {
+    "custid": 233,
+    "customername": "BENNETT-ALVARADO INC"
+  },
+  {
+    "custid": 234,
+    "customername": "BERGELECTRIC"
+  },
+  {
+    "custid": 235,
+    "customername": "BERGER ELECTRIC INC"
+  },
+  {
+    "custid": 236,
+    "customername": "BERGLAND LLC"
+  },
+  {
+    "custid": 237,
+    "customername": "BERTANZETTI ELECTRIC"
+  },
+  {
+    "custid": 238,
+    "customername": "BERWICK ELECTRIC CO"
+  },
+  {
+    "custid": 239,
+    "customername": "BEST LTG & ELECTRICAL SVCS"
+  },
+  {
+    "custid": 240,
+    "customername": "BEST VALUE CONSTRUCTION"
+  },
+  {
+    "custid": 241,
+    "customername": "BETTER ELECTRIC"
+  },
+  {
+    "custid": 242,
+    "customername": "BHI"
+  },
+  {
+    "custid": 243,
+    "customername": "BIG BEAR ELECTRIC"
+  },
+  {
+    "custid": 244,
+    "customername": "BIG DOG ELECTRIC INC"
+  },
+  {
+    "custid": 245,
+    "customername": "BIMBO BAKERIES USA"
+  },
+  {
+    "custid": 246,
+    "customername": "BIRCH ELECTRIC & LIGHTING"
+  },
+  {
+    "custid": 247,
+    "customername": "BISHOP ELECTRIC INC"
+  },
+  {
+    "custid": 248,
+    "customername": "BISHOP MACHEBEUF HIGH SCHL"
+  },
+  {
+    "custid": 249,
+    "customername": "BK FINE"
+  },
+  {
+    "custid": 250,
+    "customername": "BLACK DIAMOND ENERGY SVCS INC"
+  },
+  {
+    "custid": 251,
+    "customername": "BLACK MOUNTAIN SOLAR"
+  },
+  {
+    "custid": 252,
+    "customername": "BLACKHAWK EQUIPMENT"
+  },
+  {
+    "custid": 253,
+    "customername": "BLUE BIRD ELECTRIC INC"
+  },
+  {
+    "custid": 254,
+    "customername": "BLUE IGUANA SERVICES INC"
+  },
+  {
+    "custid": 255,
+    "customername": "BLUHM ELECTRIC INC"
+  },
+  {
+    "custid": 256,
+    "customername": "BOARDWALK ELECTRIC"
+  },
+  {
+    "custid": 257,
+    "customername": "BOLT LIGHTING LLC"
+  },
+  {
+    "custid": 258,
+    "customername": "BONANZA CREEK ENERGY INC"
+  },
+  {
+    "custid": 259,
+    "customername": "BONDED ELECTRIC"
+  },
+  {
+    "custid": 260,
+    "customername": "BORDER STATES ELECTRIC SUPPLY"
+  },
+  {
+    "custid": 261,
+    "customername": "BOULDER COUNTY"
+  },
+  {
+    "custid": 262,
+    "customername": "BOULDER VALLEY SCH DIST"
+  },
+  {
+    "custid": 263,
+    "customername": "BOWE ELECTRIC INC"
+  },
+  {
+    "custid": 264,
+    "customername": "BOWMAN ELECTRIC"
+  },
+  {
+    "custid": 265,
+    "customername": "BOYD SIGN SYSTEMS LLC"
+  },
+  {
+    "custid": 266,
+    "customername": "BOYS & GIRLS CLUB/DENVER"
+  },
+  {
+    "custid": 267,
+    "customername": "BRACONIER PLUMB & HTG CO"
+  },
+  {
+    "custid": 268,
+    "customername": "BRADLEY ELECTRIC INC"
+  },
+  {
+    "custid": 269,
+    "customername": "BRAGG'S ELECTRIC"
+  },
+  {
+    "custid": 270,
+    "customername": "BRAHMA GROUP INC"
+  },
+  {
+    "custid": 271,
+    "customername": "BRANCH ELECTRIC INC"
+  },
+  {
+    "custid": 272,
+    "customername": "BRAVO LIGHTING"
+  },
+  {
+    "custid": 273,
+    "customername": "BRAY WHALER INTL INC"
+  },
+  {
+    "custid": 274,
+    "customername": "BRC ELECTRIC INC"
+  },
+  {
+    "custid": 275,
+    "customername": "BRET'S ELECTRIC, LLC"
+  },
+  {
+    "custid": 276,
+    "customername": "BRIGHT ENERGY STORAGE TECHNOLOGIES"
+  },
+  {
+    "custid": 277,
+    "customername": "BRIGHT PHASE ENERGY"
+  },
+  {
+    "custid": 278,
+    "customername": "BRIGHTER DAYS SOLAR"
+  },
+  {
+    "custid": 279,
+    "customername": "BRIGHTERGY LLC"
+  },
+  {
+    "custid": 280,
+    "customername": "BROADMOOR HOTEL INC"
+  },
+  {
+    "custid": 281,
+    "customername": "BROE COMPANIES"
+  },
+  {
+    "custid": 282,
+    "customername": "BROOKFIELD RESIDENTIAL (COLO) LLC"
+  },
+  {
+    "custid": 283,
+    "customername": "BROOKS TOWER RESIDENCES"
+  },
+  {
+    "custid": 284,
+    "customername": "BROOKWOOD TAMARAC PLZ INVESTORS"
+  },
+  {
+    "custid": 285,
+    "customername": "BROOMHALL BROTHERS INC"
+  },
+  {
+    "custid": 286,
+    "customername": "BROTHERS ELECTRIC"
+  },
+  {
+    "custid": 287,
+    "customername": "BROTHERS PLUMBING HEATING"
+  },
+  {
+    "custid": 288,
+    "customername": "BROWN PALACE HOTEL"
+  },
+  {
+    "custid": 289,
+    "customername": "BROWNS HILL ENG & CONTR"
+  },
+  {
+    "custid": 290,
+    "customername": "BRUGGEMAN ELECTRIC"
+  },
+  {
+    "custid": 291,
+    "customername": "BRUSH CREEK ELECTRIC"
+  },
+  {
+    "custid": 292,
+    "customername": "BRYANT & ASSOCIATES INC"
+  },
+  {
+    "custid": 293,
+    "customername": "BSH HOME APPLIANCES CORP"
+  },
+  {
+    "custid": 294,
+    "customername": "BSI LLC"
+  },
+  {
+    "custid": 295,
+    "customername": "BUCKEYE WELDING SUPPLY CO"
+  },
+  {
+    "custid": 296,
+    "customername": "BUCKLEY AFB"
+  },
+  {
+    "custid": 297,
+    "customername": "BUFFALO IND SUPPLY LLC"
+  },
+  {
+    "custid": 298,
+    "customername": "BUGLET SOLAR ELECTRIC INSTALLATION"
+  },
+  {
+    "custid": 299,
+    "customername": "BUILDING SVCS GROUP INC"
+  },
+  {
+    "custid": 300,
+    "customername": "BUMBLEBEE SOLAR LLC"
+  },
+  {
+    "custid": 301,
+    "customername": "BURGESS ELECTRIC CORP"
+  },
+  {
+    "custid": 302,
+    "customername": "BURNHAM & SUN"
+  },
+  {
+    "custid": 303,
+    "customername": "BUTCH HUESKE VMI TEST ACCOUNT"
+  },
+  {
+    "custid": 304,
+    "customername": "BUTCH HUESKE VMI TEST ACCOUNT"
+  },
+  {
+    "custid": 305,
+    "customername": "BUZZYB ENTERPRISES"
+  },
+  {
+    "custid": 306,
+    "customername": "BVB GENERAL CONTRACTORS"
+  },
+  {
+    "custid": 307,
+    "customername": "BVM CORPORATION"
+  },
+  {
+    "custid": 308,
+    "customername": "C & J LIGHTING CO"
+  },
+  {
+    "custid": 309,
+    "customername": "C & L ELECTRIC"
+  },
+  {
+    "custid": 310,
+    "customername": "C&J ELECTRIC LLC"
+  },
+  {
+    "custid": 311,
+    "customername": "C&R ELECTRICAL CONT INC"
+  },
+  {
+    "custid": 312,
+    "customername": "C.K. ELECTRIC"
+  },
+  {
+    "custid": 313,
+    "customername": "C2DESIGNBUILDERS"
+  },
+  {
+    "custid": 314,
+    "customername": "C4 LTD"
+  },
+  {
+    "custid": 315,
+    "customername": "CACHE VALLEY ELECTRIC"
+  },
+  {
+    "custid": 316,
+    "customername": "CADE BRATTON ELECTRIC"
+  },
+  {
+    "custid": 317,
+    "customername": "CADRE GENERAL CONTRACTORS"
+  },
+  {
+    "custid": 318,
+    "customername": "CAH INVESTMENTS LLC"
+  },
+  {
+    "custid": 319,
+    "customername": "CAIN ELECTRIC INC"
+  },
+  {
+    "custid": 320,
+    "customername": "CALIFORNIA COMMERCIAL SOLAR"
+  },
+  {
+    "custid": 321,
+    "customername": "CALIFORNIA SKATEPARKS"
+  },
+  {
+    "custid": 322,
+    "customername": "CALLAHAN MANAGEMENT"
+  },
+  {
+    "custid": 323,
+    "customername": "CAMERON FRANK"
+  },
+  {
+    "custid": 324,
+    "customername": "CAMERON QUINONEZ"
+  },
+  {
+    "custid": 325,
+    "customername": "CAMPBELL ELECTRIC"
+  },
+  {
+    "custid": 326,
+    "customername": "CAMPOS EPC, LLC"
+  },
+  {
+    "custid": 327,
+    "customername": "CAPITAL ELECTRICS INC"
+  },
+  {
+    "custid": 328,
+    "customername": "CAPITOL ELECTRIC"
+  },
+  {
+    "custid": 329,
+    "customername": "CAPRA ELECTRIC"
+  },
+  {
+    "custid": 330,
+    "customername": "CARRIER CORPORATION"
+  },
+  {
+    "custid": 331,
+    "customername": "CART WORKS CO INC"
+  },
+  {
+    "custid": 332,
+    "customername": "CARTS OF COLORADO"
+  },
+  {
+    "custid": 333,
+    "customername": "CASCADE SOLAR USA"
+  },
+  {
+    "custid": 334,
+    "customername": "CASTLE PINES GOLF CLUB"
+  },
+  {
+    "custid": 335,
+    "customername": "CB RICHARD ELLIS"
+  },
+  {
+    "custid": 336,
+    "customername": "CB RICHARD ELLIS-TYCO"
+  },
+  {
+    "custid": 337,
+    "customername": "CB RICHARD ELLIS/SWEDISH"
+  },
+  {
+    "custid": 338,
+    "customername": "CBS SERVICES INC"
+  },
+  {
+    "custid": 339,
+    "customername": "CCI THERMAL TECHNOLOGIES"
+  },
+  {
+    "custid": 340,
+    "customername": "CCS SOLAR"
+  },
+  {
+    "custid": 341,
+    "customername": "CDOT"
+  },
+  {
+    "custid": 342,
+    "customername": "CE POWER SYSTEMS, LLC"
+  },
+  {
+    "custid": 343,
+    "customername": "CEDAR CREEK LLC"
+  },
+  {
+    "custid": 344,
+    "customername": "CENTENNIAL CONTROLS"
+  },
+  {
+    "custid": 345,
+    "customername": "CENTENNIAL REALTY ADVISORS"
+  },
+  {
+    "custid": 346,
+    "customername": "CENTENNIAL WATER & SANITATION"
+  },
+  {
+    "custid": 347,
+    "customername": "CENTER ELECTRIC SERVICE"
+  },
+  {
+    "custid": 348,
+    "customername": "CENTERLINE SOLUTIONS LLC"
+  },
+  {
+    "custid": 349,
+    "customername": "CENTRIC ELEVATOR CORP"
+  },
+  {
+    "custid": 350,
+    "customername": "CENTRUM HOA"
+  },
+  {
+    "custid": 351,
+    "customername": "CENTURA HEALTH"
+  },
+  {
+    "custid": 352,
+    "customername": "CENTURY ELECTRIC"
+  },
+  {
+    "custid": 353,
+    "customername": "CENTURYLINK"
+  },
+  {
+    "custid": 354,
+    "customername": "CERINNOV INC"
+  },
+  {
+    "custid": 355,
+    "customername": "CERTAIN TEED CORP"
+  },
+  {
+    "custid": 356,
+    "customername": "COLORADO ELECTRIC SUPPLY"
+  },
+  {
+    "custid": 357,
+    "customername": "CET AND ASSOCIATES"
+  },
+  {
+    "custid": 358,
+    "customername": "CFM COMPANY"
+  },
+  {
+    "custid": 359,
+    "customername": "CH2M HILL CONSTRUCTORS"
+  },
+  {
+    "custid": 360,
+    "customername": "CH2M HILL ENGINEERS INC"
+  },
+  {
+    "custid": 361,
+    "customername": "CHAMPION ELECTRIC INC"
+  },
+  {
+    "custid": 362,
+    "customername": "CHANGE ELECTRIC INC"
+  },
+  {
+    "custid": 363,
+    "customername": "CHARLES D JONES CO"
+  },
+  {
+    "custid": 364,
+    "customername": "CHEFTEK INC"
+  },
+  {
+    "custid": 365,
+    "customername": "CHERRY CREEK SCHOOL"
+  },
+  {
+    "custid": 366,
+    "customername": "CHERRY CREEK SHOPPING CTR"
+  },
+  {
+    "custid": 367,
+    "customername": "CHERRY CRK SCH DIST 5"
+  },
+  {
+    "custid": 368,
+    "customername": "CHILDREN'S HOSPITAL"
+  },
+  {
+    "custid": 369,
+    "customername": "CHILLER SYSTEMS SVC INC"
+  },
+  {
+    "custid": 370,
+    "customername": "CHOICE ELECTRIC"
+  },
+  {
+    "custid": 371,
+    "customername": "CHP"
+  },
+  {
+    "custid": 372,
+    "customername": "CHRIS ELEC CO INC"
+  },
+  {
+    "custid": 373,
+    "customername": "CIRCLE D ELECTRIC LLC"
+  },
+  {
+    "custid": 374,
+    "customername": "CIRCUIT CONCEPTS INC."
+  },
+  {
+    "custid": 375,
+    "customername": "CIRCUIT ELECTRIC LLC"
+  },
+  {
+    "custid": 376,
+    "customername": "CUSTOM INSTRUMENTATION"
+  },
+  {
+    "custid": 377,
+    "customername": "CITY ELECTRIC"
+  },
+  {
+    "custid": 378,
+    "customername": "CITY LIGHTING PRODUCTS"
+  },
+  {
+    "custid": 379,
+    "customername": "CITY OF AURORA WATER"
+  },
+  {
+    "custid": 380,
+    "customername": "CITY OF AURORA GRISWOLD WTP"
+  },
+  {
+    "custid": 381,
+    "customername": "CITY OF AURORA TREATMENT DIVISION"
+  },
+  {
+    "custid": 382,
+    "customername": "CITY OF BOULDER"
+  },
+  {
+    "custid": 383,
+    "customername": "CITY OF LOUISVILLE"
+  },
+  {
+    "custid": 384,
+    "customername": "CITY OF NORTHGLENN"
+  },
+  {
+    "custid": 385,
+    "customername": "CITY OF WHEAT RIDGE"
+  },
+  {
+    "custid": 386,
+    "customername": "CITY WATER & LIGHT"
+  },
+  {
+    "custid": 387,
+    "customername": "CIVICSOLAR INC"
+  },
+  {
+    "custid": 388,
+    "customername": "CL ELECTRIC"
+  },
+  {
+    "custid": 389,
+    "customername": "CLA"
+  },
+  {
+    "custid": 390,
+    "customername": "CLARK ELECTRIC INC"
+  },
+  {
+    "custid": 391,
+    "customername": "CLARK HILL ELECTRIC"
+  },
+  {
+    "custid": 392,
+    "customername": "CLASSIC ELECTRIC"
+  },
+  {
+    "custid": 393,
+    "customername": "CLASSIC RESIDENCE BY HYATT"
+  },
+  {
+    "custid": 394,
+    "customername": "CLAY DEAN ELECTRIC"
+  },
+  {
+    "custid": 395,
+    "customername": "CLEAN ENERGY COLLECTIVE LLC"
+  },
+  {
+    "custid": 396,
+    "customername": "CLEAN ENERGY DIST"
+  },
+  {
+    "custid": 397,
+    "customername": "CLIMATE ENGINEERING"
+  },
+  {
+    "custid": 398,
+    "customername": "CLIMAX MOLYBDENUM CO"
+  },
+  {
+    "custid": 399,
+    "customername": "CM RUSSELL MUSEUM"
+  },
+  {
+    "custid": 400,
+    "customername": "CMI COLORADO MECHANICAL"
+  },
+  {
+    "custid": 401,
+    "customername": "COBB ELECTRIC LLC"
+  },
+  {
+    "custid": 402,
+    "customername": "COD-ROBB HAMINA"
+  },
+  {
+    "custid": 403,
+    "customername": "COFFMAN ELECTRIC INC"
+  },
+  {
+    "custid": 404,
+    "customername": "COL CONST/4S INTERIOR DESIGN"
+  },
+  {
+    "custid": 405,
+    "customername": "COLLIERS B&K, LLC"
+  },
+  {
+    "custid": 406,
+    "customername": "COLO ATHLETIC CLUB"
+  },
+  {
+    "custid": 407,
+    "customername": "COLO DEPT OF CORRECTIONS"
+  },
+  {
+    "custid": 408,
+    "customername": "COLO DEPT OF HUMAN SVCS"
+  },
+  {
+    "custid": 409,
+    "customername": "CO DEPT OF PUBLIC HEALTH"
+  },
+  {
+    "custid": 410,
+    "customername": "COLO DEPT OF TRANSPORTATION"
+  },
+  {
+    "custid": 411,
+    "customername": "COLO ENERGY/MCDADE WOODCOCK"
+  },
+  {
+    "custid": 412,
+    "customername": "COLO SCHOOL OF MINES"
+  },
+  {
+    "custid": 413,
+    "customername": "CO STATE ELEC BOARD"
+  },
+  {
+    "custid": 414,
+    "customername": "COLORADO ACADEMY"
+  },
+  {
+    "custid": 415,
+    "customername": "COLORADO CHILLER SVCS"
+  },
+  {
+    "custid": 416,
+    "customername": "COLORADO CLIMATE MAINT."
+  },
+  {
+    "custid": 417,
+    "customername": "COLORADO CONVENTION CENTER"
+  },
+  {
+    "custid": 418,
+    "customername": "COLORADO ELECTRIC CO"
+  },
+  {
+    "custid": 419,
+    "customername": "COLORADO FIRE & SECURITY"
+  },
+  {
+    "custid": 420,
+    "customername": "COLORADO HISTORY MUSEUM"
+  },
+  {
+    "custid": 421,
+    "customername": "COLORADO HOME COOLING"
+  },
+  {
+    "custid": 422,
+    "customername": "COLORADO HVAC SVCS, INC"
+  },
+  {
+    "custid": 423,
+    "customername": "COLORADO LIGHTING INC"
+  },
+  {
+    "custid": 424,
+    "customername": "COLORADO LINING INTERNATIONAL"
+  },
+  {
+    "custid": 425,
+    "customername": "COLORADO SOLAR ELECTRIC INC"
+  },
+  {
+    "custid": 426,
+    "customername": "COLORADO STANDBY LLC"
+  },
+  {
+    "custid": 427,
+    "customername": "COLORADO WIRE WORKS LLC"
+  },
+  {
+    "custid": 428,
+    "customername": "COLUMBIA ELECTRIC"
+  },
+  {
+    "custid": 429,
+    "customername": "COMMERCIAL ELECTRIC CO"
+  },
+  {
+    "custid": 430,
+    "customername": "COMMNET WIRELESS"
+  },
+  {
+    "custid": 431,
+    "customername": "COMMUNITY EDUCATION CNTR"
+  },
+  {
+    "custid": 432,
+    "customername": "COMPASS MINERALS"
+  },
+  {
+    "custid": 433,
+    "customername": "COMPLETE ELECTRIC"
+  },
+  {
+    "custid": 434,
+    "customername": "COMPLETE ENGINEERING SOLUTIONS"
+  },
+  {
+    "custid": 435,
+    "customername": "COMPONENT SPECIALTIES"
+  },
+  {
+    "custid": 436,
+    "customername": "COMPUTER SITES"
+  },
+  {
+    "custid": 437,
+    "customername": "CONFLUENCE BUILDERS LLC"
+  },
+  {
+    "custid": 438,
+    "customername": "CONSERVE A WATT LTG."
+  },
+  {
+    "custid": 439,
+    "customername": "CONSOLIDATED PARTS INC"
+  },
+  {
+    "custid": 440,
+    "customername": "CONTI ELECTRIC INC"
+  },
+  {
+    "custid": 441,
+    "customername": "CONTINENTAL COMPUTER"
+  },
+  {
+    "custid": 442,
+    "customername": "CONTINUUM PROPERTY MANAGEMENT"
+  },
+  {
+    "custid": 443,
+    "customername": "CONTRACTORS SUPPLY INC"
+  },
+  {
+    "custid": 444,
+    "customername": "CONTROL FREAKS"
+  },
+  {
+    "custid": 445,
+    "customername": "CONTROL SOLUTIONS INC"
+  },
+  {
+    "custid": 446,
+    "customername": "CONTROL SYSTEMS SPECIALISTS"
+  },
+  {
+    "custid": 447,
+    "customername": "CONTROL TECHNOLOGY INTERNATIONAL"
+  },
+  {
+    "custid": 448,
+    "customername": "CONUNDRUM TECH"
+  },
+  {
+    "custid": 449,
+    "customername": "COOLING TOWER SVCS"
+  },
+  {
+    "custid": 450,
+    "customername": "COORS DISTRIBUTING COMPANY"
+  },
+  {
+    "custid": 451,
+    "customername": "COORS TECH"
+  },
+  {
+    "custid": 452,
+    "customername": "COPPER MOUNTAIN, INC"
+  },
+  {
+    "custid": 453,
+    "customername": "COPPER SMITH ELECTRIC INC"
+  },
+  {
+    "custid": 454,
+    "customername": "COPPER STATE NUT & BOLT"
+  },
+  {
+    "custid": 455,
+    "customername": "COPPERS ELECTRICAL SERVICE LLC"
+  },
+  {
+    "custid": 456,
+    "customername": "CORDILLERA METRO DIST"
+  },
+  {
+    "custid": 457,
+    "customername": "CORE 4 SERVICES LLC"
+  },
+  {
+    "custid": 458,
+    "customername": "CORE ELECTRIC INC"
+  },
+  {
+    "custid": 459,
+    "customername": "CORELITE/COOPER"
+  },
+  {
+    "custid": 460,
+    "customername": "CORGI ELECTRIC"
+  },
+  {
+    "custid": 461,
+    "customername": "CORNERSTONE ELECT SVC"
+  },
+  {
+    "custid": 462,
+    "customername": "CORORPEX DEVELOPMENT & CONST MGMT"
+  },
+  {
+    "custid": 463,
+    "customername": "CORROSION SPEC LTD"
+  },
+  {
+    "custid": 464,
+    "customername": "COUGAR ELECTRIC"
+  },
+  {
+    "custid": 465,
+    "customername": "COUNTRYSIDE ELEC SVCS"
+  },
+  {
+    "custid": 466,
+    "customername": "COURTESY ELECTRIC CO"
+  },
+  {
+    "custid": 467,
+    "customername": "COVER 2 COMMUNICATIONS LLC"
+  },
+  {
+    "custid": 468,
+    "customername": "COYOTE MANUFACTURING"
+  },
+  {
+    "custid": 469,
+    "customername": "CP MECHANICAL SVCS."
+  },
+  {
+    "custid": 470,
+    "customername": "CPM COLORADO"
+  },
+  {
+    "custid": 471,
+    "customername": "CRAIG HOSPITAL"
+  },
+  {
+    "custid": 472,
+    "customername": "CREATIVE ELECTRIC INC"
+  },
+  {
+    "custid": 473,
+    "customername": "CREATIVE ELECTRICAL SOLUTIONS"
+  },
+  {
+    "custid": 474,
+    "customername": "CRESCENT ELECTRIC"
+  },
+  {
+    "custid": 475,
+    "customername": "CRESPIN ELECTRIC COMPANY"
+  },
+  {
+    "custid": 476,
+    "customername": "CRESTVIEW ELECTRIC"
+  },
+  {
+    "custid": 477,
+    "customername": "CRISMAN ELECTRIC INC"
+  },
+  {
+    "custid": 478,
+    "customername": "CRITICAL FACILITIES TECHNOLOGY"
+  },
+  {
+    "custid": 479,
+    "customername": "CROPPER ELECTRIC"
+  },
+  {
+    "custid": 480,
+    "customername": "CROSS DIAMOND ELECTRIC"
+  },
+  {
+    "custid": 481,
+    "customername": "CROTZER ELECTRIC LLC"
+  },
+  {
+    "custid": 482,
+    "customername": "CROWNE PLAZA DIA"
+  },
+  {
+    "custid": 483,
+    "customername": "CRUM ELECTRIC"
+  },
+  {
+    "custid": 484,
+    "customername": "CRYSTAL ELECTRIC"
+  },
+  {
+    "custid": 485,
+    "customername": "CS GROUP INC"
+  },
+  {
+    "custid": 486,
+    "customername": "CUMMINS ROCKY MTN LLC"
+  },
+  {
+    "custid": 487,
+    "customername": "CURRAN ELECTRICAL SVCS"
+  },
+  {
+    "custid": 488,
+    "customername": "CURRENT ELECTRIC LLC"
+  },
+  {
+    "custid": 489,
+    "customername": "CUSHMAN & WAKEFIELD"
+  },
+  {
+    "custid": 490,
+    "customername": "CUSTOM AIR INC"
+  },
+  {
+    "custid": 491,
+    "customername": "CUSTOM CONTROLS OF COLO INC"
+  },
+  {
+    "custid": 492,
+    "customername": "CUSTOM ELECTRICAL CONTR INC"
+  },
+  {
+    "custid": 493,
+    "customername": "CUSTOM SOLAR"
+  },
+  {
+    "custid": 494,
+    "customername": "D & E CONSTRUCTION INC"
+  },
+  {
+    "custid": 495,
+    "customername": "D & J ENTERPRISES"
+  },
+  {
+    "custid": 496,
+    "customername": "D C GENERAL SERVICES"
+  },
+  {
+    "custid": 497,
+    "customername": "D PAYNE ENTERPRISE LLC"
+  },
+  {
+    "custid": 498,
+    "customername": "D R ASSOCIATES"
+  },
+  {
+    "custid": 499,
+    "customername": "D S ELECTRIC LLC"
+  },
+  {
+    "custid": 500,
+    "customername": "D&D ELECTRIC"
+  },
+  {
+    "custid": 501,
+    "customername": "D&D INTERIORS LLC"
+  },
+  {
+    "custid": 502,
+    "customername": "DAHL DISTINCTIVE DESIGN"
+  },
+  {
+    "custid": 503,
+    "customername": "DAHL OF AVON"
+  },
+  {
+    "custid": 504,
+    "customername": "DAHL OF DENVER"
+  },
+  {
+    "custid": 505,
+    "customername": "DAHL OF GREELEY"
+  },
+  {
+    "custid": 506,
+    "customername": "DAHL OF LOVELAND"
+  },
+  {
+    "custid": 507,
+    "customername": "DAHL OF MONTROSE"
+  },
+  {
+    "custid": 508,
+    "customername": "DAHL PLUMBING OF SANTA FE"
+  },
+  {
+    "custid": 509,
+    "customername": "DAKOTA ELECTRIC LTD"
+  },
+  {
+    "custid": 510,
+    "customername": "DAKOTA MIDSTREAM LLC"
+  },
+  {
+    "custid": 511,
+    "customername": "DANA KEPNER CO INC"
+  },
+  {
+    "custid": 512,
+    "customername": "DANICI ELECTRIC"
+  },
+  {
+    "custid": 513,
+    "customername": "DANS CUSTOM CONSTRUCTION"
+  },
+  {
+    "custid": 514,
+    "customername": "DAVES HEATING & COOLING"
+  },
+  {
+    "custid": 515,
+    "customername": "DAVID ZIMM-LOCKHEED MART"
+  },
+  {
+    "custid": 516,
+    "customername": "DAZBOG COFFEE COMPANY"
+  },
+  {
+    "custid": 517,
+    "customername": "DCP MIDSTREAM LP"
+  },
+  {
+    "custid": 518,
+    "customername": "DEAN ELECTRIC"
+  },
+  {
+    "custid": 519,
+    "customername": "DEBLAUW PURCHASING, LLC"
+  },
+  {
+    "custid": 520,
+    "customername": "DECA SOUTHWEST"
+  },
+  {
+    "custid": 521,
+    "customername": "DEECEE INTEGRATED INC"
+  },
+  {
+    "custid": 522,
+    "customername": "DEER CREEK ELECTRIC"
+  },
+  {
+    "custid": 523,
+    "customername": "DELMARK ELECTRIC INC"
+  },
+  {
+    "custid": 524,
+    "customername": "DENCO SALES CO"
+  },
+  {
+    "custid": 525,
+    "customername": "DENVER ART MUSEUM"
+  },
+  {
+    "custid": 526,
+    "customername": "DENVER BOTANIC GARDENS"
+  },
+  {
+    "custid": 527,
+    "customername": "CITY & CO OF DENVER"
+  },
+  {
+    "custid": 528,
+    "customername": "DENVER CNTR FOR THE PERFORMING ARTS"
+  },
+  {
+    "custid": 529,
+    "customername": "DENVER CONCRETE VIBRATOR"
+  },
+  {
+    "custid": 530,
+    "customername": "DENVER DISTRIBUTORS"
+  },
+  {
+    "custid": 531,
+    "customername": "DENVER ELECTRIC INC"
+  },
+  {
+    "custid": 532,
+    "customername": "DENVER ELECTRICAL CONTRACTORS"
+  },
+  {
+    "custid": 533,
+    "customername": "DENVER FIRE DEPARTMENT"
+  },
+  {
+    "custid": 534,
+    "customername": "DENVER HEALTH & HOSPITAL"
+  },
+  {
+    "custid": 535,
+    "customername": "DENVER HEATING & A/C"
+  },
+  {
+    "custid": 536,
+    "customername": "DENVER HOUSING AUTH"
+  },
+  {
+    "custid": 537,
+    "customername": "DENVER JNT ELECT APPRENT"
+  },
+  {
+    "custid": 538,
+    "customername": "DENVER PERFORMING ARTS"
+  },
+  {
+    "custid": 539,
+    "customername": "DENVER PROCESSING LLC"
+  },
+  {
+    "custid": 540,
+    "customername": "DENVER PUBLIC LIBRARY"
+  },
+  {
+    "custid": 541,
+    "customername": "DVR PUB SCH DIST 1"
+  },
+  {
+    "custid": 542,
+    "customername": "DENVER TRANSIT CONST"
+  },
+  {
+    "custid": 543,
+    "customername": "DENVER WATER"
+  },
+  {
+    "custid": 544,
+    "customername": "DENVER WEST OFFICE LEASING"
+  },
+  {
+    "custid": 545,
+    "customername": "DENVER ZOO"
+  },
+  {
+    "custid": 546,
+    "customername": "DERVEY DISTRIBUTING CO"
+  },
+  {
+    "custid": 547,
+    "customername": "DESIGN ELEC/SILVERTHORNE"
+  },
+  {
+    "custid": 548,
+    "customername": "DESIGN MECHANICAL INC"
+  },
+  {
+    "custid": 549,
+    "customername": "DESIGN PERFORMANCE ELECTRONICS"
+  },
+  {
+    "custid": 550,
+    "customername": "DESIGN WITH GRACE LTD"
+  },
+  {
+    "custid": 551,
+    "customername": "DESTINY ELECTRIC SERVICE"
+  },
+  {
+    "custid": 552,
+    "customername": "DEUCE ELECTRIC"
+  },
+  {
+    "custid": 553,
+    "customername": "DEVILS THUMB RANCH"
+  },
+  {
+    "custid": 554,
+    "customername": "DGO ACCESS"
+  },
+  {
+    "custid": 555,
+    "customername": "DIFFUSER SPECIALIST INC"
+  },
+  {
+    "custid": 556,
+    "customername": "DISCOVERY NATURAL RESOURCES"
+  },
+  {
+    "custid": 557,
+    "customername": "DISH NETWORK LLC"
+  },
+  {
+    "custid": 558,
+    "customername": "DISTRIBUTOR WIRE & CABLE"
+  },
+  {
+    "custid": 559,
+    "customername": "DIVERSIFIED ELECT & CONT"
+  },
+  {
+    "custid": 560,
+    "customername": "DIVINE MECHANICAL INC"
+  },
+  {
+    "custid": 561,
+    "customername": "DME ELECTRIC"
+  },
+  {
+    "custid": 562,
+    "customername": "DNS WIRELESS INC"
+  },
+  {
+    "custid": 563,
+    "customername": "DODGE MECHANICAL INC"
+  },
+  {
+    "custid": 564,
+    "customername": "DON BURKHART"
+  },
+  {
+    "custid": 565,
+    "customername": "DON'S ELECTRIC SERVICE INC"
+  },
+  {
+    "custid": 566,
+    "customername": "DOUBLE D ELECTRIC LLC"
+  },
+  {
+    "custid": 567,
+    "customername": "DOUBLE DIAMOND ELECTRIC INC"
+  },
+  {
+    "custid": 568,
+    "customername": "DOUBLE M INC"
+  },
+  {
+    "custid": 569,
+    "customername": "DOUBLE S ELECTRIC"
+  },
+  {
+    "custid": 570,
+    "customername": "DOUBLE TREE SOUTHEAST"
+  },
+  {
+    "custid": 571,
+    "customername": "DOUGLAS CNTY GOVERNMENT"
+  },
+  {
+    "custid": 572,
+    "customername": "DOUGLAS CNTY JUSTICE"
+  },
+  {
+    "custid": 573,
+    "customername": "DOUGLASS COLONY GROUP"
+  },
+  {
+    "custid": 574,
+    "customername": "DOWNTOWN PROPERTY SERVICES LLC"
+  },
+  {
+    "custid": 575,
+    "customername": "DRG & ASSOCIATES INC"
+  },
+  {
+    "custid": 576,
+    "customername": "DUDDLESON ELECTRIC SERVICE CO"
+  },
+  {
+    "custid": 577,
+    "customername": "DUN-RITE"
+  },
+  {
+    "custid": 578,
+    "customername": "DUNLAP ELECTRIC CO"
+  },
+  {
+    "custid": 579,
+    "customername": "DUNN & ASSOCIATES, INC"
+  },
+  {
+    "custid": 580,
+    "customername": "DURO ELECTRIC"
+  },
+  {
+    "custid": 581,
+    "customername": "DW DANTAS CONSTRUCTION"
+  },
+  {
+    "custid": 582,
+    "customername": "DYNALECTRIC"
+  },
+  {
+    "custid": 583,
+    "customername": "DYNAMIC INTEGRATION LLC"
+  },
+  {
+    "custid": 584,
+    "customername": "E & I SERVICES"
+  },
+  {
+    "custid": 585,
+    "customername": "E LIGHT ELECT SVC INC"
+  },
+  {
+    "custid": 586,
+    "customername": "E-470 PUBLIC HWY AUTHORITY"
+  },
+  {
+    "custid": 587,
+    "customername": "E2 OPTICS LLC"
+  },
+  {
+    "custid": 588,
+    "customername": "E3 POWER"
+  },
+  {
+    "custid": 589,
+    "customername": "E3 SERVICE GROUP"
+  },
+  {
+    "custid": 590,
+    "customername": "EAGEL CASTLE MAN & MAINT"
+  },
+  {
+    "custid": 591,
+    "customername": "EAGLE COUNTY AIRPORT"
+  },
+  {
+    "custid": 592,
+    "customername": "EAGLE COUNTY FAC. MNGMT"
+  },
+  {
+    "custid": 593,
+    "customername": "EAGLE COUNTY SCHOOLS"
+  },
+  {
+    "custid": 594,
+    "customername": "EAGLE ELECT OF LITTLETON"
+  },
+  {
+    "custid": 595,
+    "customername": "EAGLE ELECTRIC INC"
+  },
+  {
+    "custid": 596,
+    "customername": "EAGLE VALLEY ELECTRIC INC"
+  },
+  {
+    "custid": 597,
+    "customername": "EARTH ENERGY SOLUTIONS"
+  },
+  {
+    "custid": 598,
+    "customername": "EAST CHERRY CREEK VALLEY WTR & SAN"
+  },
+  {
+    "custid": 599,
+    "customername": "EASTER OWENS ELECTRIC CO"
+  },
+  {
+    "custid": 600,
+    "customername": "EASTERN PLAINS ELECTRIC LLC"
+  },
+  {
+    "custid": 601,
+    "customername": "EASY WAY"
+  },
+  {
+    "custid": 602,
+    "customername": "EATON CORPORATION"
+  },
+  {
+    "custid": 603,
+    "customername": "EC POWER SYSTEMS"
+  },
+  {
+    "custid": 604,
+    "customername": "ECCO ELECTRIC"
+  },
+  {
+    "custid": 605,
+    "customername": "ECHELON ENERGY LLC"
+  },
+  {
+    "custid": 606,
+    "customername": "ECHELON PARTNERS-ALERIO TEHCNOLGY"
+  },
+  {
+    "custid": 607,
+    "customername": "ECKSTINE ELECTRIC"
+  },
+  {
+    "custid": 608,
+    "customername": "ECO DEPOT USA"
+  },
+  {
+    "custid": 609,
+    "customername": "ECO PRO ELECTRIC"
+  },
+  {
+    "custid": 610,
+    "customername": "ECOLECTRIC LLC"
+  },
+  {
+    "custid": 611,
+    "customername": "ECOLIBRIUM SOLAR"
+  },
+  {
+    "custid": 612,
+    "customername": "ECOLOGY SOLAR"
+  },
+  {
+    "custid": 613,
+    "customername": "ECOMARK LLC"
+  },
+  {
+    "custid": 614,
+    "customername": "EDWARDS ELECTIRC INC"
+  },
+  {
+    "custid": 615,
+    "customername": "EFERSHAN ELECTRIC"
+  },
+  {
+    "custid": 616,
+    "customername": "EFFICIENCY ENERGY"
+  },
+  {
+    "custid": 617,
+    "customername": "EFFICIENT ELECTRIC LLC"
+  },
+  {
+    "custid": 618,
+    "customername": "EFFICIENT MECHANICAL LLC"
+  },
+  {
+    "custid": 619,
+    "customername": "EFT ELECTRIC"
+  },
+  {
+    "custid": 620,
+    "customername": "EGAUGE SYSTEMS LLC"
+  },
+  {
+    "custid": 621,
+    "customername": "EL PASO GREEN ENERGIES"
+  },
+  {
+    "custid": 622,
+    "customername": "ELECT SVC SPECIALISTS"
+  },
+  {
+    "custid": 623,
+    "customername": "ELECTRI TECH INC"
+  },
+  {
+    "custid": 624,
+    "customername": "ELECTRI-SERVE"
+  },
+  {
+    "custid": 625,
+    "customername": "THE ELECTRIC COMPANY"
+  },
+  {
+    "custid": 626,
+    "customername": "ELECTRIC CONTRACTORS INC"
+  },
+  {
+    "custid": 627,
+    "customername": "ELECTRIC DOCTOR INC"
+  },
+  {
+    "custid": 628,
+    "customername": "ELECTRIC EQUIP & ENG"
+  },
+  {
+    "custid": 629,
+    "customername": "ELECTRIC POWER EQUIP CO"
+  },
+  {
+    "custid": 630,
+    "customername": "ELECTRIC POWER RESEARCH INSTITUTE"
+  },
+  {
+    "custid": 631,
+    "customername": "ELECTRICAL & LIGHTING SERVICE CO"
+  },
+  {
+    "custid": 632,
+    "customername": "ELECTRICAL CONNECTION SV"
+  },
+  {
+    "custid": 633,
+    "customername": "ELECTRICAL FORCES"
+  },
+  {
+    "custid": 634,
+    "customername": "ELECTRICAL INNOVATIONS CONT"
+  },
+  {
+    "custid": 635,
+    "customername": "ELECTRICAL RELIABILITY"
+  },
+  {
+    "custid": 636,
+    "customername": "ELECTRO FLUID POWER"
+  },
+  {
+    "custid": 637,
+    "customername": "ELECTRO TECH CORP"
+  },
+  {
+    "custid": 638,
+    "customername": "ELECTRONIC SOLUTIONS INC"
+  },
+  {
+    "custid": 639,
+    "customername": "ELECTROPOLITAN"
+  },
+  {
+    "custid": 640,
+    "customername": "ELEVATOR UNLIMITED INC"
+  },
+  {
+    "custid": 641,
+    "customername": "ELITE LIGHTING INC"
+  },
+  {
+    "custid": 642,
+    "customername": "ELK CONSTRUCTION"
+  },
+  {
+    "custid": 643,
+    "customername": "ELK RIDGE ELECTRIC INC"
+  },
+  {
+    "custid": 644,
+    "customername": "ELKHORN CONSTRUCTION"
+  },
+  {
+    "custid": 645,
+    "customername": "ELKHORN ELECTRIC INC"
+  },
+  {
+    "custid": 646,
+    "customername": "EMF ELECTRICAL CORP"
+  },
+  {
+    "custid": 647,
+    "customername": "EMPIRE ELECTRIC"
+  },
+  {
+    "custid": 648,
+    "customername": "EMPIRE FIRE & SAFETY INC"
+  },
+  {
+    "custid": 649,
+    "customername": "ENCANA OIL & GAS (USA) INC"
+  },
+  {
+    "custid": 650,
+    "customername": "ENCANA PROCUREMENT INC (EPIC)"
+  },
+  {
+    "custid": 651,
+    "customername": "ENCORE ELECTRIC INC"
+  },
+  {
+    "custid": 652,
+    "customername": "ENDURANCE SOLAR AND ENG"
+  },
+  {
+    "custid": 653,
+    "customername": "ENERGIZED ELECTRIC"
+  },
+  {
+    "custid": 654,
+    "customername": "ENERGY EFFICIENCIES LLC"
+  },
+  {
+    "custid": 655,
+    "customername": "ENERGY GEEKS LLC"
+  },
+  {
+    "custid": 656,
+    "customername": "ENERGY SERVICES OF COLO"
+  },
+  {
+    "custid": 657,
+    "customername": "ENERGY WISE LIGHTING"
+  },
+  {
+    "custid": 658,
+    "customername": "ENERPLUS RESOURCES (USA) CORP"
+  },
+  {
+    "custid": 659,
+    "customername": "VERN ENGBAR"
+  },
+  {
+    "custid": 660,
+    "customername": "CITY OF ENGLEWOOD"
+  },
+  {
+    "custid": 661,
+    "customername": "ENGLEWOOD LOCK & SAFE"
+  },
+  {
+    "custid": 662,
+    "customername": "ENLIGHTEN ELECTRIC"
+  },
+  {
+    "custid": 663,
+    "customername": "ENSERCA ENGINEERING LLC"
+  },
+  {
+    "custid": 664,
+    "customername": "ENTERCOM DENVER"
+  },
+  {
+    "custid": 665,
+    "customername": "ENVENT CORPORATION"
+  },
+  {
+    "custid": 666,
+    "customername": "ENVIRONMENTAL TESTING"
+  },
+  {
+    "custid": 667,
+    "customername": "EPC SERVICES CO"
+  },
+  {
+    "custid": 668,
+    "customername": "EPIC ELECTRIC"
+  },
+  {
+    "custid": 669,
+    "customername": "EQUINOX PUMP & CONTROLS"
+  },
+  {
+    "custid": 670,
+    "customername": "EQUITY OFFICE BB# 23512"
+  },
+  {
+    "custid": 671,
+    "customername": "ERIE ELECTRIC"
+  },
+  {
+    "custid": 672,
+    "customername": "ESP ELECTRIC INC"
+  },
+  {
+    "custid": 673,
+    "customername": "ESS METRON"
+  },
+  {
+    "custid": 674,
+    "customername": "ETG FIRE LLC"
+  },
+  {
+    "custid": 675,
+    "customername": "ETG SYSTEMS INC"
+  },
+  {
+    "custid": 676,
+    "customername": "ETHOS DISTRIBUTED ENERGY"
+  },
+  {
+    "custid": 677,
+    "customername": "EVANS-REDMOND HEATING"
+  },
+  {
+    "custid": 678,
+    "customername": "EVERGREEN CLEAN ENERGY CORP"
+  },
+  {
+    "custid": 679,
+    "customername": "EVERGREEN COUNTRY DAY SCHOOL"
+  },
+  {
+    "custid": 680,
+    "customername": "EVERGREEN PACKAGING TECH"
+  },
+  {
+    "custid": 681,
+    "customername": "EVERGREEN SUN POWER"
+  },
+  {
+    "custid": 682,
+    "customername": "EVERIST MATERIALS LLC"
+  },
+  {
+    "custid": 683,
+    "customername": "EVOQUA WATER TECHNOLOGIES"
+  },
+  {
+    "custid": 684,
+    "customername": "EXCEL ELECTRIC INC"
+  },
+  {
+    "custid": 685,
+    "customername": "EXELCOMM COMMERCIAL ADV"
+  },
+  {
+    "custid": 686,
+    "customername": "EXEMPLA GOOD SAM.MED.CTR."
+  },
+  {
+    "custid": 687,
+    "customername": "EXEMPLA HEALTHCARE"
+  },
+  {
+    "custid": 688,
+    "customername": "EXEMPLA LUTHERAN HOSP"
+  },
+  {
+    "custid": 689,
+    "customername": "EXEMPLA ST JOSEPH HOSP"
+  },
+  {
+    "custid": 690,
+    "customername": "EXPERT ELECTRIC INC"
+  },
+  {
+    "custid": 691,
+    "customername": "EXPRESS CARWASH GROUP"
+  },
+  {
+    "custid": 692,
+    "customername": "EXTRACTION OIL & GAS LLC"
+  },
+  {
+    "custid": 693,
+    "customername": "EZ ELECTRIC"
+  },
+  {
+    "custid": 694,
+    "customername": "F.D. TAYLOR ELECTRICAL"
+  },
+  {
+    "custid": 695,
+    "customername": "FACILITY GATEWAY CORP"
+  },
+  {
+    "custid": 696,
+    "customername": "FACILITY SOLUTIONS GROUP"
+  },
+  {
+    "custid": 697,
+    "customername": "FAIRWAY ELECTRIC CORP"
+  },
+  {
+    "custid": 698,
+    "customername": "FAITH BIBLE CHAPEL INTL"
+  },
+  {
+    "custid": 699,
+    "customername": "FAITH ENTERPRISES, INC"
+  },
+  {
+    "custid": 700,
+    "customername": "FALCON PLUMBING AND HEATING"
+  },
+  {
+    "custid": 701,
+    "customername": "FAMILY IN CHRIST COMMUNITY CHURCH"
+  },
+  {
+    "custid": 702,
+    "customername": "FAST SERVICE INC"
+  },
+  {
+    "custid": 703,
+    "customername": "FASTENAL"
+  },
+  {
+    "custid": 704,
+    "customername": "FASTENERS INC"
+  },
+  {
+    "custid": 705,
+    "customername": "FCI CONTRACTORS INC"
+  },
+  {
+    "custid": 706,
+    "customername": "FDR CONSTRUCTION INC"
+  },
+  {
+    "custid": 707,
+    "customername": "FEDERAL AVIATION ADMIN"
+  },
+  {
+    "custid": 708,
+    "customername": "FEDERAL BUREAU OF PRISONS"
+  },
+  {
+    "custid": 709,
+    "customername": "FEDERAL HTG"
+  },
+  {
+    "custid": 710,
+    "customername": "FEDERAL RESERVE BANK"
+  },
+  {
+    "custid": 711,
+    "customername": "FEINER ELECTRICIANS LLC"
+  },
+  {
+    "custid": 712,
+    "customername": "FEMA US DEPT OF HOMELAND SECURITY"
+  },
+  {
+    "custid": 713,
+    "customername": "FIBER-TECH ELECTRIC"
+  },
+  {
+    "custid": 714,
+    "customername": "FINANCIAL ENERGY MGMT"
+  },
+  {
+    "custid": 715,
+    "customername": "FIRE ALARM SERVICES INC"
+  },
+  {
+    "custid": 716,
+    "customername": "FIREPUMP SALES & SVCS INC"
+  },
+  {
+    "custid": 717,
+    "customername": "FIRST CALL ELEC & FIRE"
+  },
+  {
+    "custid": 718,
+    "customername": "FIRST LIGHT SOLAR LLC"
+  },
+  {
+    "custid": 719,
+    "customername": "FLAT TOPS ELECTRIC INC"
+  },
+  {
+    "custid": 720,
+    "customername": "FLATIRON CONSTRUCTORS CANADA"
+  },
+  {
+    "custid": 721,
+    "customername": "FLATIRON SOLAR LLC"
+  },
+  {
+    "custid": 722,
+    "customername": "FLATIRONS CROSSING"
+  },
+  {
+    "custid": 723,
+    "customername": "FLEX LEASING POWER & SVC"
+  },
+  {
+    "custid": 724,
+    "customername": "FLINTSTONE GRAVEL"
+  },
+  {
+    "custid": 725,
+    "customername": "FLUOR FAC & PLANT SVCS"
+  },
+  {
+    "custid": 726,
+    "customername": "FLUORESCENT MAINTENANCE"
+  },
+  {
+    "custid": 727,
+    "customername": "FOCUS ELECTRIC INC"
+  },
+  {
+    "custid": 728,
+    "customername": "FOOTHILLS PARK & REC"
+  },
+  {
+    "custid": 729,
+    "customername": "FOUR SEASONS HOTEL DENVER"
+  },
+  {
+    "custid": 730,
+    "customername": "FRANCCI ELECTRICAL & CONTROLS"
+  },
+  {
+    "custid": 731,
+    "customername": "FRANK HAMEDI / G-LED"
+  },
+  {
+    "custid": 732,
+    "customername": "FRANKLIN PROPERTY LTG"
+  },
+  {
+    "custid": 733,
+    "customername": "FRASER VALLEY METRO REC DIST"
+  },
+  {
+    "custid": 734,
+    "customername": "FREDRICH ELECTRIC INC"
+  },
+  {
+    "custid": 735,
+    "customername": "FREEMAN SIGN INC"
+  },
+  {
+    "custid": 736,
+    "customername": "FREIGHT CLAIMS"
+  },
+  {
+    "custid": 737,
+    "customername": "FRESCO ELECTRIC LLC"
+  },
+  {
+    "custid": 738,
+    "customername": "FRISCO SANITATION DIST"
+  },
+  {
+    "custid": 739,
+    "customername": "FRONT RANGE RADON LLC"
+  },
+  {
+    "custid": 740,
+    "customername": "FRONT RANGE SIGNS LLC"
+  },
+  {
+    "custid": 741,
+    "customername": "FRONT RANGE TIRE RECYCLE"
+  },
+  {
+    "custid": 742,
+    "customername": "FRONT RANGE WIRELESS"
+  },
+  {
+    "custid": 743,
+    "customername": "FRONTIER MECHANICAL INC"
+  },
+  {
+    "custid": 744,
+    "customername": "FROST LINE MECHANICAL LLC"
+  },
+  {
+    "custid": 745,
+    "customername": "FULL CIRCLE DESIGN GROUP"
+  },
+  {
+    "custid": 746,
+    "customername": "FULL SPECTRUM ELEC INC"
+  },
+  {
+    "custid": 747,
+    "customername": "FULL SPECTRUM LIGHTING"
+  },
+  {
+    "custid": 748,
+    "customername": "FUSION LIGHT AND DESIGN"
+  },
+  {
+    "custid": 749,
+    "customername": "FUSION LTG MAINTENANCE"
+  },
+  {
+    "custid": 750,
+    "customername": "FUTURE ELECTRONICS"
+  },
+  {
+    "custid": 751,
+    "customername": "G & H ELECTRIC"
+  },
+  {
+    "custid": 752,
+    "customername": "G-LED"
+  },
+  {
+    "custid": 753,
+    "customername": "GAFP CONTRACTING SERVICES LLC"
+  },
+  {
+    "custid": 754,
+    "customername": "GARD CONST SVCS INC"
+  },
+  {
+    "custid": 755,
+    "customername": "GARNEY CONSTRUCTION"
+  },
+  {
+    "custid": 756,
+    "customername": "GASH ELECTRIC"
+  },
+  {
+    "custid": 757,
+    "customername": "GATES & SONS INC"
+  },
+  {
+    "custid": 758,
+    "customername": "GE"
+  },
+  {
+    "custid": 759,
+    "customername": "GE ENERGY"
+  },
+  {
+    "custid": 760,
+    "customername": "GEN 3 CO LLC"
+  },
+  {
+    "custid": 761,
+    "customername": "GENERAL ELECT CO IND & POW"
+  },
+  {
+    "custid": 762,
+    "customername": "GENERAL GERBER CONSTRUCTION"
+  },
+  {
+    "custid": 763,
+    "customername": "GENERAL INDUSTRIAL FLOORING"
+  },
+  {
+    "custid": 764,
+    "customername": "GEO WATER"
+  },
+  {
+    "custid": 765,
+    "customername": "GEOTECH ENVIRO EQUIPT"
+  },
+  {
+    "custid": 766,
+    "customername": "GERDAU REINFORCING STEEL"
+  },
+  {
+    "custid": 767,
+    "customername": "GEXPRO"
+  },
+  {
+    "custid": 768,
+    "customername": "GIBRALTAR CONTRACTING SOL"
+  },
+  {
+    "custid": 769,
+    "customername": "GILMORE CONSTRUCTION"
+  },
+  {
+    "custid": 770,
+    "customername": "GILPIN CTY FACILITIES MAINT"
+  },
+  {
+    "custid": 771,
+    "customername": "GLASER ELECTRIC COMPANY"
+  },
+  {
+    "custid": 772,
+    "customername": "GLAZ - TECH INDUSTRIES"
+  },
+  {
+    "custid": 773,
+    "customername": "GLOBAL PROCUREMENT"
+  },
+  {
+    "custid": 774,
+    "customername": "GO GREEN ELECTRIC"
+  },
+  {
+    "custid": 775,
+    "customername": "GOLDEN BUILDERS INC"
+  },
+  {
+    "custid": 776,
+    "customername": "GOLDEN INDUSTRIAL SUPPLY CO"
+  },
+  {
+    "custid": 777,
+    "customername": "GILDEN RESTORATIONS"
+  },
+  {
+    "custid": 778,
+    "customername": "GOLDEN SOLAR"
+  },
+  {
+    "custid": 779,
+    "customername": "GOLDEN VALLEY ELECTRIC"
+  },
+  {
+    "custid": 780,
+    "customername": "GOLDEN WAY MECHANICAL"
+  },
+  {
+    "custid": 781,
+    "customername": "GOLDER ASSOCIATES"
+  },
+  {
+    "custid": 782,
+    "customername": "GOLDSTAR ELECTRIC LLC"
+  },
+  {
+    "custid": 783,
+    "customername": "GOLTRA CASTINGS INC"
+  },
+  {
+    "custid": 784,
+    "customername": "GOODSPEED ELECTRIC CO"
+  },
+  {
+    "custid": 785,
+    "customername": "GRAND ELECTRICAL SVCS"
+  },
+  {
+    "custid": 786,
+    "customername": "GRAND HYATT DENVER"
+  },
+  {
+    "custid": 787,
+    "customername": "GRAND JCT PIPE & SUPPLY"
+  },
+  {
+    "custid": 788,
+    "customername": "GRAND LAKE ELECTRIC"
+  },
+  {
+    "custid": 789,
+    "customername": "GRAND POWER & PLUMBING"
+  },
+  {
+    "custid": 790,
+    "customername": "GRAY SLONE SOLAR"
+  },
+  {
+    "custid": 791,
+    "customername": "GRAYSON CONSTRUCTION LLC"
+  },
+  {
+    "custid": 792,
+    "customername": "GREAT AMERICAN ELECTRIC"
+  },
+  {
+    "custid": 793,
+    "customername": "GREAT PLAINS ELECTRIC"
+  },
+  {
+    "custid": 794,
+    "customername": "GREAT SOUTHWESTERN CONST"
+  },
+  {
+    "custid": 795,
+    "customername": "GREAT WEST PAINTING & REPAIR INC"
+  },
+  {
+    "custid": 796,
+    "customername": "GREEN BLDG TECHNOLOGIES"
+  },
+  {
+    "custid": 797,
+    "customername": "GREEN ENERGY AND ELECTRIC"
+  },
+  {
+    "custid": 798,
+    "customername": "GREEN FORCE ELECTRIC"
+  },
+  {
+    "custid": 799,
+    "customername": "GREEN HORNET ENERGY"
+  },
+  {
+    "custid": 800,
+    "customername": "GREEN MTN WATER & SAN"
+  },
+  {
+    "custid": 801,
+    "customername": "GREEN RENEWABLE CONCEPTS INC"
+  },
+  {
+    "custid": 802,
+    "customername": "GREENBELT SOLAR"
+  },
+  {
+    "custid": 803,
+    "customername": "GREENE ENTERPRISE"
+  },
+  {
+    "custid": 804,
+    "customername": "GREENWORKS2020"
+  },
+  {
+    "custid": 805,
+    "customername": "GREGORY ELECTRIC INC"
+  },
+  {
+    "custid": 806,
+    "customername": "GREINER ELECTRIC"
+  },
+  {
+    "custid": 807,
+    "customername": "GRID ALTERNATIVES"
+  },
+  {
+    "custid": 808,
+    "customername": "GRUBB & ELLIS MGMT SERVIES"
+  },
+  {
+    "custid": 809,
+    "customername": "GSO INVESTMENTS, LLC"
+  },
+  {
+    "custid": 810,
+    "customername": "GUARANTEE ELECTRIC"
+  },
+  {
+    "custid": 811,
+    "customername": "GUTHRIE ELECTRIC"
+  },
+  {
+    "custid": 812,
+    "customername": "GWD ENGINEERING INC"
+  },
+  {
+    "custid": 813,
+    "customername": "H B A SERVICE CO"
+  },
+  {
+    "custid": 814,
+    "customername": "H E S ELECTRIC CO"
+  },
+  {
+    "custid": 815,
+    "customername": "H&H ELECTRIC INC"
+  },
+  {
+    "custid": 816,
+    "customername": "HABITAT FOR HUMANITY"
+  },
+  {
+    "custid": 817,
+    "customername": "HALDEMAN - HOMME INC"
+  },
+  {
+    "custid": 818,
+    "customername": "HALEY CUSTOM HOMES LLC"
+  },
+  {
+    "custid": 819,
+    "customername": "HALL MARY ANN"
+  },
+  {
+    "custid": 820,
+    "customername": "HALLOWED GROUND CONTRACTING"
+  },
+  {
+    "custid": 821,
+    "customername": "HANCEY ENTERPRISES LLC"
+  },
+  {
+    "custid": 822,
+    "customername": "HAND & STONE MASSAGE & FACIAL SPA"
+  },
+  {
+    "custid": 823,
+    "customername": "HANOVER RESOURCES INC"
+  },
+  {
+    "custid": 824,
+    "customername": "HANSEN ELECTRIC INC"
+  },
+  {
+    "custid": 825,
+    "customername": "HARRIET'S"
+  },
+  {
+    "custid": 826,
+    "customername": "HARRISON HOME SYSTEMS"
+  },
+  {
+    "custid": 827,
+    "customername": "HAWKINS COMM APPL SVC"
+  },
+  {
+    "custid": 828,
+    "customername": "HAYES ELECTRIC SERVICE"
+  },
+  {
+    "custid": 829,
+    "customername": "HAYNES MECHANICAL SYS"
+  },
+  {
+    "custid": 830,
+    "customername": "HAZEN RESEARCH INC"
+  },
+  {
+    "custid": 831,
+    "customername": "HB ELECTRIC"
+  },
+  {
+    "custid": 832,
+    "customername": "HEALTH ONE MEDICAL"
+  },
+  {
+    "custid": 833,
+    "customername": "HEATING & PLUMBING ENG"
+  },
+  {
+    "custid": 834,
+    "customername": "HEBERMAN ELECTRIC LLC"
+  },
+  {
+    "custid": 835,
+    "customername": "HEIN ELECTRIC LLC"
+  },
+  {
+    "custid": 836,
+    "customername": "HELD ELECTRIC CO"
+  },
+  {
+    "custid": 837,
+    "customername": "HENSEL PHELPS CONSTRUCTION CO"
+  },
+  {
+    "custid": 838,
+    "customername": "HERCULES INDUST"
+  },
+  {
+    "custid": 839,
+    "customername": "HERITAGE ELECTRICAL CO INC"
+  },
+  {
+    "custid": 840,
+    "customername": "HESTERS LOG & LUMBER"
+  },
+  {
+    "custid": 841,
+    "customername": "HHH ELECTRIC"
+  },
+  {
+    "custid": 842,
+    "customername": "HI-TECH ELECTRIC INC"
+  },
+  {
+    "custid": 843,
+    "customername": "HIGH COUNTRY BUILDERS"
+  },
+  {
+    "custid": 844,
+    "customername": "HIGH COUNTRY ELECTRIC"
+  },
+  {
+    "custid": 845,
+    "customername": "HIGH ENERGY ELECTRIC"
+  },
+  {
+    "custid": 846,
+    "customername": "HIGH-TEK TUBE CORPORATION"
+  },
+  {
+    "custid": 847,
+    "customername": "HIGHER GROUND ELECTRIC LLC"
+  },
+  {
+    "custid": 848,
+    "customername": "HIGHLANDS DESIGN RESOURCE"
+  },
+  {
+    "custid": 849,
+    "customername": "HIGHLANDS RANCH METRO"
+  },
+  {
+    "custid": 850,
+    "customername": "HIGHPOINT ELECTRIC INC"
+  },
+  {
+    "custid": 851,
+    "customername": "HILLTOP ELECTRIC"
+  },
+  {
+    "custid": 852,
+    "customername": "HILTON GARDEN INC"
+  },
+  {
+    "custid": 853,
+    "customername": "HINES"
+  },
+  {
+    "custid": 854,
+    "customername": "HINTON ELECTRIC CORP"
+  },
+  {
+    "custid": 855,
+    "customername": "HOAD INC"
+  },
+  {
+    "custid": 856,
+    "customername": "HOFFMANS ELECTRIC"
+  },
+  {
+    "custid": 857,
+    "customername": "HOLBROOK SERVICE"
+  },
+  {
+    "custid": 858,
+    "customername": "HOLGUIN MANAGEMENT"
+  },
+  {
+    "custid": 859,
+    "customername": "HOME RUN ELECTRONICS"
+  },
+  {
+    "custid": 860,
+    "customername": "HOOPER CORPORATION"
+  },
+  {
+    "custid": 861,
+    "customername": "HORIZON ELECTRIC INC"
+  },
+  {
+    "custid": 862,
+    "customername": "HORNET ELECTRIC SERVICE"
+  },
+  {
+    "custid": 863,
+    "customername": "HOSPITALITY PURCHASING CONSULTANTS"
+  },
+  {
+    "custid": 864,
+    "customername": "HOST HOTELS"
+  },
+  {
+    "custid": 865,
+    "customername": "HOTLINE INC"
+  },
+  {
+    "custid": 866,
+    "customername": "HSS INC"
+  },
+  {
+    "custid": 867,
+    "customername": "HSS-HOSPITAL SHARED SERVICES"
+  },
+  {
+    "custid": 868,
+    "customername": "HUBBELL"
+  },
+  {
+    "custid": 869,
+    "customername": "HUDSPETH & ASSOCIATES"
+  },
+  {
+    "custid": 870,
+    "customername": "HUGHES SUPPLY"
+  },
+  {
+    "custid": 871,
+    "customername": "HUNT ELECTRIC CORP"
+  },
+  {
+    "custid": 872,
+    "customername": "HUNTER ELECTRIC"
+  },
+  {
+    "custid": 873,
+    "customername": "HUNTER RIDGE ENERGY SVSC"
+  },
+  {
+    "custid": 874,
+    "customername": "HUSSMANN CORP-BRANCH WEST. ZONE"
+  },
+  {
+    "custid": 875,
+    "customername": "HUSTON ENTERPRISES INC"
+  },
+  {
+    "custid": 876,
+    "customername": "HW PROCESS TECHNOLOGIES"
+  },
+  {
+    "custid": 877,
+    "customername": "HYATT REGENCY DENVER"
+  },
+  {
+    "custid": 878,
+    "customername": "HYDRO RESOURCES-ROCKY MOUNTAIN INC"
+  },
+  {
+    "custid": 879,
+    "customername": "HYDROGEN ELECTRIC LLC"
+  },
+  {
+    "custid": 880,
+    "customername": "HYLAND HILLS PARK & REC"
+  },
+  {
+    "custid": 881,
+    "customername": "I & C DESIGN"
+  },
+  {
+    "custid": 882,
+    "customername": "I.E. ELECTRIC INC"
+  },
+  {
+    "custid": 883,
+    "customername": "I.M. ELECTRIC"
+  },
+  {
+    "custid": 884,
+    "customername": "ICON ELECTRIC LLC"
+  },
+  {
+    "custid": 885,
+    "customername": "IDEAL LIGHTING SOLUTIONS"
+  },
+  {
+    "custid": 886,
+    "customername": "IES COMMERCIAL"
+  },
+  {
+    "custid": 887,
+    "customername": "IES RESIDENTIAL INC"
+  },
+  {
+    "custid": 888,
+    "customername": "IHC DIRECT"
+  },
+  {
+    "custid": 889,
+    "customername": "IHR SERVICES INC"
+  },
+  {
+    "custid": 890,
+    "customername": "ILLUMINATION SYSTEMS"
+  },
+  {
+    "custid": 891,
+    "customername": "IMAGE ELECTRIC CORP"
+  },
+  {
+    "custid": 892,
+    "customername": "IMAGE INDUSTRIES LLC"
+  },
+  {
+    "custid": 893,
+    "customername": "INCAPTION INC"
+  },
+  {
+    "custid": 894,
+    "customername": "INDEPENDENCE PLAZA INVESTMENT GRP"
+  },
+  {
+    "custid": 895,
+    "customername": "INDEPENDENT HOTELS"
+  },
+  {
+    "custid": 896,
+    "customername": "INDEPENDENT POWER SYSTEMS"
+  },
+  {
+    "custid": 897,
+    "customername": "INDIAN PEAKS ELECTRIC"
+  },
+  {
+    "custid": 898,
+    "customername": "INDUSTRIAL ELECT & CONTR"
+  },
+  {
+    "custid": 899,
+    "customername": "INDUSTRIAL FASTENERS & FIT"
+  },
+  {
+    "custid": 900,
+    "customername": "INN SIDE FURNISHINGS"
+  },
+  {
+    "custid": 901,
+    "customername": "INNERSOL GLOBAL LLC"
+  },
+  {
+    "custid": 902,
+    "customername": "INNOV8 SOLUTIONS USA"
+  },
+  {
+    "custid": 903,
+    "customername": "INNOVATIVE ELECT & LTG"
+  },
+  {
+    "custid": 904,
+    "customername": "INNOVATIVE ENERGY"
+  },
+  {
+    "custid": 905,
+    "customername": "INNOVATIVE MECHANICAL SOL"
+  },
+  {
+    "custid": 906,
+    "customername": "INOVONICS WIRELESS CORP"
+  },
+  {
+    "custid": 907,
+    "customername": "INPWR INC"
+  },
+  {
+    "custid": 908,
+    "customername": "INSIDE SOURCE LLC"
+  },
+  {
+    "custid": 909,
+    "customername": "INTEGRATED ELECTRICAL CONT"
+  },
+  {
+    "custid": 910,
+    "customername": "INTEGRATED POWER CO"
+  },
+  {
+    "custid": 911,
+    "customername": "INTEGRATED POWER CORP"
+  },
+  {
+    "custid": 912,
+    "customername": "INTEGRITY ELECTRICAL SOLUTIONS LLC"
+  },
+  {
+    "custid": 913,
+    "customername": "INTELLECTRIC"
+  },
+  {
+    "custid": 914,
+    "customername": "INTERIOR SPRINKLER SYSTEMS"
+  },
+  {
+    "custid": 915,
+    "customername": "INTERLINE BRANDS"
+  },
+  {
+    "custid": 916,
+    "customername": "INTERLOCK TECHNOLOGIES"
+  },
+  {
+    "custid": 917,
+    "customername": "INTERMOUNTAIN DIST CO"
+  },
+  {
+    "custid": 918,
+    "customername": "INTERMOUNTAIN DRILLING SUPPLY"
+  },
+  {
+    "custid": 919,
+    "customername": "INTERMOUNTAIN ELECTRIC"
+  },
+  {
+    "custid": 920,
+    "customername": "INTERMOUNTAIN ELECTRONICS INC"
+  },
+  {
+    "custid": 921,
+    "customername": "INTERMOUNTAIN WIND & SOLAR"
+  },
+  {
+    "custid": 922,
+    "customername": "INTERNATIONAL BUSINESS SUPPORT"
+  },
+  {
+    "custid": 923,
+    "customername": "INTERNATIONAL POWER SYSTEMS"
+  },
+  {
+    "custid": 924,
+    "customername": "INTERSTATE ELECT CONTR"
+  },
+  {
+    "custid": 925,
+    "customername": "INVISION COMMUNICATION"
+  },
+  {
+    "custid": 926,
+    "customername": "IRISH ELECTRIC/SEAN MILLER"
+  },
+  {
+    "custid": 927,
+    "customername": "ISLE CASINO HOTEL BLACK HAWK"
+  },
+  {
+    "custid": 928,
+    "customername": "IWIRED ELECTRIC INC"
+  },
+  {
+    "custid": 929,
+    "customername": "J H INTERIORS"
+  },
+  {
+    "custid": 930,
+    "customername": "J M ELECTRIC"
+  },
+  {
+    "custid": 931,
+    "customername": "J P ELECTRIC"
+  },
+  {
+    "custid": 932,
+    "customername": "J S ELECTRIC"
+  },
+  {
+    "custid": 933,
+    "customername": "J&A ELECTRIC"
+  },
+  {
+    "custid": 934,
+    "customername": "J&B ELECTRIC/RIVER ELECT"
+  },
+  {
+    "custid": 935,
+    "customername": "J&C TRIANTOS LLC"
+  },
+  {
+    "custid": 936,
+    "customername": "J&L ELECTRIC LLC"
+  },
+  {
+    "custid": 937,
+    "customername": "J&R ELECTRIC INC"
+  },
+  {
+    "custid": 938,
+    "customername": "J&S SERVICES LLC"
+  },
+  {
+    "custid": 939,
+    "customername": "J-8 EQUIPMENT CO INC"
+  },
+  {
+    "custid": 940,
+    "customername": "J.T. ELECTRIC LLP"
+  },
+  {
+    "custid": 941,
+    "customername": "JAGUAR HOSPITALITY SERVICES"
+  },
+  {
+    "custid": 942,
+    "customername": "JASON TAPP"
+  },
+  {
+    "custid": 943,
+    "customername": "JBM ELECTRIC CO"
+  },
+  {
+    "custid": 944,
+    "customername": "JCON INTERNATIONAL"
+  },
+  {
+    "custid": 945,
+    "customername": "JEFF ELECTRIC"
+  },
+  {
+    "custid": 946,
+    "customername": "JEFFCO PUBLIC SCHOOLS"
+  },
+  {
+    "custid": 947,
+    "customername": "JEFFERSON CNTY FACILITY"
+  },
+  {
+    "custid": 948,
+    "customername": "JEFFERSON COUNTY SHERIFF"
+  },
+  {
+    "custid": 949,
+    "customername": "JEFFERSON COUNTY PUBLIC SCHOOLS"
+  },
+  {
+    "custid": 950,
+    "customername": "JEFFREY P ELLIOTT INTER"
+  },
+  {
+    "custid": 951,
+    "customername": "JENSEN ELECTRIC"
+  },
+  {
+    "custid": 952,
+    "customername": "JESCO ELECTRIC LLC"
+  },
+  {
+    "custid": 953,
+    "customername": "JESSE FEDERGREEN"
+  },
+  {
+    "custid": 954,
+    "customername": "JEWISH COMMUNITY CNTR"
+  },
+  {
+    "custid": 955,
+    "customername": "JGH SOLUTIONS"
+  },
+  {
+    "custid": 956,
+    "customername": "JH TODD INTERIORS INC"
+  },
+  {
+    "custid": 957,
+    "customername": "JK ELECTRIC"
+  },
+  {
+    "custid": 958,
+    "customername": "JOAQUIN MFG CORP"
+  },
+  {
+    "custid": 959,
+    "customername": "JOE LYNCH ELEC CO"
+  },
+  {
+    "custid": 960,
+    "customername": "JOHN BOWMAN INCORPORATED"
+  },
+  {
+    "custid": 961,
+    "customername": "JOHNSON & WALES UNIV"
+  },
+  {
+    "custid": 962,
+    "customername": "JOHNSON CONTROLS"
+  },
+  {
+    "custid": 963,
+    "customername": "JOPPA MAINTENANCE CO"
+  },
+  {
+    "custid": 964,
+    "customername": "JORDY AND COMPANY"
+  },
+  {
+    "custid": 965,
+    "customername": "JUNIPER MOUNTAIN ELECTRIC"
+  },
+  {
+    "custid": 966,
+    "customername": "JUST ELECTRIC INC"
+  },
+  {
+    "custid": 967,
+    "customername": "JV MECHANICAL INC"
+  },
+  {
+    "custid": 968,
+    "customername": "K & Z ELECTRICAL"
+  },
+  {
+    "custid": 969,
+    "customername": "K CORP TECHNOLOGY"
+  },
+  {
+    "custid": 970,
+    "customername": "K M D ELECTRIC INC"
+  },
+  {
+    "custid": 971,
+    "customername": "K M ELECTRIC LLC"
+  },
+  {
+    "custid": 972,
+    "customername": "K P & R INC"
+  },
+  {
+    "custid": 973,
+    "customername": "KADLEC ELECTRIC"
+  },
+  {
+    "custid": 974,
+    "customername": "KAMAN INDUSTRIAL TECHNOLOGIES"
+  },
+  {
+    "custid": 975,
+    "customername": "KAMPMANN DESIGNS"
+  },
+  {
+    "custid": 976,
+    "customername": "KARSTEN ELECTRICAL SVCS"
+  },
+  {
+    "custid": 977,
+    "customername": "KATZSON BROTHERS INC"
+  },
+  {
+    "custid": 978,
+    "customername": "KAYMART HOLDING, LLC"
+  },
+  {
+    "custid": 979,
+    "customername": "KDVR FOX 31"
+  },
+  {
+    "custid": 980,
+    "customername": "KEENAN SUPPLY"
+  },
+  {
+    "custid": 981,
+    "customername": "KELLY ELECTRICAL SVC INC"
+  },
+  {
+    "custid": 982,
+    "customername": "KEMP & CO INC"
+  },
+  {
+    "custid": 983,
+    "customername": "KENKO CO INC"
+  },
+  {
+    "custid": 984,
+    "customername": "KENNEDY ELECTRIC INC"
+  },
+  {
+    "custid": 985,
+    "customername": "KENNY ELECTRIC"
+  },
+  {
+    "custid": 986,
+    "customername": "KENNY ELECTRIC NORTH"
+  },
+  {
+    "custid": 987,
+    "customername": "KEW REALTY CORP"
+  },
+  {
+    "custid": 988,
+    "customername": "KG ELECTRIC SVCS INC"
+  },
+  {
+    "custid": 989,
+    "customername": "KIBO ELECTRICAL SERVICES"
+  },
+  {
+    "custid": 990,
+    "customername": "KIEWIT BUILDING SVCS"
+  },
+  {
+    "custid": 991,
+    "customername": "KIEWIT POWER CONTRACTORS"
+  },
+  {
+    "custid": 992,
+    "customername": "KILLIAM GAS"
+  },
+  {
+    "custid": 993,
+    "customername": "KIMBERLY TIMMONS INTERIORS"
+  },
+  {
+    "custid": 994,
+    "customername": "KIMMEL MECHANICAL INC"
+  },
+  {
+    "custid": 995,
+    "customername": "KING SOOPERS MEAT PACKING"
+  },
+  {
+    "custid": 996,
+    "customername": "KING SOOPERS A/P TEAM"
+  },
+  {
+    "custid": 997,
+    "customername": "KING SYSTEMS"
+  },
+  {
+    "custid": 998,
+    "customername": "KITCHEN DISTRIBUTORS INC"
+  },
+  {
+    "custid": 999,
+    "customername": "KITTREDGE PROPERTY, LTD."
+  },
+  {
+    "custid": 1000,
+    "customername": "KIVA LIGHTING"
+  },
+  {
+    "custid": 1001,
+    "customername": "KIVA NETWORKS"
+  },
+  {
+    "custid": 1002,
+    "customername": "KLM ELECTRIC"
+  },
+  {
+    "custid": 1003,
+    "customername": "KLOPPENBERG & COMPANY"
+  },
+  {
+    "custid": 1004,
+    "customername": "KMG ELECTRIC LLC"
+  },
+  {
+    "custid": 1005,
+    "customername": "KMGH-TV / CHANNEL 7"
+  },
+  {
+    "custid": 1006,
+    "customername": "KONISTO COMPANIES LLC"
+  },
+  {
+    "custid": 1007,
+    "customername": "KONRAD ELECTRIC INC"
+  },
+  {
+    "custid": 1008,
+    "customername": "KOPF & KOPF ELECTRICAL ENG INC"
+  },
+  {
+    "custid": 1009,
+    "customername": "KRUSE ELECTRIC"
+  },
+  {
+    "custid": 1010,
+    "customername": "KRW CONSULTING, INC"
+  },
+  {
+    "custid": 1011,
+    "customername": "KTORBO USA INC"
+  },
+  {
+    "custid": 1012,
+    "customername": "KUBAT EQUIP & SVC CO"
+  },
+  {
+    "custid": 1013,
+    "customername": "KUCHAR ELECTRIC"
+  },
+  {
+    "custid": 1014,
+    "customername": "KUMMER ELECTRIC LLC"
+  },
+  {
+    "custid": 1015,
+    "customername": "KUVO JAZZ 89.3"
+  },
+  {
+    "custid": 1016,
+    "customername": "L L JOHNSON DISTRIBUTING CO"
+  },
+  {
+    "custid": 1017,
+    "customername": "LAGUARDIA ELECTRIC"
+  },
+  {
+    "custid": 1018,
+    "customername": "LAKE PLAZA CENTER LLC"
+  },
+  {
+    "custid": 1019,
+    "customername": "CITY OF LAKEWOOD"
+  },
+  {
+    "custid": 1020,
+    "customername": "LAKEWOOD COUNTRY CLUB"
+  },
+  {
+    "custid": 1021,
+    "customername": "LAKEWOOD ELECTRIC"
+  },
+  {
+    "custid": 1022,
+    "customername": "LAMAR OUTDOOR ADVERTISING"
+  },
+  {
+    "custid": 1023,
+    "customername": "LAMIL CONNECTIONS INC"
+  },
+  {
+    "custid": 1024,
+    "customername": "LANDRYS DOWNTOWN AQUARIUM"
+  },
+  {
+    "custid": 1025,
+    "customername": "LANDTECH CONTRACTORS, INC."
+  },
+  {
+    "custid": 1026,
+    "customername": "LANE ELECTRIC"
+  },
+  {
+    "custid": 1027,
+    "customername": "LARIMER SQUARE MGNT"
+  },
+  {
+    "custid": 1028,
+    "customername": "LAWN SPRINKLER SPECIALISTS"
+  },
+  {
+    "custid": 1029,
+    "customername": "LBA REALTY FUND COMPANY"
+  },
+  {
+    "custid": 1030,
+    "customername": "LED ENVIROWORKS"
+  },
+  {
+    "custid": 1031,
+    "customername": "LED SUPPLY CO"
+  },
+  {
+    "custid": 1032,
+    "customername": "LEDGES ELECTRIC"
+  },
+  {
+    "custid": 1033,
+    "customername": "LEED FABRICATIONS SVCS"
+  },
+  {
+    "custid": 1034,
+    "customername": "LEGACY AIR INC"
+  },
+  {
+    "custid": 1035,
+    "customername": "LEGACY MECHANICAL"
+  },
+  {
+    "custid": 1036,
+    "customername": "LEGACY TELEDATA SVCS LLC"
+  },
+  {
+    "custid": 1037,
+    "customername": "LEGAULT ELECTRIC LLC"
+  },
+  {
+    "custid": 1038,
+    "customername": "LEGEND SOLAR"
+  },
+  {
+    "custid": 1039,
+    "customername": "LEI COMPANIES INC"
+  },
+  {
+    "custid": 1040,
+    "customername": "LEITNER POMA OF AMERICA"
+  },
+  {
+    "custid": 1041,
+    "customername": "LEPRINO FOODS"
+  },
+  {
+    "custid": 1042,
+    "customername": "LESH ELECTRIC"
+  },
+  {
+    "custid": 1043,
+    "customername": "LEVEL 3 COMMUNICATIONS"
+  },
+  {
+    "custid": 1044,
+    "customername": "LEWKOW ELECTRIC INC"
+  },
+  {
+    "custid": 1045,
+    "customername": "LIBERTY HEATING & AIR CONDITIONING"
+  },
+  {
+    "custid": 1046,
+    "customername": "LICOS ELECTRIC LLC"
+  },
+  {
+    "custid": 1047,
+    "customername": "LIESL LTG & ELECT SVCS"
+  },
+  {
+    "custid": 1048,
+    "customername": "LIFE HOUSE FIRE"
+  },
+  {
+    "custid": 1049,
+    "customername": "LIGHT POWER HEAT ELECTRIC"
+  },
+  {
+    "custid": 1050,
+    "customername": "LIGHTHOUSE SOLAR"
+  },
+  {
+    "custid": 1051,
+    "customername": "THE LIGHTING AGENCY"
+  },
+  {
+    "custid": 1052,
+    "customername": "LIGHTING DESIGNS"
+  },
+  {
+    "custid": 1053,
+    "customername": "LIGHTNING MOBILE INC"
+  },
+  {
+    "custid": 1054,
+    "customername": "LIGHTS ON BROADWAY INC"
+  },
+  {
+    "custid": 1055,
+    "customername": "LIMTRONIK USA INC"
+  },
+  {
+    "custid": 1056,
+    "customername": "LIN LEE ASID"
+  },
+  {
+    "custid": 1057,
+    "customername": "LISTEN UP"
+  },
+  {
+    "custid": 1058,
+    "customername": "LITTLETON ADVENTIST HOSP"
+  },
+  {
+    "custid": 1059,
+    "customername": "CITY OF LITTLETON"
+  },
+  {
+    "custid": 1060,
+    "customername": "LITTLETON PUBLIC SCHOOLS"
+  },
+  {
+    "custid": 1061,
+    "customername": "LIVEWIRE ELECTRIC INC"
+  },
+  {
+    "custid": 1062,
+    "customername": "LOCKHEED MARTIN"
+  },
+  {
+    "custid": 1063,
+    "customername": "LOEB PARTNERS REALTY CORP"
+  },
+  {
+    "custid": 1064,
+    "customername": "LONE PINE LAKE, INC"
+  },
+  {
+    "custid": 1065,
+    "customername": "LONG BUILDING TECH INC"
+  },
+  {
+    "custid": 1066,
+    "customername": "LORD & TAYLOR"
+  },
+  {
+    "custid": 1067,
+    "customername": "SHOP ACCOUNT"
+  },
+  {
+    "custid": 1068,
+    "customername": "LOSAW ELECTRIC"
+  },
+  {
+    "custid": 1069,
+    "customername": "LOVELAND SKI AREA"
+  },
+  {
+    "custid": 1070,
+    "customername": "LOWELL 17 LLC"
+  },
+  {
+    "custid": 1071,
+    "customername": "LUCIEN"
+  },
+  {
+    "custid": 1072,
+    "customername": "LUCKY STRIKE ELEC INC"
+  },
+  {
+    "custid": 1073,
+    "customername": "LUDVIK ELECTRIC"
+  },
+  {
+    "custid": 1074,
+    "customername": "LUMINOUS ELECTRIC"
+  },
+  {
+    "custid": 1075,
+    "customername": "LUMOS CUSTOM FABRICATION"
+  },
+  {
+    "custid": 1076,
+    "customername": "LUMOS SOLAR"
+  },
+  {
+    "custid": 1077,
+    "customername": "LUNA DIVERSIFIED/HENSEL"
+  },
+  {
+    "custid": 1078,
+    "customername": "LUNDAHL ELECTRIC"
+  },
+  {
+    "custid": 1079,
+    "customername": "LUTTER ELECTRIC"
+  },
+  {
+    "custid": 1080,
+    "customername": "M & K MECHANICAL INC"
+  },
+  {
+    "custid": 1081,
+    "customername": "M ELECTRIC LTD"
+  },
+  {
+    "custid": 1082,
+    "customername": "M GILMORE ELECTRIC LLC"
+  },
+  {
+    "custid": 1083,
+    "customername": "M H LIGHTING"
+  },
+  {
+    "custid": 1084,
+    "customername": "M&J ELECTRIC INC"
+  },
+  {
+    "custid": 1085,
+    "customername": "M&M ELECTRIC CONNECTION"
+  },
+  {
+    "custid": 1086,
+    "customername": "M3 CONSTRUCTION LLC"
+  },
+  {
+    "custid": 1087,
+    "customername": "MA MORTENSON CO"
+  },
+  {
+    "custid": 1088,
+    "customername": "MAC-BESTOS INC"
+  },
+  {
+    "custid": 1089,
+    "customername": "MACY'S INC"
+  },
+  {
+    "custid": 1090,
+    "customername": "MAGEE ELECTRIC"
+  },
+  {
+    "custid": 1091,
+    "customername": "MAGELLAN MIDSTREAM PARTNERS"
+  },
+  {
+    "custid": 1092,
+    "customername": "MAGNA IV ENGINEERING"
+  },
+  {
+    "custid": 1093,
+    "customername": "MAHLER ASSOCIATES INC"
+  },
+  {
+    "custid": 1094,
+    "customername": "MAI SERVICE CORP"
+  },
+  {
+    "custid": 1095,
+    "customername": "MAINTENANCE CHEF LLC"
+  },
+  {
+    "custid": 1096,
+    "customername": "MAJOR HEATING & AC"
+  },
+  {
+    "custid": 1097,
+    "customername": "MAKIN ELECTRIC WORK, INC"
+  },
+  {
+    "custid": 1098,
+    "customername": "MALM ELECTRICAL CONT LLC"
+  },
+  {
+    "custid": 1099,
+    "customername": "MANDELKOW ELECTRIC CO"
+  },
+  {
+    "custid": 1100,
+    "customername": "MANDIL INC"
+  },
+  {
+    "custid": 1101,
+    "customername": "MANSFIELD ELECT INC"
+  },
+  {
+    "custid": 1102,
+    "customername": "MARIPOSA PARTNERS II LLLP"
+  },
+  {
+    "custid": 1103,
+    "customername": "MARK YOUNG CONSTRUCTION"
+  },
+  {
+    "custid": 1104,
+    "customername": "MARMOT ELECTRIC"
+  },
+  {
+    "custid": 1105,
+    "customername": "MARSHALL DAVID LENNOX"
+  },
+  {
+    "custid": 1106,
+    "customername": "MARSICO CAPITAL MGMT LLC"
+  },
+  {
+    "custid": 1107,
+    "customername": "MARXAIRE INC"
+  },
+  {
+    "custid": 1108,
+    "customername": "MASON WIRELESS SOULTIONS"
+  },
+  {
+    "custid": 1109,
+    "customername": "MASS ELECTRIC CONST."
+  },
+  {
+    "custid": 1110,
+    "customername": "MASTEC NETWORK SOLUTIONS"
+  },
+  {
+    "custid": 1111,
+    "customername": "MASTER ELECT CONTR INC"
+  },
+  {
+    "custid": 1112,
+    "customername": "MASTER WIRING SERVICES"
+  },
+  {
+    "custid": 1113,
+    "customername": "MASTERS ELECTRIC INC"
+  },
+  {
+    "custid": 1114,
+    "customername": "MATHEWS ELECTRIC INC"
+  },
+  {
+    "custid": 1115,
+    "customername": "QURES FOR MATRIX MANTENANCE"
+  },
+  {
+    "custid": 1116,
+    "customername": "MATRIX DESIGN GROUP LLC"
+  },
+  {
+    "custid": 1117,
+    "customername": "MATRIX FIRE PROTECTION"
+  },
+  {
+    "custid": 1118,
+    "customername": "MATRIX FITNESS & SPA"
+  },
+  {
+    "custid": 1119,
+    "customername": "MATTHEW GETCHES"
+  },
+  {
+    "custid": 1120,
+    "customername": "MATTRESS INSIDER LLC"
+  },
+  {
+    "custid": 1121,
+    "customername": "MATTS MECHANICAL"
+  },
+  {
+    "custid": 1122,
+    "customername": "MAURICE ELECTRICAL LANDOVER"
+  },
+  {
+    "custid": 1123,
+    "customername": "MAXPOWER CORPORATION"
+  },
+  {
+    "custid": 1124,
+    "customername": "MBR ELECTRIC INC"
+  },
+  {
+    "custid": 1125,
+    "customername": "MC POWER COMPANIES"
+  },
+  {
+    "custid": 1126,
+    "customername": "MC2 ELECTRICAL CONTR LLC"
+  },
+  {
+    "custid": 1127,
+    "customername": "MC2 EQUIPMENT & PARTS"
+  },
+  {
+    "custid": 1128,
+    "customername": "MCA DENVER"
+  },
+  {
+    "custid": 1129,
+    "customername": "MCBRIDE LIGHTING INC"
+  },
+  {
+    "custid": 1130,
+    "customername": "MCCODY CONCRETE PRODUCTS"
+  },
+  {
+    "custid": 1131,
+    "customername": "MCCREREY FINE HOMES LLC"
+  },
+  {
+    "custid": 1132,
+    "customername": "MCDADE-WOODCOCK INC"
+  },
+  {
+    "custid": 1133,
+    "customername": "MCDONALD SOLAR & WIND"
+  },
+  {
+    "custid": 1134,
+    "customername": "MCGEE COMPANY"
+  },
+  {
+    "custid": 1135,
+    "customername": "MCGRATH ELEC"
+  },
+  {
+    "custid": 1136,
+    "customername": "MCGUIRE ELEC SVC INC"
+  },
+  {
+    "custid": 1137,
+    "customername": "MCKINSTRY EBAY"
+  },
+  {
+    "custid": 1138,
+    "customername": "MCKUSKER ELECTRIC INC"
+  },
+  {
+    "custid": 1139,
+    "customername": "MCMURRIN ELECTRIC SVCS INC"
+  },
+  {
+    "custid": 1140,
+    "customername": "MCVOLT ELECTRIC LLC #96"
+  },
+  {
+    "custid": 1141,
+    "customername": "MD ELECTRICAL SERVICE INC"
+  },
+  {
+    "custid": 1142,
+    "customername": "MEADOWLARK MIDSTREAM CO"
+  },
+  {
+    "custid": 1143,
+    "customername": "MECHANICAL SOLUTIONS INC"
+  },
+  {
+    "custid": 1144,
+    "customername": "MEISNER ELECTRIC"
+  },
+  {
+    "custid": 1145,
+    "customername": "MELLOR ELECTRIC CORP"
+  },
+  {
+    "custid": 1146,
+    "customername": "MERCURY ELECTRIC"
+  },
+  {
+    "custid": 1147,
+    "customername": "MERIDIAN FIRE & SECURITY"
+  },
+  {
+    "custid": 1148,
+    "customername": "MERIT ELECTRIC-SUITE D-1"
+  },
+  {
+    "custid": 1149,
+    "customername": "METRO APPL SER"
+  },
+  {
+    "custid": 1150,
+    "customername": "METRO FIRE DETECTION IN"
+  },
+  {
+    "custid": 1151,
+    "customername": "METRO MECHANICAL SVC INC"
+  },
+  {
+    "custid": 1152,
+    "customername": "METRO SOLAR"
+  },
+  {
+    "custid": 1153,
+    "customername": "METRO STATE FIRE, INC."
+  },
+  {
+    "custid": 1154,
+    "customername": "METRO WASTEWATER RECLAIM"
+  },
+  {
+    "custid": 1155,
+    "customername": "MGC SERVICE CORP"
+  },
+  {
+    "custid": 1156,
+    "customername": "MGC SERVICES/STURGEON"
+  },
+  {
+    "custid": 1157,
+    "customername": "MICRO MOTION"
+  },
+  {
+    "custid": 1158,
+    "customername": "MICRO MOTION INC"
+  },
+  {
+    "custid": 1159,
+    "customername": "MICRO MOTIONS"
+  },
+  {
+    "custid": 1160,
+    "customername": "MICRO-DESIGN INC"
+  },
+  {
+    "custid": 1161,
+    "customername": "MIDDLE PARK ELECTRIC"
+  },
+  {
+    "custid": 1162,
+    "customername": "MIKE LEWIS MATRIX MAINT"
+  },
+  {
+    "custid": 1163,
+    "customername": "MIKE MANSFIELD"
+  },
+  {
+    "custid": 1164,
+    "customername": "MILE HI BAKERY INC"
+  },
+  {
+    "custid": 1165,
+    "customername": "MILE HI SOLAR LLC"
+  },
+  {
+    "custid": 1166,
+    "customername": "MILE HIGH FLEA MARKET"
+  },
+  {
+    "custid": 1167,
+    "customername": "MILE HIGH LIGHTING"
+  },
+  {
+    "custid": 1168,
+    "customername": "MILE HIGH MAINTENANCE"
+  },
+  {
+    "custid": 1169,
+    "customername": "MILENDER WHITE CONSTRUCTION"
+  },
+  {
+    "custid": 1170,
+    "customername": "MILLER QUALITY CONTRACT"
+  },
+  {
+    "custid": 1171,
+    "customername": "MILLERCOORS LLC"
+  },
+  {
+    "custid": 1172,
+    "customername": "MISTER SPARKY ELECTRIC - DENVER"
+  },
+  {
+    "custid": 1173,
+    "customername": "MK STYLE LLC"
+  },
+  {
+    "custid": 1174,
+    "customername": "MODELCO ELECTRIC"
+  },
+  {
+    "custid": 1175,
+    "customername": "MOHONK MOUNTAIN HOUSE"
+  },
+  {
+    "custid": 1176,
+    "customername": "MOLTZ CONSTRUCTION INC"
+  },
+  {
+    "custid": 1177,
+    "customername": "MONARCH CASINO BLACK HAWK"
+  },
+  {
+    "custid": 1178,
+    "customername": "MONCKTONS MACHINE TOOLS"
+  },
+  {
+    "custid": 1179,
+    "customername": "MONTEREY ENERGY INC"
+  },
+  {
+    "custid": 1180,
+    "customername": "MONTGOMERY ELECTRIC INC"
+  },
+  {
+    "custid": 1181,
+    "customername": "MOORE ELECTRICAL CONT"
+  },
+  {
+    "custid": 1182,
+    "customername": "MORNING STAR ELEVATOR"
+  },
+  {
+    "custid": 1183,
+    "customername": "MORTENSON CONSTRUCTION"
+  },
+  {
+    "custid": 1184,
+    "customername": "MOUNTAIN PARKS ELECTRIC"
+  },
+  {
+    "custid": 1185,
+    "customername": "MOUNTAIN PEAK CONTROLS"
+  },
+  {
+    "custid": 1186,
+    "customername": "MOUNTAIN STATES ELECTRIC"
+  },
+  {
+    "custid": 1187,
+    "customername": "MOUNTAIN STATES EQUIPMENT"
+  },
+  {
+    "custid": 1188,
+    "customername": "MOUNTAIN TOP ELECTRIC"
+  },
+  {
+    "custid": 1189,
+    "customername": "MQC"
+  },
+  {
+    "custid": 1190,
+    "customername": "MSI TEC INC"
+  },
+  {
+    "custid": 1191,
+    "customername": "MTECH MECH TECH GROUP"
+  },
+  {
+    "custid": 1192,
+    "customername": "MTN MAN ENTERTAINMENT"
+  },
+  {
+    "custid": 1193,
+    "customername": "MTN PRIDE ELECTRIC"
+  },
+  {
+    "custid": 1194,
+    "customername": "MTN WIRELESS CONTR"
+  },
+  {
+    "custid": 1195,
+    "customername": "MURPHY COMPANY"
+  },
+  {
+    "custid": 1196,
+    "customername": "MURPHY CONSTRUCTION CO"
+  },
+  {
+    "custid": 1197,
+    "customername": "MV POWER SOLUTIONS"
+  },
+  {
+    "custid": 1198,
+    "customername": "N LINE ELECTRIC LLC"
+  },
+  {
+    "custid": 1199,
+    "customername": "NADIA WATTS INTERIOR DESIGN"
+  },
+  {
+    "custid": 1200,
+    "customername": "NAMASTE SOLAR ELECTRIC"
+  },
+  {
+    "custid": 1201,
+    "customername": "NATIONAL CAR CHARGING"
+  },
+  {
+    "custid": 1202,
+    "customername": "NATIONAL ELEC CONSTR INC"
+  },
+  {
+    "custid": 1203,
+    "customername": "NATIONAL JEWISH HEALTH"
+  },
+  {
+    "custid": 1204,
+    "customername": "NATIVE ELECTRIC INC"
+  },
+  {
+    "custid": 1205,
+    "customername": "NAVAJO MANUFACTURING"
+  },
+  {
+    "custid": 1206,
+    "customername": "NELSON ELECTRIC INC"
+  },
+  {
+    "custid": 1207,
+    "customername": "NETSTRUCTURES LLC"
+  },
+  {
+    "custid": 1208,
+    "customername": "NEW CENTURY ELECTRIC"
+  },
+  {
+    "custid": 1209,
+    "customername": "NEW DIMENSIONS ELECTRIC"
+  },
+  {
+    "custid": 1210,
+    "customername": "NEWFIELD EXPLORATION CO"
+  },
+  {
+    "custid": 1211,
+    "customername": "NEWMARK GRUBB KNIGHT FRANK"
+  },
+  {
+    "custid": 1212,
+    "customername": "NEXEO SOLUTIONS"
+  },
+  {
+    "custid": 1213,
+    "customername": "NITE SKY ELECT SERVICES"
+  },
+  {
+    "custid": 1214,
+    "customername": "NM INDUSTRIAL SERVICES LLC"
+  },
+  {
+    "custid": 1215,
+    "customername": "NOBLE ELECTRIC"
+  },
+  {
+    "custid": 1216,
+    "customername": "NORCOSTCO INC"
+  },
+  {
+    "custid": 1217,
+    "customername": "NORTH COAST ELECTRIC CO"
+  },
+  {
+    "custid": 1218,
+    "customername": "NORTH STAR MAINTENANCE"
+  },
+  {
+    "custid": 1219,
+    "customername": "NORTHERN COLORADO WATER"
+  },
+  {
+    "custid": 1220,
+    "customername": "NORTHERN ELECTRIC INC"
+  },
+  {
+    "custid": 1221,
+    "customername": "NORTHERN ENERGY & POWER LLC"
+  },
+  {
+    "custid": 1222,
+    "customername": "NORTHGLENN WINLECTRIC CO."
+  },
+  {
+    "custid": 1223,
+    "customername": "NORTHWESTERN ELECT/INTERMOUNTAIN"
+  },
+  {
+    "custid": 1224,
+    "customername": "NORTHWESTERN ELECTRIC"
+  },
+  {
+    "custid": 1225,
+    "customername": "NOVA PACKAGING LLC"
+  },
+  {
+    "custid": 1226,
+    "customername": "NREL"
+  },
+  {
+    "custid": 1227,
+    "customername": "NSF"
+  },
+  {
+    "custid": 1228,
+    "customername": "NTH ELECTRIC CORP."
+  },
+  {
+    "custid": 1229,
+    "customername": "NU WAVE ELECTRICAL CONT"
+  },
+  {
+    "custid": 1230,
+    "customername": "NULITE LIGHTING INC"
+  },
+  {
+    "custid": 1231,
+    "customername": "O'BYRNE ELECTRIC"
+  },
+  {
+    "custid": 1232,
+    "customername": "O'MAC CONSTRUCTION INC"
+  },
+  {
+    "custid": 1233,
+    "customername": "O'NEIL ELECTRIC CO"
+  },
+  {
+    "custid": 1234,
+    "customername": "O-H-M ELECTRIC LLC"
+  },
+  {
+    "custid": 1235,
+    "customername": "OASIS MONTANA INC"
+  },
+  {
+    "custid": 1236,
+    "customername": "OHM ELECTRIC"
+  },
+  {
+    "custid": 1237,
+    "customername": "OLSON AND SONS CONSTRUCTION"
+  },
+  {
+    "custid": 1238,
+    "customername": "186 LTG DESIGN GROUP INC"
+  },
+  {
+    "custid": 1239,
+    "customername": "ONE CORE ELECTRIC"
+  },
+  {
+    "custid": 1240,
+    "customername": "ONE TOUCH HOME CONTROL"
+  },
+  {
+    "custid": 1241,
+    "customername": "OPTIMIZE SOLUTIONS LLC"
+  },
+  {
+    "custid": 1242,
+    "customername": "OPTION ELECTRIC"
+  },
+  {
+    "custid": 1243,
+    "customername": "THE OTHER ELECTRIC"
+  },
+  {
+    "custid": 1244,
+    "customername": "OTIS ELEVATOR COMPANY"
+  },
+  {
+    "custid": 1245,
+    "customername": "OTTO'S ELECTRICAL SERVICE INC"
+  },
+  {
+    "custid": 1246,
+    "customername": "OUTLOOK ENTERPRISES LLC"
+  },
+  {
+    "custid": 1247,
+    "customername": "OUTRIGGER ENERGY"
+  },
+  {
+    "custid": 1248,
+    "customername": "OVATION ELECTRICAL TECHNOLOGIES LLC"
+  },
+  {
+    "custid": 1249,
+    "customername": "OVER-ALL ELECTRIC"
+  },
+  {
+    "custid": 1250,
+    "customername": "P & L ELECTRIC"
+  },
+  {
+    "custid": 1251,
+    "customername": "P&L REMODEL"
+  },
+  {
+    "custid": 1252,
+    "customername": "PACKAGING SYSTEMS INTER"
+  },
+  {
+    "custid": 1253,
+    "customername": "PAGETT ELECTRIC"
+  },
+  {
+    "custid": 1254,
+    "customername": "PALMER DCS"
+  },
+  {
+    "custid": 1255,
+    "customername": "PALO ALTO INC"
+  },
+  {
+    "custid": 1256,
+    "customername": "PALO DURO HARDWOODS"
+  },
+  {
+    "custid": 1257,
+    "customername": "PAR ELECTRICAL CONTRACTORS INC"
+  },
+  {
+    "custid": 1258,
+    "customername": "PARADISE ELECTRIC"
+  },
+  {
+    "custid": 1259,
+    "customername": "PARADISE POWER"
+  },
+  {
+    "custid": 1260,
+    "customername": "PARAGON REAL ESTATE & DEVELOPMENT"
+  },
+  {
+    "custid": 1261,
+    "customername": "PARAGON SOLAR LLC"
+  },
+  {
+    "custid": 1262,
+    "customername": "PARAMOUNT AUDIO VIDEO CORP"
+  },
+  {
+    "custid": 1263,
+    "customername": "PARK SUPPLY OF AMERICA"
+  },
+  {
+    "custid": 1264,
+    "customername": "PARKER ELECTRIC"
+  },
+  {
+    "custid": 1265,
+    "customername": "PARKER TV REPAIR INC"
+  },
+  {
+    "custid": 1266,
+    "customername": "PARKWAY ELECTRIC"
+  },
+  {
+    "custid": 1267,
+    "customername": "PASTERKAMP HTG & AIR CON"
+  },
+  {
+    "custid": 1268,
+    "customername": "PATHFINDER SYSTEMS"
+  },
+  {
+    "custid": 1269,
+    "customername": "PATTERSON ELECTRIC"
+  },
+  {
+    "custid": 1270,
+    "customername": "PAUL BOLTON CONSULTING"
+  },
+  {
+    "custid": 1271,
+    "customername": "PEACE LUTHERAN CHURCH"
+  },
+  {
+    "custid": 1272,
+    "customername": "PEAK ELEVATOR PERFORMANCE GROUP INC"
+  },
+  {
+    "custid": 1273,
+    "customername": "PEAK LIGHTING BULBS & BALLASTS"
+  },
+  {
+    "custid": 1274,
+    "customername": "PEAK SOLAR DESIGNS"
+  },
+  {
+    "custid": 1275,
+    "customername": "PENTAGON TECHNOLOGIES"
+  },
+  {
+    "custid": 1276,
+    "customername": "PEPPER ELECTRIC LLC"
+  },
+  {
+    "custid": 1277,
+    "customername": "PEPSI CENTER/KROENKE SPORTS"
+  },
+  {
+    "custid": 1278,
+    "customername": "PERFECTION ELECTRIC"
+  },
+  {
+    "custid": 1279,
+    "customername": "PERFORMANCE AIR COOLING"
+  },
+  {
+    "custid": 1280,
+    "customername": "PERFORMANCE CONTRACTING INC"
+  },
+  {
+    "custid": 1281,
+    "customername": "PERFORMANCE DISTRIBUTORS"
+  },
+  {
+    "custid": 1282,
+    "customername": "PETROLEUM BUILDING LLC"
+  },
+  {
+    "custid": 1283,
+    "customername": "PHILLIPS 66 PIPELINE LLC"
+  },
+  {
+    "custid": 1284,
+    "customername": "PHILLIPS MECH CORP"
+  },
+  {
+    "custid": 1285,
+    "customername": "PHOENIX FIRE SYSTEMS INC"
+  },
+  {
+    "custid": 1286,
+    "customername": "PHOTON BROTHERS"
+  },
+  {
+    "custid": 1287,
+    "customername": "PINE CREEK APARTMENTS JOINT VENTURE"
+  },
+  {
+    "custid": 1288,
+    "customername": "PINE VALLEY ELECTRIC INC"
+  },
+  {
+    "custid": 1289,
+    "customername": "PINK HOUSE BLOOMS, LLC"
+  },
+  {
+    "custid": 1290,
+    "customername": "PINNACLE CHARTER SCHOOL"
+  },
+  {
+    "custid": 1291,
+    "customername": "PIONEER ASTRONAUTICS"
+  },
+  {
+    "custid": 1292,
+    "customername": "PIONEER ENERGY"
+  },
+  {
+    "custid": 1293,
+    "customername": "PIONEER H2O"
+  },
+  {
+    "custid": 1294,
+    "customername": "PIPE VALVE & FITTINGS"
+  },
+  {
+    "custid": 1295,
+    "customername": "PIPER ELECTRIC"
+  },
+  {
+    "custid": 1296,
+    "customername": "PLAINS END LLC"
+  },
+  {
+    "custid": 1297,
+    "customername": "PLATTE CANYON SCH DIST 1"
+  },
+  {
+    "custid": 1298,
+    "customername": "PLATTE RIVER POWER AUTH"
+  },
+  {
+    "custid": 1299,
+    "customername": "PLUM CREEK PRODUCTS CO"
+  },
+  {
+    "custid": 1300,
+    "customername": "PLUM'S ELECTRIC"
+  },
+  {
+    "custid": 1301,
+    "customername": "PLUMBLINE SERVICES LLC"
+  },
+  {
+    "custid": 1302,
+    "customername": "PM SERVICES COMPANY"
+  },
+  {
+    "custid": 1303,
+    "customername": "POINT-TO-POINT ELECTRIC"
+  },
+  {
+    "custid": 1304,
+    "customername": "POLO CLUB NORTH CONDOMINIUM ASSO"
+  },
+  {
+    "custid": 1305,
+    "customername": "POOH CORNER ELECTRIC"
+  },
+  {
+    "custid": 1306,
+    "customername": "PORTER ADVENTIST HOSP"
+  },
+  {
+    "custid": 1307,
+    "customername": "POSITIVE ENERGY INC"
+  },
+  {
+    "custid": 1308,
+    "customername": "POSITIVELY ELECTRIC INC"
+  },
+  {
+    "custid": 1309,
+    "customername": "POUDRE VALLEY HEALTH"
+  },
+  {
+    "custid": 1310,
+    "customername": "POWER CONTROLS"
+  },
+  {
+    "custid": 1311,
+    "customername": "POWER DESIGN INC"
+  },
+  {
+    "custid": 1312,
+    "customername": "POWER ELECTRIC INC"
+  },
+  {
+    "custid": 1313,
+    "customername": "POWER EQUIPMENT CO"
+  },
+  {
+    "custid": 1314,
+    "customername": "POWER TO THE PEOPLE"
+  },
+  {
+    "custid": 1315,
+    "customername": "POWERCO SOLAR"
+  },
+  {
+    "custid": 1316,
+    "customername": "POWERLOGICS INC"
+  },
+  {
+    "custid": 1317,
+    "customername": "PPS ELECTRICAL & CONTROL"
+  },
+  {
+    "custid": 1318,
+    "customername": "PRAIRIE CORP/JOHNSON CONST"
+  },
+  {
+    "custid": 1319,
+    "customername": "PRECISION ELECTRIC"
+  },
+  {
+    "custid": 1320,
+    "customername": "PRECISION PLUMBING& HEAT"
+  },
+  {
+    "custid": 1321,
+    "customername": "PRECISION SIGN COMPANY"
+  },
+  {
+    "custid": 1322,
+    "customername": "PREMIER ROOFING COMPANY"
+  },
+  {
+    "custid": 1323,
+    "customername": "PREMIER VENTURES INC"
+  },
+  {
+    "custid": 1324,
+    "customername": "PRESTIGE CASTING INC"
+  },
+  {
+    "custid": 1325,
+    "customername": "PRIME ELECTRIC LLC"
+  },
+  {
+    "custid": 1326,
+    "customername": "PRIME WEST REAL ESTATE"
+  },
+  {
+    "custid": 1327,
+    "customername": "PRIMO ELECTRIC CO"
+  },
+  {
+    "custid": 1328,
+    "customername": "PRIMUS METALS INC"
+  },
+  {
+    "custid": 1329,
+    "customername": "PRINCIPLE ELECTRIC LLC"
+  },
+  {
+    "custid": 1330,
+    "customername": "PRO ELECTRIC INC"
+  },
+  {
+    "custid": 1331,
+    "customername": "PROBST ELECTRIC INC"
+  },
+  {
+    "custid": 1332,
+    "customername": "PRODUCTIVE ELECTRIC LLC"
+  },
+  {
+    "custid": 1333,
+    "customername": "PROFAB MFG CO"
+  },
+  {
+    "custid": 1334,
+    "customername": "PROFESSIONAL CONTR SVCS"
+  },
+  {
+    "custid": 1335,
+    "customername": "PROFESSIONAL ELECTRIC"
+  },
+  {
+    "custid": 1336,
+    "customername": "PROGRESSIVE ENERGY SOLUTIONS"
+  },
+  {
+    "custid": 1337,
+    "customername": "PROTECTION TECHNOLOGIES INC"
+  },
+  {
+    "custid": 1338,
+    "customername": "PROVIDENT CONSTRUCTION"
+  },
+  {
+    "custid": 1339,
+    "customername": "PROWEST ELECTRIC"
+  },
+  {
+    "custid": 1340,
+    "customername": "PSL DENVER PRES HOSPITAL"
+  },
+  {
+    "custid": 1341,
+    "customername": "PURE LOGIC CLEAN ENERGY"
+  },
+  {
+    "custid": 1342,
+    "customername": "PUREGAS LLC"
+  },
+  {
+    "custid": 1343,
+    "customername": "PV MEASUREMENTS INC"
+  },
+  {
+    "custid": 1344,
+    "customername": "PV3 LTD"
+  },
+  {
+    "custid": 1345,
+    "customername": "QEP ENERGY COMPANY"
+  },
+  {
+    "custid": 1346,
+    "customername": "QEP FIELD SERVICES COMPANY"
+  },
+  {
+    "custid": 1347,
+    "customername": "QUALITY SVC CO"
+  },
+  {
+    "custid": 1348,
+    "customername": "QUANTA POWER GENERATION"
+  },
+  {
+    "custid": 1349,
+    "customername": "QUESTAR EXPLOR & PROD CO"
+  },
+  {
+    "custid": 1350,
+    "customername": "QUESTAR GAS MGNT CO"
+  },
+  {
+    "custid": 1351,
+    "customername": "QUIKRETE"
+  },
+  {
+    "custid": 1352,
+    "customername": "QUILLEN ELECTRICAL CONT"
+  },
+  {
+    "custid": 1353,
+    "customername": "R & H MECHANICAL"
+  },
+  {
+    "custid": 1354,
+    "customername": "R & R ELECTRIC LLC"
+  },
+  {
+    "custid": 1355,
+    "customername": "R D SIMMERMON & CO"
+  },
+  {
+    "custid": 1356,
+    "customername": "RK ELECTRIC INC"
+  },
+  {
+    "custid": 1357,
+    "customername": "R&A ENTERPRISES"
+  },
+  {
+    "custid": 1358,
+    "customername": "R&A ENTERPRISES OF CARBONDALE"
+  },
+  {
+    "custid": 1359,
+    "customername": "R&E ELECTRIC CO INC"
+  },
+  {
+    "custid": 1360,
+    "customername": "R&R INK"
+  },
+  {
+    "custid": 1361,
+    "customername": "RACHIAN POWER & CONTROL"
+  },
+  {
+    "custid": 1362,
+    "customername": "RAINWATER INDUSTRIAL"
+  },
+  {
+    "custid": 1363,
+    "customername": "RAMEY ENVIRONMENTAL COMPLIANCE"
+  },
+  {
+    "custid": 1364,
+    "customername": "RANCH CREEK LTD"
+  },
+  {
+    "custid": 1365,
+    "customername": "RANDY BRANTLEY ELECT"
+  },
+  {
+    "custid": 1366,
+    "customername": "RAYMOND JAMES & ASSOC"
+  },
+  {
+    "custid": 1367,
+    "customername": "RAYO ELECTRIC INC"
+  },
+  {
+    "custid": 1368,
+    "customername": "RAYTHEON"
+  },
+  {
+    "custid": 1369,
+    "customername": "RCS ELECTRICAL SOLUTIONS"
+  },
+  {
+    "custid": 1370,
+    "customername": "RD3 INC"
+  },
+  {
+    "custid": 1371,
+    "customername": "REAL GOODS SOLAR"
+  },
+  {
+    "custid": 1372,
+    "customername": "REALTY MANAGEMENT GROUP LLC"
+  },
+  {
+    "custid": 1373,
+    "customername": "RED ROCKS COMM COLLEGE"
+  },
+  {
+    "custid": 1374,
+    "customername": "RED-D-ARC INC"
+  },
+  {
+    "custid": 1375,
+    "customername": "REGENCY ELECTRIC"
+  },
+  {
+    "custid": 1376,
+    "customername": "REGENT POWER & COMPRESSION"
+  },
+  {
+    "custid": 1377,
+    "customername": "REIS ENVIRONMENTAL INC"
+  },
+  {
+    "custid": 1378,
+    "customername": "REMOTE POWER SYSTEMS"
+  },
+  {
+    "custid": 1379,
+    "customername": "RENEWABLE ENERGY OUTFITTERS"
+  },
+  {
+    "custid": 1380,
+    "customername": "RENEWABLE ENERGY SUPPLY"
+  },
+  {
+    "custid": 1381,
+    "customername": "RESCUATOR INC"
+  },
+  {
+    "custid": 1382,
+    "customername": "RESERVE CASINO HOTEL"
+  },
+  {
+    "custid": 1383,
+    "customername": "RESI CORP"
+  },
+  {
+    "custid": 1384,
+    "customername": "REXEL-RYALL ELECTRIC"
+  },
+  {
+    "custid": 1385,
+    "customername": "RHINO COLORADO LLC"
+  },
+  {
+    "custid": 1386,
+    "customername": "RIES ELECTRIC, INC"
+  },
+  {
+    "custid": 1387,
+    "customername": "RILO ELECTRIC INC"
+  },
+  {
+    "custid": 1388,
+    "customername": "RIO GRANDE ELECTRIC LLC"
+  },
+  {
+    "custid": 1389,
+    "customername": "RITE WAY ELECTRIC LLC"
+  },
+  {
+    "custid": 1390,
+    "customername": "R K MECHANICAL SVC INC"
+  },
+  {
+    "custid": 1391,
+    "customername": "RME ELECT CORP"
+  },
+  {
+    "custid": 1392,
+    "customername": "RMH GROUP, INC."
+  },
+  {
+    "custid": 1393,
+    "customername": "RMHB CONSTRUCTION"
+  },
+  {
+    "custid": 1394,
+    "customername": "RMK ELECTRIC"
+  },
+  {
+    "custid": 1395,
+    "customername": "ROBERT J SALAZAR ELECT CONT"
+  },
+  {
+    "custid": 1396,
+    "customername": "ROBERT L PALMER COMPANY"
+  },
+  {
+    "custid": 1397,
+    "customername": "ROBERT WINTER"
+  },
+  {
+    "custid": 1398,
+    "customername": "ROBERTS ELECTRICAL CONTRACTING"
+  },
+  {
+    "custid": 1399,
+    "customername": "ROBINS ELECTRICAL CONT"
+  },
+  {
+    "custid": 1400,
+    "customername": "ROBS EAGLE ELECTRIC"
+  },
+  {
+    "custid": 1401,
+    "customername": "ROCK ELECTRIC INC"
+  },
+  {
+    "custid": 1402,
+    "customername": "ROCKEY SUPPLY"
+  },
+  {
+    "custid": 1403,
+    "customername": "ROCKY MNTN OILFIELD WHSE"
+  },
+  {
+    "custid": 1404,
+    "customername": "ROCKY MOUNTAIN EXCAVATING"
+  },
+  {
+    "custid": 1405,
+    "customername": "ROCKY MOUNTAIN POWER GEN"
+  },
+  {
+    "custid": 1406,
+    "customername": "ROCKY MOUNTAIN PRESTRESS"
+  },
+  {
+    "custid": 1407,
+    "customername": "ROCKY MOUNTAIN RADIANT"
+  },
+  {
+    "custid": 1408,
+    "customername": "ROCKY MTN ENERGY SERVICES"
+  },
+  {
+    "custid": 1409,
+    "customername": "ROCKY MTN MECHANICAL SYS"
+  },
+  {
+    "custid": 1410,
+    "customername": "ROCKY MTN SOLAR & WIND"
+  },
+  {
+    "custid": 1411,
+    "customername": "ROCKY MTN PWR & CONT INC"
+  },
+  {
+    "custid": 1412,
+    "customername": "RODIE ELECTRIC"
+  },
+  {
+    "custid": 1413,
+    "customername": "ROGERS & SONS INC"
+  },
+  {
+    "custid": 1414,
+    "customername": "ROGUE ENGINEERING INC"
+  },
+  {
+    "custid": 1415,
+    "customername": "ROMMEL CRANSTON CONST"
+  },
+  {
+    "custid": 1416,
+    "customername": "ROSCO FIRE SECURTIY"
+  },
+  {
+    "custid": 1417,
+    "customername": "ROSE ELECTRIC"
+  },
+  {
+    "custid": 1418,
+    "customername": "ROSE MEDICAL CENTER"
+  },
+  {
+    "custid": 1419,
+    "customername": "ROSEMONT WTC DENVER OPER LLC"
+  },
+  {
+    "custid": 1420,
+    "customername": "ROTH PROPERTY MAINTENANCE"
+  },
+  {
+    "custid": 1421,
+    "customername": "ROTONICS COLORADO"
+  },
+  {
+    "custid": 1422,
+    "customername": "ROY JACKSON ELECTRIC"
+  },
+  {
+    "custid": 1423,
+    "customername": "ROYAL HANDIWORKS"
+  },
+  {
+    "custid": 1424,
+    "customername": "RPC MANUFACTURING"
+  },
+  {
+    "custid": 1425,
+    "customername": "RT MECHANICAL LLC"
+  },
+  {
+    "custid": 1426,
+    "customername": "RTD"
+  },
+  {
+    "custid": 1427,
+    "customername": "RV SOLAR CONNECTION"
+  },
+  {
+    "custid": 1428,
+    "customername": "RYALL GROUP"
+  },
+  {
+    "custid": 1429,
+    "customername": "RYDER TRUCK RENTAL"
+  },
+  {
+    "custid": 1430,
+    "customername": "S & H SHEET METAL"
+  },
+  {
+    "custid": 1431,
+    "customername": "SAFARI ELECTRIC LLC"
+  },
+  {
+    "custid": 1432,
+    "customername": "SAFE LIGHT ELECTRIC LLC"
+  },
+  {
+    "custid": 1433,
+    "customername": "SAFE SYSTEMS"
+  },
+  {
+    "custid": 1434,
+    "customername": "SAFEWAY STORES INC"
+  },
+  {
+    "custid": 1435,
+    "customername": "SAFWAY SERCICES LLC"
+  },
+  {
+    "custid": 1436,
+    "customername": "S.A.I.C."
+  },
+  {
+    "custid": 1437,
+    "customername": "SAMUEL ENGINEERING, INC"
+  },
+  {
+    "custid": 1438,
+    "customername": "SARATOGA CASINO BLACK HAWK"
+  },
+  {
+    "custid": 1439,
+    "customername": "SAVANNA DRILLING LLC"
+  },
+  {
+    "custid": 1440,
+    "customername": "SBA NETWORK SERVICES LLC"
+  },
+  {
+    "custid": 1441,
+    "customername": "SCADA SOURCE LLC"
+  },
+  {
+    "custid": 1442,
+    "customername": "SCHAFER RESOURCES INC"
+  },
+  {
+    "custid": 1443,
+    "customername": "SCHINDLER ELEVATOR"
+  },
+  {
+    "custid": 1444,
+    "customername": "SCOTT ELECTRIC SVC LLC"
+  },
+  {
+    "custid": 1445,
+    "customername": "SEADER CUSTOM MATAL WORKS"
+  },
+  {
+    "custid": 1446,
+    "customername": "SEC ELECTRICAL"
+  },
+  {
+    "custid": 1447,
+    "customername": "SECHLER ELECTRIC COMPANY"
+  },
+  {
+    "custid": 1448,
+    "customername": "SECURITY INSTALL SOLUTIONS"
+  },
+  {
+    "custid": 1449,
+    "customername": "SECURITY SVC FEDERAL C U"
+  },
+  {
+    "custid": 1450,
+    "customername": "SENTRY FIRE-SAFETY INC"
+  },
+  {
+    "custid": 1451,
+    "customername": "SERVICE ELECTRIC"
+  },
+  {
+    "custid": 1452,
+    "customername": "SERVICE PRO ELECTRIC"
+  },
+  {
+    "custid": 1453,
+    "customername": "SERVICEWISE LLC"
+  },
+  {
+    "custid": 1454,
+    "customername": "SERVITECH INC"
+  },
+  {
+    "custid": 1455,
+    "customername": "SERVITECH INC/DYNALECTRIC"
+  },
+  {
+    "custid": 1456,
+    "customername": "SERVPRO"
+  },
+  {
+    "custid": 1457,
+    "customername": "SERVTECH"
+  },
+  {
+    "custid": 1458,
+    "customername": "SETPOINT SYSTEMS INC"
+  },
+  {
+    "custid": 1459,
+    "customername": "SHADOW MTN ELECTRIC INC"
+  },
+  {
+    "custid": 1460,
+    "customername": "SHAFFER WILSON SARVER & GARY PC"
+  },
+  {
+    "custid": 1461,
+    "customername": "SHAMBAUGH & SON LP"
+  },
+  {
+    "custid": 1462,
+    "customername": "SHAMROCK FOODS CO"
+  },
+  {
+    "custid": 1463,
+    "customername": "SHARPER ELECTRIC"
+  },
+  {
+    "custid": 1464,
+    "customername": "SHAW ELECTRIC, INC"
+  },
+  {
+    "custid": 1465,
+    "customername": "SHEARON ELECTRIC"
+  },
+  {
+    "custid": 1466,
+    "customername": "SHERMAN JOINT VENTURE"
+  },
+  {
+    "custid": 1467,
+    "customername": "SHIELD SERVICES"
+  },
+  {
+    "custid": 1468,
+    "customername": "SHIMMER ENTERPRISES"
+  },
+  {
+    "custid": 1469,
+    "customername": "SHINE FORTH"
+  },
+  {
+    "custid": 1470,
+    "customername": "SIEMENS BLDG TECH"
+  },
+  {
+    "custid": 1471,
+    "customername": "SIERRA DETENTION SYSTEM"
+  },
+  {
+    "custid": 1472,
+    "customername": "SIERRA ELECTRIC ENT"
+  },
+  {
+    "custid": 1473,
+    "customername": "SIERRA GROUP"
+  },
+  {
+    "custid": 1474,
+    "customername": "SIERRA NEVADA CORP"
+  },
+  {
+    "custid": 1475,
+    "customername": "SIGN SAFARI LLC"
+  },
+  {
+    "custid": 1476,
+    "customername": "SILVER ELECTRIC INC"
+  },
+  {
+    "custid": 1477,
+    "customername": "SIMPLY EFFICIENT LLC"
+  },
+  {
+    "custid": 1478,
+    "customername": "SINGLETRACK ELECTRIC"
+  },
+  {
+    "custid": 1479,
+    "customername": "SITE SERVICES CO"
+  },
+  {
+    "custid": 1480,
+    "customername": "SIX FLAGS ELITCH GARDENS"
+  },
+  {
+    "custid": 1481,
+    "customername": "SKY BLUE BUILDERS LLC"
+  },
+  {
+    "custid": 1482,
+    "customername": "SKYFUEL INC"
+  },
+  {
+    "custid": 1483,
+    "customername": "SKYLINE LIGHTING & ELECT"
+  },
+  {
+    "custid": 1484,
+    "customername": "SKYLINE PROPERTY MGMT"
+  },
+  {
+    "custid": 1485,
+    "customername": "SKYWEST AIRLINES, INC."
+  },
+  {
+    "custid": 1486,
+    "customername": "SMA AMERICA PRODUCTION LLC"
+  },
+  {
+    "custid": 1487,
+    "customername": "SMITH ELECTRIC INC"
+  },
+  {
+    "custid": 1488,
+    "customername": "SMITTICK ELECTRIC LLC"
+  },
+  {
+    "custid": 1489,
+    "customername": "SMITTICK/DYNALECTRIC"
+  },
+  {
+    "custid": 1490,
+    "customername": "SNOW MARTIN INC"
+  },
+  {
+    "custid": 1491,
+    "customername": "SNYDER MFG"
+  },
+  {
+    "custid": 1492,
+    "customername": "SOGOGREEN LED LIGHTING"
+  },
+  {
+    "custid": 1493,
+    "customername": "SOLA SALON STUDIOS LLC"
+  },
+  {
+    "custid": 1494,
+    "customername": "SOLAR CITY"
+  },
+  {
+    "custid": 1495,
+    "customername": "SOLAR ENERGY ENVIRONMENTS"
+  },
+  {
+    "custid": 1496,
+    "customername": "SOLAR ENERGY QUEST"
+  },
+  {
+    "custid": 1497,
+    "customername": "SOLAR ENERGY RESOURCES"
+  },
+  {
+    "custid": 1498,
+    "customername": "SOLAR ENERGY SERVICE & APPRAISAL"
+  },
+  {
+    "custid": 1499,
+    "customername": "SOLAR MARKETING & SALES LLC"
+  },
+  {
+    "custid": 1500,
+    "customername": "SOLAR PURPOSE LLC"
+  },
+  {
+    "custid": 1501,
+    "customername": "SOLAR SIDE UP"
+  },
+  {
+    "custid": 1502,
+    "customername": "SOLAR SUPPLY OF COLO"
+  },
+  {
+    "custid": 1503,
+    "customername": "SOLAR WORLD AMERICAS"
+  },
+  {
+    "custid": 1504,
+    "customername": "SOLARADO ENERGY"
+  },
+  {
+    "custid": 1505,
+    "customername": "SOLARIS ENERGY SOLUTIONS"
+  },
+  {
+    "custid": 1506,
+    "customername": "SOLARRAY INC"
+  },
+  {
+    "custid": 1507,
+    "customername": "SOLARTEK ENERGY OF DEN"
+  },
+  {
+    "custid": 1508,
+    "customername": "SOURCE REFRIGERATION & HVAC"
+  },
+  {
+    "custid": 1509,
+    "customername": "SOUTH METRO FIRE RESCUE"
+  },
+  {
+    "custid": 1510,
+    "customername": "SOUTH PAW ELECTRIC"
+  },
+  {
+    "custid": 1511,
+    "customername": "SOUTH SUBURBAN PARK REC"
+  },
+  {
+    "custid": 1512,
+    "customername": "SOUTHARD SOLAR & CONST"
+  },
+  {
+    "custid": 1513,
+    "customername": "SOUTHWEST GENERATION COLO LLC"
+  },
+  {
+    "custid": 1514,
+    "customername": "SOUTHWEST HEATING & COOLING"
+  },
+  {
+    "custid": 1515,
+    "customername": "SOUTHWEST MECHANICAL MGNT"
+  },
+  {
+    "custid": 1516,
+    "customername": "SPECIALIZED ELECTRIC CO"
+  },
+  {
+    "custid": 1517,
+    "customername": "SPECTRUM ELECTRIC LTD"
+  },
+  {
+    "custid": 1518,
+    "customername": "SPECTRUM WIRELESS SOLUTIONS"
+  },
+  {
+    "custid": 1519,
+    "customername": "SPEECE ELECTRIC"
+  },
+  {
+    "custid": 1520,
+    "customername": "SPURLIN ELECTRIC"
+  },
+  {
+    "custid": 1521,
+    "customername": "SPURLING & BRADLEY"
+  },
+  {
+    "custid": 1522,
+    "customername": "SQUARE D FIELD SERVICES"
+  },
+  {
+    "custid": 1523,
+    "customername": "SSC ENTERPRISES"
+  },
+  {
+    "custid": 1524,
+    "customername": "ST ANDREWS ELECTRIC"
+  },
+  {
+    "custid": 1525,
+    "customername": "ST ANTHONY HOSP SVC"
+  },
+  {
+    "custid": 1526,
+    "customername": "ST ANTHONY'S NORTH"
+  },
+  {
+    "custid": 1527,
+    "customername": "ST JOSEPH HOSPITAL"
+  },
+  {
+    "custid": 1528,
+    "customername": "ST THOMAS STEEL INC"
+  },
+  {
+    "custid": 1529,
+    "customername": "STAMM ELECTRIC"
+  },
+  {
+    "custid": 1530,
+    "customername": "STANMARK ELECTRIC"
+  },
+  {
+    "custid": 1531,
+    "customername": "STARFIRE ENERGY LLC"
+  },
+  {
+    "custid": 1532,
+    "customername": "STARMAN SERVICE INC"
+  },
+  {
+    "custid": 1533,
+    "customername": "STARWOOD VACATION"
+  },
+  {
+    "custid": 1534,
+    "customername": "STARZ ENTERTAINMENT GROUP, LLC"
+  },
+  {
+    "custid": 1535,
+    "customername": "STATIC ELECTRIC LLC"
+  },
+  {
+    "custid": 1536,
+    "customername": "STAYBRIGHT ELECT OF CO"
+  },
+  {
+    "custid": 1537,
+    "customername": "STAYBRIGHT ELECTRIC OF TEXAS"
+  },
+  {
+    "custid": 1538,
+    "customername": "STAYSHARPE WESR FARGO LLC"
+  },
+  {
+    "custid": 1539,
+    "customername": "STELLAR ENERGY CONT"
+  },
+  {
+    "custid": 1540,
+    "customername": "STEVE PICKETT ELECTRIC"
+  },
+  {
+    "custid": 1541,
+    "customername": "STEWART & STEVENSON"
+  },
+  {
+    "custid": 1542,
+    "customername": "STILLWATER ELECTRIC"
+  },
+  {
+    "custid": 1543,
+    "customername": "STONE CREEK ELECTRIC"
+  },
+  {
+    "custid": 1544,
+    "customername": "STONE ELECTRIC"
+  },
+  {
+    "custid": 1545,
+    "customername": "STONEWALL GAS GATHERING"
+  },
+  {
+    "custid": 1546,
+    "customername": "STREAMLINE SYSTEMS"
+  },
+  {
+    "custid": 1547,
+    "customername": "STURGEON"
+  },
+  {
+    "custid": 1548,
+    "customername": "SUMMIT BODYWORKS"
+  },
+  {
+    "custid": 1549,
+    "customername": "SUMMIT COUNTY GOVERNMENT"
+  },
+  {
+    "custid": 1550,
+    "customername": "SUMMIT INTEGRATED SYSTEMS"
+  },
+  {
+    "custid": 1551,
+    "customername": "SUMMIT SCHOOL DIST RE-1"
+  },
+  {
+    "custid": 1552,
+    "customername": "SUN TALK SOLAR"
+  },
+  {
+    "custid": 1553,
+    "customername": "SUN VALLEY ELECTRIC"
+  },
+  {
+    "custid": 1554,
+    "customername": "SUNBELT TRANSFORMER LTD"
+  },
+  {
+    "custid": 1555,
+    "customername": "SUNCOR ENERGY"
+  },
+  {
+    "custid": 1556,
+    "customername": "SUNDANCE SOLAR DESIGNS"
+  },
+  {
+    "custid": 1557,
+    "customername": "SUNKEY ENERGY"
+  },
+  {
+    "custid": 1558,
+    "customername": "SUNLIGHT SOLAR ENERGY INC"
+  },
+  {
+    "custid": 1559,
+    "customername": "SUNNYSIDE SOLAR"
+  },
+  {
+    "custid": 1560,
+    "customername": "SUNOCO"
+  },
+  {
+    "custid": 1561,
+    "customername": "SUNRISE CONSULTINF & SML BUSS SVCS"
+  },
+  {
+    "custid": 1562,
+    "customername": "SUNSENSE SOLAR"
+  },
+  {
+    "custid": 1563,
+    "customername": "SUNTEGRTIY"
+  },
+  {
+    "custid": 1564,
+    "customername": "SUPERIOR ALARM VAIL INC"
+  },
+  {
+    "custid": 1565,
+    "customername": "SUPERIOR MECHANICAL SVC"
+  },
+  {
+    "custid": 1566,
+    "customername": "SUPERIOR SERVICES LLC"
+  },
+  {
+    "custid": 1567,
+    "customername": "SUPPORTEK, INC"
+  },
+  {
+    "custid": 1568,
+    "customername": "SUSTAINABLE SOLUTIONS INC"
+  },
+  {
+    "custid": 1569,
+    "customername": "SWAZO ELECTRIC"
+  },
+  {
+    "custid": 1570,
+    "customername": "SWEDISH MEDICAL CENTER"
+  },
+  {
+    "custid": 1571,
+    "customername": "SWEET ELECTRIC INC"
+  },
+  {
+    "custid": 1572,
+    "customername": "SYLVANIA LIGHTING SVCS"
+  },
+  {
+    "custid": 1573,
+    "customername": "SYLVESTER'S MAINTENANCE & MECH"
+  },
+  {
+    "custid": 1574,
+    "customername": "SYNERGY MECHANICAL SVCS"
+  },
+  {
+    "custid": 1575,
+    "customername": "SYNTHES LTD - USA"
+  },
+  {
+    "custid": 1576,
+    "customername": "SYSTEMS GROUP"
+  },
+  {
+    "custid": 1577,
+    "customername": "T R CUSTOMS"
+  },
+  {
+    "custid": 1578,
+    "customername": "T-M SERVICE COMPANY INC"
+  },
+  {
+    "custid": 1579,
+    "customername": "TA PELSUE CO"
+  },
+  {
+    "custid": 1580,
+    "customername": "TALLGRASS MIDSTREAM LLC"
+  },
+  {
+    "custid": 1581,
+    "customername": "TAMCO LLC"
+  },
+  {
+    "custid": 1582,
+    "customername": "TARPON ENERGY"
+  },
+  {
+    "custid": 1583,
+    "customername": "TAURUS ELECTRIC"
+  },
+  {
+    "custid": 1584,
+    "customername": "TEAM ELECTRIC"
+  },
+  {
+    "custid": 1585,
+    "customername": "TECH CONTROL LTD"
+  },
+  {
+    "custid": 1586,
+    "customername": "TECH ELECTRONICS"
+  },
+  {
+    "custid": 1587,
+    "customername": "TECHEM WATER SERVICES"
+  },
+  {
+    "custid": 1588,
+    "customername": "TECHNICAL & ELECTRICAL SERVICES LLC"
+  },
+  {
+    "custid": 1589,
+    "customername": "TEIKYO LORETTO HEIGHTS"
+  },
+  {
+    "custid": 1590,
+    "customername": "TELECRAFTER PRODUCTS"
+  },
+  {
+    "custid": 1591,
+    "customername": "TELESUPPORT SERVICES INC"
+  },
+  {
+    "custid": 1592,
+    "customername": "TELTECH COMMUNICATIONS LLC"
+  },
+  {
+    "custid": 1593,
+    "customername": "TENNYSON CENTER FOR CHILDREN"
+  },
+  {
+    "custid": 1594,
+    "customername": "TERRADYNE ENERGY LLC"
+  },
+  {
+    "custid": 1595,
+    "customername": "TERREHAVEN ENTERPRISES"
+  },
+  {
+    "custid": 1596,
+    "customername": "TERUMO BCT INC"
+  },
+  {
+    "custid": 1597,
+    "customername": "TESLA GLOBAL SOLUTIONS INC"
+  },
+  {
+    "custid": 1598,
+    "customername": "TETON COUNTY HOUSING AUTHORITY"
+  },
+  {
+    "custid": 1599,
+    "customername": "TETON HERITAGE BUILDERS"
+  },
+  {
+    "custid": 1600,
+    "customername": "TETRA TECH INC"
+  },
+  {
+    "custid": 1601,
+    "customername": "TFI INLINE DESIGN CORP"
+  },
+  {
+    "custid": 1602,
+    "customername": "THE CROWE CORP"
+  },
+  {
+    "custid": 1603,
+    "customername": "THE ELECTRICIAN, INC"
+  },
+  {
+    "custid": 1604,
+    "customername": "THE KOLL CO"
+  },
+  {
+    "custid": 1605,
+    "customername": "THE LARK"
+  },
+  {
+    "custid": 1606,
+    "customername": "THE LOGAN SCHOOL"
+  },
+  {
+    "custid": 1607,
+    "customername": "THE OPEN CUPBOARD"
+  },
+  {
+    "custid": 1608,
+    "customername": "THE RITZ CARLTON"
+  },
+  {
+    "custid": 1609,
+    "customername": "THE SEBASTIAN- VAIL"
+  },
+  {
+    "custid": 1610,
+    "customername": "THE SOLAR REVOLUTION"
+  },
+  {
+    "custid": 1611,
+    "customername": "THE UPPER EAGLE RIVER"
+  },
+  {
+    "custid": 1612,
+    "customername": "THERE WAS LIGHT L.P."
+  },
+  {
+    "custid": 1613,
+    "customername": "CITY OF THORNTON"
+  },
+  {
+    "custid": 1614,
+    "customername": "THUNDER ELECTRIC CO"
+  },
+  {
+    "custid": 1615,
+    "customername": "THYSSEN KRUPP ELEVATOR"
+  },
+  {
+    "custid": 1616,
+    "customername": "THYSSENKRUPP ROBINS"
+  },
+  {
+    "custid": 1617,
+    "customername": "TIC"
+  },
+  {
+    "custid": 1618,
+    "customername": "TIM HUENINK"
+  },
+  {
+    "custid": 1619,
+    "customername": "TIMBERLINE ELE & CONTROL"
+  },
+  {
+    "custid": 1620,
+    "customername": "TIMBERLINE-IDAHO SPRINGS"
+  },
+  {
+    "custid": 1621,
+    "customername": "TITAN ELECTRIC CO INC"
+  },
+  {
+    "custid": 1622,
+    "customername": "TOKYO INC"
+  },
+  {
+    "custid": 1623,
+    "customername": "TOLIN MECH SILVERTHORNE"
+  },
+  {
+    "custid": 1624,
+    "customername": "TOLIN MECHANICAL SYS CO"
+  },
+  {
+    "custid": 1625,
+    "customername": "TOMA WEST MGMT CORP"
+  },
+  {
+    "custid": 1626,
+    "customername": "TOMRA SORTING INC"
+  },
+  {
+    "custid": 1627,
+    "customername": "TOOL & ANCHOR SUPPLY"
+  },
+  {
+    "custid": 1628,
+    "customername": "TOTAL ELECTRIC SVC."
+  },
+  {
+    "custid": 1629,
+    "customername": "TOTAL WELDING INC"
+  },
+  {
+    "custid": 1630,
+    "customername": "TOWER ELECTRIC INC"
+  },
+  {
+    "custid": 1631,
+    "customername": "TOWER SERVICES"
+  },
+  {
+    "custid": 1632,
+    "customername": "TOWN LLC"
+  },
+  {
+    "custid": 1633,
+    "customername": "TOWN OF AVON"
+  },
+  {
+    "custid": 1634,
+    "customername": "TOWN OF BRECKENRIDGE"
+  },
+  {
+    "custid": 1635,
+    "customername": "TOWN OF FRASER"
+  },
+  {
+    "custid": 1636,
+    "customername": "TOWN OF FRISCO"
+  },
+  {
+    "custid": 1637,
+    "customername": "TOWN OF GRAND LAKE"
+  },
+  {
+    "custid": 1638,
+    "customername": "TOWN OF GYPSUM"
+  },
+  {
+    "custid": 1639,
+    "customername": "TOWN OF PARKER"
+  },
+  {
+    "custid": 1640,
+    "customername": "TOWN OF VAIL"
+  },
+  {
+    "custid": 1641,
+    "customername": "TOWN OF WINTER PARK"
+  },
+  {
+    "custid": 1642,
+    "customername": "TR PARK CENTRAL LLC"
+  },
+  {
+    "custid": 1643,
+    "customername": "TRACKER ELECTRICAL SVCS"
+  },
+  {
+    "custid": 1644,
+    "customername": "TRAIL ELECTRIC"
+  },
+  {
+    "custid": 1645,
+    "customername": "TRAILER MADE"
+  },
+  {
+    "custid": 1646,
+    "customername": "THE TRANE CO DIVISION OF"
+  },
+  {
+    "custid": 1647,
+    "customername": "TRAUTMAN & SHREVE INC"
+  },
+  {
+    "custid": 1648,
+    "customername": "TREVOSE ELECTRIC"
+  },
+  {
+    "custid": 1649,
+    "customername": "TRI COUNTY FIRE PROTECT"
+  },
+  {
+    "custid": 1650,
+    "customername": "TRI PHASE ELECTRIC"
+  },
+  {
+    "custid": 1651,
+    "customername": "TRI POWER SYSTEMS INC"
+  },
+  {
+    "custid": 1652,
+    "customername": "TRI STAR HEATING & AIR"
+  },
+  {
+    "custid": 1653,
+    "customername": "TRI-RIVER BUILDING SUPPLY"
+  },
+  {
+    "custid": 1654,
+    "customername": "TRI-STATE GENERATION"
+  },
+  {
+    "custid": 1655,
+    "customername": "TRI-STONE ELECTRIC LLC"
+  },
+  {
+    "custid": 1656,
+    "customername": "TRIANGLE ELECTRIC"
+  },
+  {
+    "custid": 1657,
+    "customername": "TRINITY ELECTRICAL SVCS"
+  },
+  {
+    "custid": 1658,
+    "customername": "TRINITY POWER INC"
+  },
+  {
+    "custid": 1659,
+    "customername": "TRITON ENTERPRISE INC"
+  },
+  {
+    "custid": 1660,
+    "customername": "TRUSTILE DOORS LLC"
+  },
+  {
+    "custid": 1661,
+    "customername": "TURNER ELECTRIC"
+  },
+  {
+    "custid": 1662,
+    "customername": "TWO FORKS ELECTRIC"
+  },
+  {
+    "custid": 1663,
+    "customername": "TWO PEAR INC"
+  },
+  {
+    "custid": 1664,
+    "customername": "TYN-MAN ELECTRIC INC"
+  },
+  {
+    "custid": 1665,
+    "customername": "U OF DENVER-PHYS PLANT"
+  },
+  {
+    "custid": 1666,
+    "customername": "US MINT"
+  },
+  {
+    "custid": 1667,
+    "customername": "UE COMPRESSION"
+  },
+  {
+    "custid": 1668,
+    "customername": "ULTRA TECH SYSTEMS"
+  },
+  {
+    "custid": 1669,
+    "customername": "UMEC INC"
+  },
+  {
+    "custid": 1670,
+    "customername": "UNION PACIFIC RAILROAD"
+  },
+  {
+    "custid": 1671,
+    "customername": "UNITED AIR LINES-FLIGHT"
+  },
+  {
+    "custid": 1672,
+    "customername": "UNITED ELECTRIC"
+  },
+  {
+    "custid": 1673,
+    "customername": "UNITED POWER"
+  },
+  {
+    "custid": 1674,
+    "customername": "UNIVERSITY OF COLORADO"
+  },
+  {
+    "custid": 1675,
+    "customername": "UNIV OF COLO HOSP AUTH"
+  },
+  {
+    "custid": 1676,
+    "customername": "UNIVERSITY CORP FOR ATMOSPHERIC RES"
+  },
+  {
+    "custid": 1677,
+    "customername": "UNIVERSITY OF COLORADO"
+  },
+  {
+    "custid": 1678,
+    "customername": "UPGRADE ELECTRICAL SVCS"
+  },
+  {
+    "custid": 1679,
+    "customername": "UPSHER-SMITH"
+  },
+  {
+    "custid": 1680,
+    "customername": "URBAN GRO"
+  },
+  {
+    "custid": 1681,
+    "customername": "URBAN LIGHTS"
+  },
+  {
+    "custid": 1682,
+    "customername": "URBEN & SON CONSTRUCTION"
+  },
+  {
+    "custid": 1683,
+    "customername": "US ENGINEERING CO"
+  },
+  {
+    "custid": 1684,
+    "customername": "US GEOLOGICAL SURVEY NWQL"
+  },
+  {
+    "custid": 1685,
+    "customername": "US SIGN & LIGHTING"
+  },
+  {
+    "custid": 1686,
+    "customername": "USA SOLAR POWER LLC"
+  },
+  {
+    "custid": 1687,
+    "customername": "DENVER BULK MAIL"
+  },
+  {
+    "custid": 1688,
+    "customername": "UTILITY REVENUE SERVICES LLC"
+  },
+  {
+    "custid": 1689,
+    "customername": "VAIL LIGHTS INC"
+  },
+  {
+    "custid": 1690,
+    "customername": "VAIL MARRIOTT MOUNTAIN"
+  },
+  {
+    "custid": 1691,
+    "customername": "VAIL RESORTS MGMT CO"
+  },
+  {
+    "custid": 1692,
+    "customername": "VAIL VALLEY ELECTRIC"
+  },
+  {
+    "custid": 1693,
+    "customername": "VAIL VALLEY MEDICAL CENTER"
+  },
+  {
+    "custid": 1694,
+    "customername": "VALIANT PRODUCTS CORP"
+  },
+  {
+    "custid": 1695,
+    "customername": "VALOR CHRISTIAN SCHOOLS"
+  },
+  {
+    "custid": 1696,
+    "customername": "VAN ALSTINE INERIORDESIGN"
+  },
+  {
+    "custid": 1697,
+    "customername": "VANDRE ELEC REFRIG"
+  },
+  {
+    "custid": 1698,
+    "customername": "VANKIRK ELECTRIC"
+  },
+  {
+    "custid": 1699,
+    "customername": "VAUGHN'S ELECTRIC"
+  },
+  {
+    "custid": 1700,
+    "customername": "VECTOR ELECTRIC INC"
+  },
+  {
+    "custid": 1701,
+    "customername": "VELOCITY CONSTRUCTORS INC"
+  },
+  {
+    "custid": 1702,
+    "customername": "VELOCITY DYNAMICS INC"
+  },
+  {
+    "custid": 1703,
+    "customername": "VENT MASTER INC"
+  },
+  {
+    "custid": 1704,
+    "customername": "VENTURA ELECTRIC INC"
+  },
+  {
+    "custid": 1705,
+    "customername": "VENTURE ELECTRIC INC"
+  },
+  {
+    "custid": 1706,
+    "customername": "VENTURE INVESTMENTS LTD"
+  },
+  {
+    "custid": 1707,
+    "customername": "VERTICAL ELECTRIC"
+  },
+  {
+    "custid": 1708,
+    "customername": "VFORGE INC."
+  },
+  {
+    "custid": 1709,
+    "customername": "VIAWEST"
+  },
+  {
+    "custid": 1710,
+    "customername": "VIBRA HOSPITAL"
+  },
+  {
+    "custid": 1711,
+    "customername": "VIKING ELECTRIC"
+  },
+  {
+    "custid": 1712,
+    "customername": "VINCO INC"
+  },
+  {
+    "custid": 1713,
+    "customername": "VINNYS VOLTS LLC"
+  },
+  {
+    "custid": 1714,
+    "customername": "VINTAGE BUILDERS"
+  },
+  {
+    "custid": 1715,
+    "customername": "VINTAGE ELECTRICAL SVCS"
+  },
+  {
+    "custid": 1716,
+    "customername": "VISA U.S.A. INC"
+  },
+  {
+    "custid": 1717,
+    "customername": "VISION ELECTRICAL SVCS"
+  },
+  {
+    "custid": 1718,
+    "customername": "VISION LIGHTING"
+  },
+  {
+    "custid": 1719,
+    "customername": "VITAMIN COTTAGE"
+  },
+  {
+    "custid": 1720,
+    "customername": "VOLTAGE ELECTRIC"
+  },
+  {
+    "custid": 1721,
+    "customername": "VOSS LIGHTING"
+  },
+  {
+    "custid": 1722,
+    "customername": "W E ONEIL CONSTRUCTION CO OF COLO"
+  },
+  {
+    "custid": 1723,
+    "customername": "W L CONTRACTORS INC"
+  },
+  {
+    "custid": 1724,
+    "customername": "WAGNER ELECTRIC"
+  },
+  {
+    "custid": 1725,
+    "customername": "WAGNER EQUIPMENT"
+  },
+  {
+    "custid": 1726,
+    "customername": "WALKER COMPONENT GROUP"
+  },
+  {
+    "custid": 1727,
+    "customername": "WALRATH HEATING & AIR CONDITIONING"
+  },
+  {
+    "custid": 1728,
+    "customername": "WASTEWATER MGNT OF DEN"
+  },
+  {
+    "custid": 1729,
+    "customername": "WAVE ELECTRIC"
+  },
+  {
+    "custid": 1730,
+    "customername": "WAVELENGTH COMMERCIAL COMM."
+  },
+  {
+    "custid": 1731,
+    "customername": "WAYNES ELECTRIC INC."
+  },
+  {
+    "custid": 1732,
+    "customername": "WB SUPPLY COMPANY"
+  },
+  {
+    "custid": 1733,
+    "customername": "WE R ELECTRIC LLC"
+  },
+  {
+    "custid": 1734,
+    "customername": "WEIFIELD GROUP CONT LLC"
+  },
+  {
+    "custid": 1735,
+    "customername": "WEISER ENGINEERING"
+  },
+  {
+    "custid": 1736,
+    "customername": "WELSH ELECTRIC INC"
+  },
+  {
+    "custid": 1737,
+    "customername": "WENDYS INTERNATIONAL"
+  },
+  {
+    "custid": 1738,
+    "customername": "WERN AIR, INC"
+  },
+  {
+    "custid": 1739,
+    "customername": "WESCO DISTRIBUTION"
+  },
+  {
+    "custid": 1740,
+    "customername": "WESTCORE SO COLORADO LP"
+  },
+  {
+    "custid": 1741,
+    "customername": "WESTECH MECHANICAL"
+  },
+  {
+    "custid": 1742,
+    "customername": "WESTERN SEMONE INC"
+  },
+  {
+    "custid": 1743,
+    "customername": "WESTERN SLOPE ELECTRIC"
+  },
+  {
+    "custid": 1744,
+    "customername": "WESTERN STATES FIRE PROTECTION"
+  },
+  {
+    "custid": 1745,
+    "customername": "WESTERN STATES IND."
+  },
+  {
+    "custid": 1746,
+    "customername": "WESTFIELD PROPERTY SVCS"
+  },
+  {
+    "custid": 1747,
+    "customername": "THE WESTIN TABOR CENTER"
+  },
+  {
+    "custid": 1748,
+    "customername": "CITY OF WESTMINSTER"
+  },
+  {
+    "custid": 1749,
+    "customername": "WESTON SOLUTIONS INC"
+  },
+  {
+    "custid": 1750,
+    "customername": "WESTWOOD ELECTRIC"
+  },
+  {
+    "custid": 1751,
+    "customername": "WHEAT RIDGE SOLAR"
+  },
+  {
+    "custid": 1752,
+    "customername": "WHITE CAP INDUSTRIES"
+  },
+  {
+    "custid": 1753,
+    "customername": "WHITE CONSTRUCTION GROUP"
+  },
+  {
+    "custid": 1754,
+    "customername": "WHITE LIGHTING DESIGN"
+  },
+  {
+    "custid": 1755,
+    "customername": "WHITE RIVER ELECTRIC"
+  },
+  {
+    "custid": 1756,
+    "customername": "WHITE WOLF ENERGY SERVICES, LLC"
+  },
+  {
+    "custid": 1757,
+    "customername": "WHITING OIL & GAS CORP"
+  },
+  {
+    "custid": 1758,
+    "customername": "WHITLEY MANUFACTURING"
+  },
+  {
+    "custid": 1759,
+    "customername": "WHOLESALE SPECIALTIES INC"
+  },
+  {
+    "custid": 1760,
+    "customername": "WIDESPREAD ELECTRIC SALES"
+  },
+  {
+    "custid": 1761,
+    "customername": "WILDERNESS ON WHEELS FOUNDATION"
+  },
+  {
+    "custid": 1762,
+    "customername": "WILFONG SOLAR & ELECTRIC"
+  },
+  {
+    "custid": 1763,
+    "customername": "WINN MARION BARBER #B"
+  },
+  {
+    "custid": 1764,
+    "customername": "WINSTON ELECTRIC"
+  },
+  {
+    "custid": 1765,
+    "customername": "WINTER PARK ELECTRIC SVC"
+  },
+  {
+    "custid": 1766,
+    "customername": "WINTER PARK REC AREA"
+  },
+  {
+    "custid": 1767,
+    "customername": "WINTER PARK VILLAGE MGMT"
+  },
+  {
+    "custid": 1768,
+    "customername": "WINTER PARK WATER"
+  },
+  {
+    "custid": 1769,
+    "customername": "WIRE MASTER LLC"
+  },
+  {
+    "custid": 1770,
+    "customername": "WIRELESS CONSTRUCTION SVCS"
+  },
+  {
+    "custid": 1771,
+    "customername": "WIRENUT LLC"
+  },
+  {
+    "custid": 1772,
+    "customername": "WIZARD WORKS SECURITY SYSTEMS"
+  },
+  {
+    "custid": 1773,
+    "customername": "WIZWARE TECHNOLOGIES"
+  },
+  {
+    "custid": 1774,
+    "customername": "WOFFORD ELECTRIC"
+  },
+  {
+    "custid": 1775,
+    "customername": "WORTH INTERIORS LLC"
+  },
+  {
+    "custid": 1776,
+    "customername": "WPXENERGY INC"
+  },
+  {
+    "custid": 1777,
+    "customername": "WRANGLER ELECTRIC"
+  },
+  {
+    "custid": 1778,
+    "customername": "WRIGHT & MCGILL COMPANY"
+  },
+  {
+    "custid": 1779,
+    "customername": "WYLACO SUPPLY CO"
+  },
+  {
+    "custid": 1780,
+    "customername": "XCEL ENERGY"
+  },
+  {
+    "custid": 1781,
+    "customername": "XCEL SUBSTATION CONST"
+  },
+  {
+    "custid": 1782,
+    "customername": "XSSENTIALS"
+  },
+  {
+    "custid": 1783,
+    "customername": "YMCA - SNOW MTN RANCH"
+  },
+  {
+    "custid": 1784,
+    "customername": "YOUNG ELECTRIC SIGN CO"
+  },
+  {
+    "custid": 1785,
+    "customername": "YOUNG ELECTRICAL SVCS"
+  },
+  {
+    "custid": 1786,
+    "customername": "YOUNG LIFE"
+  },
+  {
+    "custid": 1787,
+    "customername": "Z ELECTRIC"
+  },
+  {
+    "custid": 1788,
+    "customername": "ZAP ENGINEERING & CONST SVCS"
+  },
+  {
+    "custid": 1789,
+    "customername": "ZELLER - GBB LLC"
+  },
+  {
+    "custid": 1790,
+    "customername": "ZENERGY LLC"
+  },
+  {
+    "custid": 1791,
+    "customername": "ZSEBE ELECTRIC INC"
+  }
+]

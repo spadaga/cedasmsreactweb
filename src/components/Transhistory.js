@@ -42,6 +42,7 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import dayjs from "dayjs";
+import MasterLayout from "../Layout/MasterLayout";
 
 // Styled components
 const StyledTableContainer = styled(TableContainer)(({ theme }) => ({
@@ -297,16 +298,8 @@ const [dateApplyClicked, setDateApplyClicked] = useState(false);
   };
 
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "100vh",
-        backgroundColor: (theme) => theme.palette.background.default,
-      }}
-    >
-      <Header title="Transaction History" />
-      <Container sx={{ flex: 1, pb: "60px", mt: 2 }}>
+    <MasterLayout title="Transaction History">
+    
         <Box sx={{ mb: 2, p: 1, border: "1px solid #ccc", borderRadius: 1 }}>
           <Box
             sx={{
@@ -825,11 +818,10 @@ const [dateApplyClicked, setDateApplyClicked] = useState(false);
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}
         />
-      </Container>
-      <Footer />
+     
       <Loading isLoading={isLoading} />
       <ToastContainer />
-    </Box>
+    </MasterLayout>
   );
 };
 

@@ -29,6 +29,7 @@ import { getAllSecondaryInventory } from "../services/api"; // Import your API m
 import { visuallyHidden } from "@mui/utils";
 import { useThemeContext } from "../context/ThemeContext";
 import AddInventoryModal from "../modals/AddInventoryModal";
+import MasterLayout from "../Layout/MasterLayout";
 
 const InvMgrSettings = () => {
     const [description, setDescription] = useState("");
@@ -318,9 +319,8 @@ const InvMgrSettings = () => {
   };
 
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-      <Header title="Inventory Manager Settings" />
-      <Container sx={{ flex: 1, paddingBottom: "60px", marginTop: "16px" }}>
+    <MasterLayout title="Inventory Manager Settings">
+    
         <Paper elevation={3} sx={{ p: 3 }}>
           <Typography variant="h6" gutterBottom>
             Project Settings
@@ -533,8 +533,7 @@ const InvMgrSettings = () => {
             />
           </Box>
         </Paper>
-      </Container>
-      <Footer />
+     
 
       {/* Add Inventory Modal */}
       <AddInventoryModal
@@ -545,7 +544,7 @@ const InvMgrSettings = () => {
         setFormData={setFormData}
         errors={errors}
       />
-    </Box>
+   </MasterLayout>
   );
 };
 

@@ -12,6 +12,7 @@ import {
 import Header from '../controls/Header';
 import Footer from '../controls/Footer';
 import Loading from '../utils/Loading';
+import MasterLayout from '../Layout/MasterLayout';
 
 const NotificationsPage = () => {
   const [search, setSearch] = useState('');
@@ -77,9 +78,7 @@ const NotificationsPage = () => {
   );
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' ,backgroundColor: (theme) => theme.palette.background.default}}>
-      <Header title="Notifications" />
-      <Container sx={{ flex: 1, paddingBottom: '60px', marginTop: '16px' }}>
+    <MasterLayout title="NOTIFICATIONS">
     <Box sx={{ padding: '16px' }}>
       
       <TextField
@@ -103,10 +102,9 @@ const NotificationsPage = () => {
         </List>
       </Paper>
     </Box>
-    </Container>
-    <Footer sx={{ flexShrink: 0 }} />
+
    
-    </Box>
+    </MasterLayout>
   );
 };
 

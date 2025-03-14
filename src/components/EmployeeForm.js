@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getEmployeeById, createEmployee, updateEmployee } from '../services/api';
 import Loading from '../utils/Loading'; // Import Loading
+import MasterLayout from '../Layout/MasterLayout'; // Import MasterLayout
 
 import {
   Container,
@@ -80,64 +81,60 @@ const EmployeeForm = () => {
   };
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Header title={id ? 'Edit Employee' : 'Add Employee'} />
-      <Container sx={{ flex: 1, paddingBottom: '60px',marginTop:'16px' }}>
-        <Paper elevation={3} sx={{ p: 3 }}>
-          <form onSubmit={handleSubmit}>
-            <TextField
-              label="Name"
-              fullWidth
-              margin="normal"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-            <TextField
-              label="Position"
-              fullWidth
-              margin="normal"
-              value={position}
-              onChange={(e) => setPosition(e.target.value)}
-              required
-            />
-            <TextField
-              label="Salary"
-              fullWidth
-              margin="normal"
-              type="number"
-              value={salary}
-              onChange={(e) => setSalary(e.target.value)}
-              required
-            />
-            <Button
-              type="submit"
-              variant="contained"
-              sx={{
-                mt: 2,
-                mr: 2,
-                backgroundColor: '#1976d2', // Same color as the header
-                '&:hover': {
-                  backgroundColor: '#1565c0', // Darker shade for hover effect
-                },
-              }}
-            >
-              {id ? 'Update' : 'Add'} Employee
-            </Button>
-            <Button
-              variant="contained"
-              color="secondary"
-              sx={{ mt: 2 }}
-              onClick={handleBack}
-            >
-              Back
-            </Button>
-          </form>
-        </Paper>
-        <ToastContainer />
-      </Container>
-      <Footer />
-    </Box>
+    <MasterLayout title={id ? 'Edit Employees' : 'Add Employees'}>
+      <Paper elevation={3} sx={{ p: 3 }}>
+        <form onSubmit={handleSubmit}>
+          <TextField
+            label="Name"
+            fullWidth
+            margin="normal"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+          <TextField
+            label="Position"
+            fullWidth
+            margin="normal"
+            value={position}
+            onChange={(e) => setPosition(e.target.value)}
+            required
+          />
+          <TextField
+            label="Salary"
+            fullWidth
+            margin="normal"
+            type="number"
+            value={salary}
+            onChange={(e) => setSalary(e.target.value)}
+            required
+          />
+          <Button
+            type="submit"
+            variant="contained"
+            sx={{
+              mt: 2,
+              mr: 2,
+              backgroundColor: '#1976d2',
+              '&:hover': {
+                backgroundColor: '#1565c0',
+              },
+            }}
+          >
+            {id ? 'Update' : 'Add'} Employee
+          </Button>
+          <Button
+            variant="contained"
+            color="secondary"
+            sx={{ mt: 2 }}
+            onClick={handleBack}
+          >
+            Back
+          </Button>
+        </form>
+      </Paper>
+      <ToastContainer />
+    </MasterLayout>
   );
 };
 

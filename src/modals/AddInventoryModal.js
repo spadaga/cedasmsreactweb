@@ -38,7 +38,7 @@ const AddInventoryModal = ({ open, onClose, onSave, formData, setFormData, error
                     inputProps={{ maxLength: 50 }}
                     helperText={`${formData.description.length}/50 Chars Max.`}
                     error={errors.description}
-                    helperText={errors.description ? "Description is required" : `${formData.description.length}/50 Chars Max.`}
+                    
                 />
                 <TextField
                     label="Address Line 1"

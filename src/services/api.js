@@ -45,6 +45,8 @@ export const getAllAMSCatalogs = () => api.get('/amscatalogs/getAllAMSCatalogs')
 
 export const getAllSecondaryInventory = () => api.get('/secondaryinventory/getAllSecondaryInventory');
 
+export const getglAllCustomers = () => api.get('/glcustomers/getglAllCustomers');
+
 
 
 // Transhistory API

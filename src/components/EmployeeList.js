@@ -34,6 +34,7 @@ import { showToast } from '../utils/toastUtils';
 import Header from '../controls/Header';
 import Footer from '../controls/Footer';
 import Loading from '../utils/Loading';
+import MasterLayout from '../Layout/MasterLayout';
 
 
 const EmployeeList = () => {
@@ -131,9 +132,7 @@ const EmployeeList = () => {
   });
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' ,backgroundColor: (theme) => theme.palette.background.default}}>
-      <Header title="Employee Management System" />
-      <Container sx={{ flex: 1, paddingBottom: '60px', marginTop: '16px' }}>
+    <MasterLayout title="Employee Management System">
         <Box sx={{ flex: '1 0 auto' }}>
           <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 3 }}>
             <Button
@@ -257,10 +256,10 @@ const EmployeeList = () => {
           </Dialog>
           <ToastContainer />
         </Box>
-      </Container>
-      <Footer sx={{ flexShrink: 0 }} />
+     
+     
       <Loading isLoading={isLoading} /> {/* Include the Loading component */}
-    </Box>
+    </MasterLayout>
   );
 };
 

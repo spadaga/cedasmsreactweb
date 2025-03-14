@@ -38,6 +38,7 @@ import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
 import CloseIcon from "@mui/icons-material/Close";
 import SearchIcon from '@mui/icons-material/Search';
+import MasterLayout from "../Layout/MasterLayout";
 
 const AmsUsers = () => {
   const [amsUsers, setAMSUsers] = useState([]);
@@ -159,16 +160,8 @@ const AmsUsers = () => {
   };
   const open = Boolean(anchorEl);
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "100vh",
-        backgroundColor: (theme) => theme.palette.background.default,
-      }}
-    >
-      <Header title="AMS Users List" />
-      <Container sx={{ flex: 1, paddingBottom: "60px", marginTop: "16px" }}>
+    <MasterLayout title="AMS Users List">
+    
         <Box sx={{ flex: "1 0 auto" }}>
         <Box
             sx={{
@@ -401,10 +394,9 @@ const AmsUsers = () => {
           />
           <ToastContainer />
         </Box>
-      </Container>
-      <Footer sx={{ flexShrink: 0 }} />
+     
       <Loading isLoading={isLoading} />
-    </Box>
+    </MasterLayout>
   );
 };
 

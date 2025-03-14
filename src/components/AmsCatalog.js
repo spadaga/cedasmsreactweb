@@ -44,6 +44,7 @@ import Footer from "../controls/Footer";
 import Loading from "../utils/Loading";
 import { styled } from "@mui/material/styles";
 import CatalogProductmodal from "../modals/CatalogProductmodal";
+import MasterLayout from "../Layout/MasterLayout";
 
 function AmsCatalog() {
   const [data, setData] = useState([]);
@@ -231,17 +232,7 @@ function AmsCatalog() {
     }
   };
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "100vh",
-        backgroundColor: (theme) => theme.palette.background.default,
-      }}
-    >
-      {" "}
-      <Header title="AMS Catalog List" />
-      <Container sx={{ flex: 1, paddingBottom: "60px", marginTop: "16px" }}>
+    <MasterLayout title="AMS CATALOG">
         <Box sx={{ flex: "1 0 auto" }}>
           <Box
             sx={{
@@ -727,15 +718,14 @@ function AmsCatalog() {
             />
           </TableContainer>
         </Box>
-      </Container>
-      <Footer sx={{ flexShrink: 0 }} />
+     
       <Loading isLoading={isLoading} />
       <CatalogProductmodal // Render the Modal
         open={modalOpen}
         onClose={handleModalClose}
         product={selectedProduct}
       />
-    </Box>
+    </MasterLayout>
   );
 }
 

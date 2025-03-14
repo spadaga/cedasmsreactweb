@@ -13,6 +13,14 @@ import Transhistory from './components/Transhistory';
 import ToolMgrSettings from './components/ToolMgrSettings';
 import AmsCatalog from './components/AmsCatalog';
 import InvMgrSettings from './components/InvMgrSettings';
+import Glcustomers from './components/Glcustomers';
+import GlNewcustomer from './components/GlNewcustomer';
+import GLmanagecustomer from './components/GLmanagecustomer';
+
+
+
+
+
 const theme = createTheme();
 
 function App() {
@@ -41,6 +49,11 @@ function App() {
 
         
         <Route path="/invmgrsets" element={<InvMgrSettings />} />
+
+        <Route path="/glcustomers" element={<Glcustomers />} />
+        <Route path="/glnewcustomers" element={<GlNewcustomer />} />
+
+        <Route path="/glmanagecustomer" element={<GLmanagecustomer />} />
 
 
       </Routes>

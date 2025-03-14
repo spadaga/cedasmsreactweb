@@ -1,0 +1,549 @@
+[
+  {
+    "companyName": "NEWMAN OUTDOOR ADVERTISING",
+    "accountCount": 8,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ECOLOGY SOLAR",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "WILSON ELECTRIC SERVICES CORP",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "CREDIT CARD - CONTRACTOR CREDIT CARD - CONTRACTOR",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "COURTESY ELECTRIC CO COURTESY ELECTRIC CO",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "3E ELECTRICAL CONTR",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "A.W.B. LLC DBA PEAK ELEC",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "AAA ELECTRICAL AAA ELECTRICAL AAA ELECTRICAL",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "SUNNY DAY SOLAR",
+    "accountCount": 10,
+    "status": "Connected",
+    "accountId": "59964",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "BRIGHT LIGHTS INC",
+    "accountCount": 15,
+    "status": "Connected",
+    "accountId": "59965",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "POWER SOLUTIONS LTD",
+    "accountCount": 18,
+    "status": "Connected",
+    "accountId": "59966",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CITY ELECTRICIANS",
+    "accountCount": 20,
+    "status": "Connected",
+    "accountId": "59967",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "GREEN ENERGY CO",
+    "accountCount": 11,
+    "status": "Connected",
+    "accountId": "59968",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "VOLT ELECTRIC",
+    "accountCount": 14,
+    "status": "Connected",
+    "accountId": "59969",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SPARK PLUGS INC",
+    "accountCount": 16,
+    "status": "Connected",
+    "accountId": "59970",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "WIRE WORKS LTD",
+    "accountCount": 19,
+    "status": "Connected",
+    "accountId": "59971",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SOLAR POWER NOW",
+    "accountCount": 9,
+    "status": "Connected",
+    "accountId": "59972",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "ILLUMINATE LTD",
+    "accountCount": 13,
+    "status": "Connected",
+    "accountId": "59973",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ENERGY MASTERS",
+    "accountCount": 17,
+    "status": "Connected",
+    "accountId": "59974",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CURRENT SOLUTIONS",
+    "accountCount": 21,
+    "status": "Connected",
+    "accountId": "59975",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ECO ELECTRIC",
+    "accountCount": 10,
+    "status": "Connected",
+    "accountId": "59976",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "LUMEN WORKS",
+    "accountCount": 14,
+    "status": "Connected",
+    "accountId": "59977",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "AMPERE INC",
+    "accountCount": 16,
+    "status": "Connected",
+    "accountId": "59978",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CIRCUIT CITY",
+    "accountCount": 19,
+    "status": "Connected",
+    "accountId": "59979",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "POWER UP SOLAR",
+    "accountCount": 8,
+    "status": "Connected",
+    "accountId": "59980",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "SHINE BRIGHT CO",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59981",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "WATT SOLUTIONS",
+    "accountCount": 15,
+    "status": "Connected",
+    "accountId": "59982",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "PLUG IN ELECTRIC",
+    "accountCount": 18,
+    "status": "Connected",
+    "accountId": "59983",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "RADIANT ENERGY",
+    "accountCount": 11,
+    "status": "Connected",
+    "accountId": "59984",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "FLASH ELECTRIC",
+    "accountCount": 13,
+    "status": "Connected",
+    "accountId": "59985",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "GLOW WORKS LTD",
+    "accountCount": 17,
+    "status": "Connected",
+    "accountId": "59986",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CHARGE UP INC",
+    "accountCount": 20,
+    "status": "Connected",
+    "accountId": "59987",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SOLAR MAX POWER",
+    "accountCount": 9,
+    "status": "Connected",
+    "accountId": "59988",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "LUMINOUS LTD",
+    "accountCount": 14,
+    "status": "Connected",
+    "accountId": "59988",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+
+  {
+    "companyName": "NEWMAN OUTDOOR ADVERTISING",
+    "accountCount": 8,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ECOLOGY SOLAR",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "WILSON ELECTRIC SERVICES CORP",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "CREDIT CARD - CONTRACTOR CREDIT CARD - CONTRACTOR",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "COURTESY ELECTRIC CO COURTESY ELECTRIC CO",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "3E ELECTRICAL CONTR",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "A.W.B. LLC DBA PEAK ELEC",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "AAA ELECTRICAL AAA ELECTRICAL AAA ELECTRICAL",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59963",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "SUNNY DAY SOLAR",
+    "accountCount": 10,
+    "status": "Connected",
+    "accountId": "59964",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "BRIGHT LIGHTS INC",
+    "accountCount": 15,
+    "status": "Connected",
+    "accountId": "59965",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "POWER SOLUTIONS LTD",
+    "accountCount": 18,
+    "status": "Connected",
+    "accountId": "59966",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CITY ELECTRICIANS",
+    "accountCount": 20,
+    "status": "Connected",
+    "accountId": "59967",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "GREEN ENERGY CO",
+    "accountCount": 11,
+    "status": "Connected",
+    "accountId": "59968",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "VOLT ELECTRIC",
+    "accountCount": 14,
+    "status": "Connected",
+    "accountId": "59969",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SPARK PLUGS INC",
+    "accountCount": 16,
+    "status": "Connected",
+    "accountId": "59970",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "WIRE WORKS LTD",
+    "accountCount": 19,
+    "status": "Connected",
+    "accountId": "59971",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SOLAR POWER NOW",
+    "accountCount": 9,
+    "status": "Connected",
+    "accountId": "59972",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "ILLUMINATE LTD",
+    "accountCount": 13,
+    "status": "Connected",
+    "accountId": "59973",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ENERGY MASTERS",
+    "accountCount": 17,
+    "status": "Connected",
+    "accountId": "59974",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CURRENT SOLUTIONS",
+    "accountCount": 21,
+    "status": "Connected",
+    "accountId": "59975",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ECO ELECTRIC",
+    "accountCount": 10,
+    "status": "Connected",
+    "accountId": "59976",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "LUMEN WORKS",
+    "accountCount": 14,
+    "status": "Connected",
+    "accountId": "59977",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "AMPERE INC",
+    "accountCount": 16,
+    "status": "Connected",
+    "accountId": "59978",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CIRCUIT CITY",
+    "accountCount": 19,
+    "status": "Connected",
+    "accountId": "59979",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "POWER UP SOLAR",
+    "accountCount": 8,
+    "status": "Connected",
+    "accountId": "59980",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "SHINE BRIGHT CO",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59981",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "WATT SOLUTIONS",
+    "accountCount": 15,
+    "status": "Connected",
+    "accountId": "59982",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "PLUG IN ELECTRIC",
+    "accountCount": 18,
+    "status": "Connected",
+    "accountId": "59983",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "RADIANT ENERGY",
+    "accountCount": 11,
+    "status": "Connected",
+    "accountId": "59984",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "FLASH ELECTRIC",
+    "accountCount": 13,
+    "status": "Connected",
+    "accountId": "59985",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "GLOW WORKS LTD",
+    "accountCount": 17,
+    "status": "Connected",
+    "accountId": "59986",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "CHARGE UP INC",
+    "accountCount": 20,
+    "status": "Connected",
+    "accountId": "59987",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SOLAR MAX POWER",
+    "accountCount": 9,
+    "status": "Connected",
+    "accountId": "59988",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "LUMINOUS LTD",
+    "accountCount": 14,
+    "status": "Connected",
+    "accountId": "59989",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "BRIGHT SPARK CO",
+    "accountCount": 16,
+    "status": "Connected",
+    "accountId": "59990",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "ENERGY FLOW INC",
+    "accountCount": 19,
+    "status": "Connected",
+    "accountId": "59991",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "POWER PLUS LTD",
+    "accountCount": 10,
+    "status": "Connected",
+    "accountId": "59992",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "ELECTRIFY NOW",
+    "accountCount": 12,
+    "status": "Connected",
+    "accountId": "59993",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "SPARKLE ELECTRIC",
+    "accountCount": 15,
+    "status": "Connected",
+    "accountId": "59994",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "WIRELESS POWER CO",
+    "accountCount": 18,
+    "status": "Connected",
+    "accountId": "59995",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "ENLIGHTENED ENERGY",
+    "accountCount": 11,
+    "status": "Connected",
+    "accountId": "59996",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "VOLTAGE SOLUTIONS",
+    "accountCount": 13,
+    "status": "Connected",
+    "accountId": "59997",
+    "billingSettings": "Pending Settings"
+  },
+  {
+    "companyName": "CURRENT CO",
+    "accountCount": 17,
+    "status": "Connected",
+    "accountId": "59998",
+    "billingSettings": "Bills/Credit - Automatic/Manual"
+  },
+  {
+    "companyName": "POWER SOURCE INC",
+    "accountCount": 20,
+    "status": "Connected",
+    "accountId": "59999",
+    "billingSettings": "Pending Settings"
+  }
+]

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 import { useThemeContext } from "../context/ThemeContext";
 import { getAllSettings } from "../services/api";
 import {
@@ -10,39 +9,31 @@ import {
   TableHead,
   TableRow,
   Paper,
-  Container,
   TableSortLabel,
   TablePagination,
   Tooltip,
   Chip,
-  FormControl,
-  RadioGroup,
-  Radio,
-  Popover,
-  InputAdornment,
+  FormControlLabel,
   Modal,
   Box,
   Typography,
   TextField,
   Checkbox,
-  FormControlLabel,
   Button,
   IconButton,
   Divider,
+  InputAdornment,
+  useTheme, // Import useTheme
 } from "@mui/material";
-
 import SearchIcon from "@mui/icons-material/Search";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { showToast } from "../utils/toastUtils";
-import Header from "../controls/Header";
-import Footer from "../controls/Footer";
 import Loading from "../utils/Loading";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import CancelIcon from "@mui/icons-material/Cancel";
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
 import CloseIcon from "@mui/icons-material/Close";
+import MasterLayout from "../Layout/MasterLayout";
 
 const ToolMgrSettings = () => {
   const [settings, setSettings] = useState([]);
@@ -56,6 +47,7 @@ const ToolMgrSettings = () => {
   const [openModal, setOpenModal] = useState(false);
   const handleOpenModal = () => setOpenModal(true);
   const handleCloseModal = () => setOpenModal(false);
+  const theme = useTheme(); // Use useTheme hook
 
   useEffect(() => {
     fetchToolMgrSettings();
@@ -97,12 +89,10 @@ const ToolMgrSettings = () => {
   );
   const sortedSettings = filteredSettings.sort((a, b) => {
     if (orderBy === "no_of_products") {
-      // Numeric comparison
       return order === "asc"
         ? a[orderBy] - b[orderBy]
         : b[orderBy] - a[orderBy];
     } else {
-      // String comparison for other columns (CustomerName, Status)
       return order === "asc"
         ? a[orderBy].localeCompare(b[orderBy])
         : b[orderBy].localeCompare(a[orderBy]);
@@ -110,148 +100,146 @@ const ToolMgrSettings = () => {
   });
 
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "100vh",
-        backgroundColor: (theme) => theme.palette.background.default,
-      }}
-    >
-      {" "}
-      <Header title="Tool Manager Settings" />
-      <Container sx={{ flex: 1, paddingBottom: "60px", marginTop: "16px" }}>
-        <Box sx={{ flex: "1 0 auto" }}>
-          <Box
-            sx={{
-              border: "1px solid #ccc",
-              borderRadius: "4px",
-              padding: "8px",
-              marginBottom: "8px",
-              background: "#f5f5f5",
-              display: "flex", // Add display flex
-              alignItems: "center", // Align items vertically
-              justifyContent: "space-between", // Space between search and button
-            }}
-          >
-            <Box sx={{ display: "flex", alignItems: "center", width: "80%" }}>
-              <TextField
-                label="Search"
-                variant="outlined"
-                fullWidth
-                margin="normal"
-                value={search}
-                onChange={handleSearch}
-                placeholder="Customer Name"
-                InputProps={{
-                  startAdornment: (
-                    <InputAdornment position="start">
-                      <SearchIcon />
-                    </InputAdornment>
-                  ),
-                }}
-                sx={{ mr: 1, minHeight: "56px", background: "white" }}
-              />
-            </Box>
-            <Button
-              variant="contained"
-              color="primary"
-              sx={{ height: "56px" }}
-              onClick={handleOpenModal}
-            >
-              Add Catalog
-            </Button>
+    <MasterLayout title="Tool Manager Settings">
+      <Box sx={{ flex: "1 0 auto" }}>
+        <Box
+          sx={{
+            border: `1px solid ${theme.palette.divider}`, // Use theme divider
+            borderRadius: "4px",
+            padding: "8px",
+            marginBottom: "8px",
+            background:
+              theme.palette.mode === "dark"
+                ? theme.palette.grey[800]
+                : "#f5f5f5", // Use theme background
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Box sx={{ display: "flex", alignItems: "center", width: "80%" }}>
+            <TextField
+              label="Search"
+              variant="outlined"
+              fullWidth
+              margin="normal"
+              value={search}
+              onChange={handleSearch}
+              placeholder="Customer Name"
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <SearchIcon />
+                  </InputAdornment>
+                ),
+              }}
+              sx={{
+                mr: 1,
+                minHeight: "56px",
+                background: theme.palette.background.paper,
+              }} // Use theme background
+            />
           </Box>
-          <TableContainer component={Paper}>
-            <Table>
-              <TableHead>
-                <TableRow
-                  style={{ backgroundColor: darkMode ? "#333" : "#f5f5f5" }}
-                >
-                  <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
-                    <TableSortLabel
-                      active={orderBy === "CustomerName"}
-                      direction={orderBy === "CustomerName" ? order : "asc"}
-                      onClick={() => handleRequestSort("CustomerName")}
-                    >
-                      Customer Name
-                    </TableSortLabel>
-                  </TableCell>
-                  <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
-                    <TableSortLabel
-                      active={orderBy === "no_of_products"}
-                      direction={orderBy === "no_of_products" ? order : "asc"}
-                      onClick={() => handleRequestSort("no_of_products")}
-                    >
-                      No. of Products
-                    </TableSortLabel>
-                  </TableCell>
-                  <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
-                    <TableSortLabel
-                      active={orderBy === "Status"}
-                      direction={orderBy === "Status" ? order : "asc"}
-                      onClick={() => handleRequestSort("Status")}
-                    >
-                      Status
-                    </TableSortLabel>
-                  </TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {sortedSettings
-                  .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                  .map((setting) => (
-                    <TableRow key={setting._id}>
-                      <TableCell>{setting.CustomerName}</TableCell>
-                      <TableCell>{setting.no_of_products}</TableCell>
-                      <TableCell>
-                        <Tooltip title={setting.Status}>
-                          {setting.Status === "active" ? (
-                            <Chip
-                              icon={
-                                <CheckCircleIcon style={{ color: "#296804" }} />
-                              }
-                              label="Active"
-                              style={{
-                                backgroundColor: "#EDF2E8",
-                                color: "#296804",
-                                border: "1px solid green",
-                              }}
-                              size="small"
-                            />
-                          ) : (
-                            <Chip
-                              icon={<CancelIcon style={{ color: "#A91700" }} />}
-                              label="Inactive"
-                              style={{
-                                backgroundColor: "#F8EEEC",
-                                color: "#A91700",
-                                border: "1px solid #A91700",
-                              }}
-                              size="small"
-                            />
-                          )}
-                        </Tooltip>
-                      </TableCell>
-                    </TableRow>
-                  ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-          <TablePagination
-            rowsPerPageOptions={[10, 20, 30]}
-            component="div"
-            count={sortedSettings.length}
-            rowsPerPage={rowsPerPage}
-            page={page}
-            onPageChange={handleChangePage}
-            onRowsPerPageChange={handleChangeRowsPerPage}
-          />
+          <Button
+            variant="contained"
+            color="primary"
+            sx={{ height: "56px" }}
+            onClick={handleOpenModal}
+          >
+            Add Catalog
+          </Button>
         </Box>
-      </Container>
-      <Footer sx={{ flexShrink: 0 }} />
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead>
+              <TableRow
+                style={{
+                  backgroundColor:
+                    theme.palette.mode === "dark" ? "#333" : "#f5f5f5",
+                }} // Use theme background
+              >
+                <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
+                  <TableSortLabel
+                    active={orderBy === "CustomerName"}
+                    direction={orderBy === "CustomerName" ? order : "asc"}
+                    onClick={() => handleRequestSort("CustomerName")}
+                  >
+                    Customer Name
+                  </TableSortLabel>
+                </TableCell>
+                <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
+                  <TableSortLabel
+                    active={orderBy === "no_of_products"}
+                    direction={orderBy === "no_of_products" ? order : "asc"}
+                    onClick={() => handleRequestSort("no_of_products")}
+                  >
+                    No. of Products
+                  </TableSortLabel>
+                </TableCell>
+                <TableCell sx={{ fontWeight: "bold", fontSize: "1.1rem" }}>
+                  <TableSortLabel
+                    active={orderBy === "Status"}
+                    direction={orderBy === "Status" ? order : "asc"}
+                    onClick={() => handleRequestSort("Status")}
+                  >
+                    Status
+                  </TableSortLabel>
+                </TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {sortedSettings
+                .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                .map((setting) => (
+                  <TableRow key={setting._id}>
+                    <TableCell>{setting.CustomerName}</TableCell>
+                    <TableCell>{setting.no_of_products}</TableCell>
+                    <TableCell>
+                      <Tooltip title={setting.Status}>
+                        {setting.Status === "active" ? (
+                          <Chip
+                            icon={
+                              <CheckCircleIcon style={{ color: "#296804" }} />
+                            }
+                            label="Active"
+                            style={{
+                              backgroundColor: "#EDF2E8",
+                              color: "#296804",
+                              border: "1px solid green",
+                            }}
+                            size="small"
+                          />
+                        ) : (
+                          <Chip
+                            icon={<CancelIcon style={{ color: "#A91700" }} />}
+                            label="Inactive"
+                            style={{
+                              backgroundColor: "#F8EEEC",
+                              color: "#A91700",
+                              border: "1px solid #A91700",
+                            }}
+                            size="small"
+                          />
+                        )}
+                      </Tooltip>
+                    </TableCell>
+                  </TableRow>
+                ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+        <TablePagination
+          rowsPerPageOptions={[10, 20, 30]}
+          component="div"
+          count={sortedSettings.length}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage}
+        />
+      </Box>
+
       <Loading isLoading={isLoading} />
-      {/* Add Catalog Modal */}
       <Modal
         open={openModal}
         onClose={handleCloseModal}
@@ -265,15 +253,12 @@ const ToolMgrSettings = () => {
             left: "50%",
             transform: "translate(-50%, -50%)",
             width: 400,
-            bgcolor: "background.paper",
-            border: "2px solid #000",
-            boxShadow: 24,
-            // Remove padding from the outer Box
+            bgcolor: theme.palette.background.paper, // Use theme background
+            border: `2px solid ${theme.palette.divider}`, // Use theme divider
+            boxShadow: theme.shadows[24], // Use theme shadows
           }}
         >
           <Box sx={{ p: 1 }}>
-            {" "}
-            {/* Add padding to the inner Box */}
             <Box
               sx={{
                 display: "flex",
@@ -288,19 +273,15 @@ const ToolMgrSettings = () => {
                 component="h2"
                 fontWeight="bold"
               >
-                {" "}
-                {/* Make header bold */}
                 Add Catalog
               </Typography>
               <IconButton aria-label="close" onClick={handleCloseModal}>
                 <CloseIcon />
               </IconButton>
             </Box>
-          </Box>{" "}
-          <Divider /> {/* Add divider below header */}
-          <Box sx={{ pl:2,pr:2}}>
-            {" "}
-            {/* Add padding to the inner Box */}
+          </Box>
+          <Divider />
+          <Box sx={{ pl: 2, pr: 2 }}>
             <TextField
               label="Catalog Name*"
               variant="outlined"
@@ -308,8 +289,6 @@ const ToolMgrSettings = () => {
               margin="normal"
             />
             <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-              {" "}
-              {/* Add flexDirection: 'column' and gap */}
               <FormControlLabel control={<Checkbox />} label="Active" />
               <FormControlLabel
                 control={<Checkbox />}
@@ -323,18 +302,16 @@ const ToolMgrSettings = () => {
               margin="normal"
             />
           </Box>
-          <Divider sx={{ my: 0,mt:1 }} /> {/* Add divider above buttons */}
+          <Divider sx={{ my: 0, mt: 1 }} />
           <Box
             sx={{
               display: "flex",
               justifyContent: "flex-end",
               mt: 0,
-              bgcolor: "grey.100",
+              bgcolor: theme.palette.grey[100], // Use theme background
               p: 2,
             }}
           >
-            {" "}
-            {/* Add background color */}
             <Button variant="contained" color="primary" sx={{ mr: 1 }}>
               Save
             </Button>
@@ -344,7 +321,7 @@ const ToolMgrSettings = () => {
           </Box>
         </Box>
       </Modal>
-    </Box>
+    </MasterLayout>
   );
 };
 

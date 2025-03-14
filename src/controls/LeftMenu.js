@@ -20,7 +20,7 @@ import {
   Assignment,
   AssignmentTurnedIn,
   ViewList,
-  Inventory
+  Inventory,Groups 
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useThemeContext } from '../context/ThemeContext';
@@ -76,6 +76,12 @@ const LeftMenu = ({ open, onClose }) => {
       text: 'Inventory Manager Settings',
       icon: <Inventory />, // Changed to ViewList icon
       onClick: () => navigate('/invmgrsets'),
+    },
+
+    {
+      text: 'GL CUSTOMERS',
+      icon: <Groups  />, // Changed to ViewList icon
+      onClick: () => navigate('/glcustomers'),
     },
     
   ];
