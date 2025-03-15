@@ -64,6 +64,7 @@ const GlNewcustomer = () => {
 
   return (
     <MasterLayout title={"NEW GL CUSTOMER"}>
+       <Box sx={{ padding: '20px', border: `1px solid ${theme.palette.divider}`, borderRadius: '5px', backgroundColor: theme.palette.background.paper }}> {/* Use theme divider and background */}
       <Box sx={{ padding: "20px 40px" }}>
         <Grid container spacing={2} alignItems="center" sx={{ marginBottom: "20px" }}>
           <Grid item xs={12} sm={3}>
@@ -229,6 +230,7 @@ const GlNewcustomer = () => {
         </Box>
       </Box>
       <ToastContainer />
+      </Box>
     </MasterLayout>
   );
 };

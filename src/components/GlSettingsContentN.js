@@ -20,8 +20,9 @@ import {
   CreditCardOutlined,
   ShoppingCartOutlined,
 } from '@mui/icons-material';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
-const DashboardCard = ({ icon: Icon, title, subtitle, extraContent, chip, action }) => {
+const DashboardCard = ({ icon: Icon, title, subtitle, extraContent, chip, action,onClick  }) => {
   const theme = useTheme();
   const [isHovered, setIsHovered] = useState(false);
 
@@ -43,6 +44,7 @@ const DashboardCard = ({ icon: Icon, title, subtitle, extraContent, chip, action
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={onClick} // Add onClick handler
     >
       <Box
         sx={{
@@ -96,6 +98,19 @@ const DashboardCard = ({ icon: Icon, title, subtitle, extraContent, chip, action
 function Dashboard() {
   const theme = useTheme();
 
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleCednetCustomersClick = () => {
+    navigate('/glcednetcustomers'); // Navigate to the GLcednetcustomers route
+  };
+
+  const handleProductoperationsClick = () => {
+    navigate('/glproductdb'); // Navigate to the GLcednetcustomers route
+  };
+
+  
+
+
   return (
     <Box sx={{ bgcolor: theme.palette.background.default, minHeight: '100vh', py: 4 }}>
       <Container>
@@ -110,6 +125,7 @@ function Dashboard() {
               icon={PeopleOutlined}
               title="CEDNET Customers"
               subtitle="8 Active Accounts"
+              onClick={handleCednetCustomersClick} // Add onClick handler
             />
             <DashboardCard
               icon={LinkIcon}
@@ -143,6 +159,7 @@ function Dashboard() {
               icon={Upload}
               title="Upload Products Excel"
               subtitle="16 Recent Uploads"
+              onClick={handleProductoperationsClick} // Add onClick handler
               action={
                 <Button variant="contained" size="small">
                   Upload

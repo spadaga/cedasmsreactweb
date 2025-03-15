@@ -16,6 +16,9 @@ import InvMgrSettings from './components/InvMgrSettings';
 import Glcustomers from './components/Glcustomers';
 import GlNewcustomer from './components/GlNewcustomer';
 import GLmanagecustomer from './components/GLmanagecustomer';
+import GLcednetcustomers from './components/GLcednetcustomers';
+import ProductsDashboard from './components/GLProductsDashboard';
+import GLProductUpload from './components/GLProductUpload';
 
 
 
@@ -54,6 +57,12 @@ function App() {
         <Route path="/glnewcustomers" element={<GlNewcustomer />} />
 
         <Route path="/glmanagecustomer" element={<GLmanagecustomer />} />
+
+        <Route path="/glcednetcustomers" element={<GLcednetcustomers />} />
+
+        <Route path="/glproductdb" element={<ProductsDashboard />} />
+
+        <Route path="/glproductupload" element={<GLProductUpload />} />
 
 
       </Routes>
