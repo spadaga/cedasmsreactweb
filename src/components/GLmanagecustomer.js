@@ -18,6 +18,8 @@ import EditIcon from '@mui/icons-material/Edit';
 import Dashboard from './GlSettingsContentN';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'; // Import ArrowBackIcon
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import GLDynamicHeader from '../controls/GLDynamicHeader';
+import LoremIpsum from 'react-lorem-ipsum';
 
 const GLmanagecustomer = () => {
   const [isEditing, setIsEditing] = useState(false);
@@ -82,14 +84,25 @@ const GLmanagecustomer = () => {
     <MasterLayout title="MANAGE GL CUSTOMER">
       <Box sx={{ padding: '20px', border: `1px solid ${theme.palette.divider}`, borderRadius: '5px', backgroundColor: theme.palette.background.paper }}> {/* Use theme divider and background */}
 
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+
+         <GLDynamicHeader
+                title="MANAGE GL CUSTOMER "
+                descriptionContent={<p><LoremIpsum p={2} /></p>}
+                showBackButton={true}
+                backButtonHandler={handleBack}
+                showAddButton={true}
+                addButtonText= {isEditing ? 'Save' : 'Edit'}
+                addButtonHandler={handleEditToggle}
+              />
+
+      {/* <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
                     <StyledButton variant="text" onClick={handleBack} startIcon={<ArrowBackIcon />}>
                         Back
                     </StyledButton>
                     <StyledButton variant="text" startIcon={<EditIcon />} onClick={handleEditToggle}>
                         {isEditing ? 'Save' : 'Edit'}
                     </StyledButton>
-                </Box>
+                </Box> */}
 
         <Grid container sx={{ border: `1px solid ${theme.palette.divider}` }}> {/* Use theme divider */}
           <StyledGrid item xs={12} sm={3} sx={{ backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[800] : '#f5f5f5' }}> {/* Use theme background based on mode */}

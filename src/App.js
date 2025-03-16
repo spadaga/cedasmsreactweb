@@ -19,6 +19,7 @@ import GLmanagecustomer from './components/GLmanagecustomer';
 import GLcednetcustomers from './components/GLcednetcustomers';
 import ProductsDashboard from './components/GLProductsDashboard';
 import GLProductUpload from './components/GLProductUpload';
+import GLSearchProductCatalog from './components/GLSearchProductCatalog';
 
 
 
@@ -63,6 +64,8 @@ function App() {
         <Route path="/glproductdb" element={<ProductsDashboard />} />
 
         <Route path="/glproductupload" element={<GLProductUpload />} />
+
+        <Route path="/glproductsearch" element={<GLSearchProductCatalog />} />
 
 
       </Routes>

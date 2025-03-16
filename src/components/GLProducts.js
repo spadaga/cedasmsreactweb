@@ -84,7 +84,7 @@ const GLProducts = () => {
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <Button variant="outlined" sx={{ marginRight: '10px', height: buttonHeight }} startIcon={<AddIcon />}>
-            + ADD PRODUCTS
+             ADD PRODUCTS
           </Button>
           <Button variant="outlined" sx={{ marginRight: '10px', height: buttonHeight }} startIcon={<RefreshIcon />}>
             REFRESH PRICE

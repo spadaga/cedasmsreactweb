@@ -25,6 +25,8 @@ import Inventory2Icon from '@mui/icons-material/Inventory2';
 import MasterLayout from '../Layout/MasterLayout';
 import { useNavigate, useLocation } from 'react-router-dom';
 import GLProducts from './GLProducts';
+import GLDynamicHeader from '../controls/GLDynamicHeader';
+import LoremIpsum from 'react-lorem-ipsum';
 
 
 const ProductsDashboard = () => {
@@ -46,7 +48,10 @@ const ProductsDashboard = () => {
     navigate('/glproductupload'); // Redirect to GLProductUpload
     setOpen(false); // Close the modal
   };
-
+  const handleSearchAndAdd = () => {
+    navigate('/glproductsearch');
+    setOpen(false); // Close the modal
+  };
 
     // Check if the user came from the GLProductUpload page
     const cameFromUpload = location.state && location.state.fromUpload;
@@ -56,84 +61,183 @@ const ProductsDashboard = () => {
       setShowGLProducts(true);
       setOpen(false);
     }
-
+    const handleBack = () => {
+      navigate('/glmanagecustomer'); // Navigate to /glnewcustomers
+  };
     
 
   return (
     <MasterLayout title="Products Dashboard">
       <Box
         sx={{
-          padding: '20px',
+          padding: "20px",
           border: `1px solid ${theme.palette.divider}`,
-          borderRadius: '5px',
-          backgroundColor: theme.palette.mode === 'dark' ? theme.palette.background.paper : '#F8F9FC',
+          borderRadius: "5px",
+          backgroundColor:
+            theme.palette.mode === "dark"
+              ? theme.palette.background.paper
+              : "#F8F9FC",
         }}
       >
-        <Box sx={{ padding: 3, minHeight: '100vh' }}>
-          <Typography variant="h6" gutterBottom>
-            Dashboard / Products
-          </Typography>
+        <Box sx={{ minHeight: "100vh" }}>
+          <GLDynamicHeader
+            title="Products Dashboard "
+            descriptionContent={
+              <p>
+                <LoremIpsum p={2} />
+              </p>
+            }
+            showBackButton={true}
+            backButtonHandler={handleBack}
+            showAddButton={true}
+            addButtonText={
+              <>
+                {<AddIcon />}
+                ADD PRODUCTS
+              </>
+            }
+            addButtonHandler={handleClickOpen}
+          />
 
-          <TableContainer component={Paper} sx={{ marginBottom: 3 }}>
-            <Table aria-label="customer connection table">
-              <TableHead>
-                <TableRow>
-                  <TableCell sx={{ borderBottom: 'none', fontWeight: 'bold', width: '20%' }}>
+          <TableContainer
+            component={Paper}
+            sx={{ marginBottom: 3, borderBottom: "none" }}
+          >
+            <Table
+              aria-label="customer connection table"
+              sx={{ m: "16px 0px", borderBottom: "none" }}
+            >
+              <TableHead sx={{ borderBottom: "none" }}>
+                <TableRow sx={{ borderBottom: "none" }}>
+                  <TableCell
+                    sx={{
+                      borderBottom: "none",
+                      fontWeight: "bold",
+                      width: "20%",
+                      padding: "0px 16PX",
+                      paddingTop: "8px",
+                    }}
+                  >
                     CUSTOMER
                   </TableCell>
-                  <TableCell sx={{ borderBottom: 'none', fontWeight: 'bold', width: '25%' }}>
+                  <TableCell
+                    sx={{
+                      borderBottom: "none",
+                      fontWeight: "bold",
+                      width: "25%",
+                      padding: "0px 16PX",
+                      paddingTop: "8px",
+                    }}
+                  >
                     CONNECTION STATUS
                   </TableCell>
-                  <TableCell sx={{ borderBottom: 'none', fontWeight: 'bold', width: '30%' }}>
+                  <TableCell
+                    sx={{
+                      borderBottom: "none",
+                      fontWeight: "bold",
+                      width: "30%",
+                      padding: "0px 16PX",
+                      paddingTop: "8px",
+                    }}
+                  >
                     CONNECTION TYPE
                   </TableCell>
-                  <TableCell sx={{ borderBottom: 'none', fontWeight: 'bold', width: '25%' }}>
+                  <TableCell
+                    sx={{
+                      borderBottom: "none",
+                      fontWeight: "bold",
+                      width: "25%",
+                      padding: "0px 16PX",
+                      paddingTop: "8px",
+                    }}
+                  >
                     LAST TRANSMITTED ON
                   </TableCell>
                 </TableRow>
               </TableHead>
-              <TableBody>
-                <TableRow>
-                  <TableCell sx={{ padding: '8px 16px', width: '20%' }}>ABC-Electricals</TableCell>
-                  <TableCell sx={{ padding: '8px 16px', width: '25%' }}>
+              <TableBody sx={{ marginBottom: 4, borderBottom: "none" }}>
+                <TableRow sx={{ marginBottom: 4, borderBottom: "none" }}>
+                  <TableCell
+                    sx={{
+                      padding: "8px 16px",
+                      width: "20%",
+                      borderBottom: "none",
+                    }}
+                  >
+                    ABC-Electricals
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      padding: "8px 16px",
+                      width: "25%",
+                      borderBottom: "none",
+                    }}
+                  >
                     <Box display="flex" alignItems="center">
-                      <CheckCircleIcon sx={{ color: 'green', marginRight: 1 }} />
+                      <CheckCircleIcon
+                        sx={{ color: "green", marginRight: 1 }}
+                      />
                       Connected
                     </Box>
                   </TableCell>
-                  <TableCell sx={{ padding: '8px 16px', width: '30%' }}>
+                  <TableCell
+                    sx={{
+                      padding: "8px 16px",
+                      width: "30%",
+                      borderBottom: "none",
+                    }}
+                  >
                     NetSuite(Account Id:57525)
                   </TableCell>
-                  <TableCell sx={{ padding: '8px 16px', width: '25%' }}>12/12/2022</TableCell>
+                  <TableCell
+                    sx={{
+                      padding: "8px 16px",
+                      width: "25%",
+                      borderBottom: "none",
+                    }}
+                  >
+                    12/12/2022
+                  </TableCell>
                 </TableRow>
               </TableBody>
             </Table>
           </TableContainer>
 
-         
-          <Box display="flex" justifyContent="space-between" alignItems="center" marginBottom={2}>
+          {/* <Box display="flex" justifyContent="space-between" alignItems="center" marginBottom={2}>
             <Typography variant="h5">Products</Typography>
             <Button variant="contained" onClick={handleClickOpen} startIcon={<AddIcon />}>
               Add Products
             </Button>
-          </Box>
+          </Box> */}
 
           {showGLProducts ? (
             <GLProducts />
           ) : (
-            <Paper sx={{ padding: 4, textAlign: 'center' }}>
-              <Grid container justifyContent="center" alignItems="center" direction="column" spacing={2}>
+            <Paper sx={{ padding: 4, textAlign: "center" }}>
+              <Grid
+                container
+                justifyContent="center"
+                alignItems="center"
+                direction="column"
+                spacing={2}
+              >
                 <Grid item>
-                  <Inventory2Icon sx={{ fontSize: 150, color: 'grey' }} />
+                  <Inventory2Icon sx={{ fontSize: 150, color: "grey" }} />
                 </Grid>
                 <Grid item>
                   <Typography variant="h6">No Products Found</Typography>
                 </Grid>
                 <Grid item>
-                  <Typography variant="body2">Start by adding products to your inventory.</Typography>
+                  <Typography variant="body2">
+                    Start by adding products to your inventory.
+                  </Typography>
                 </Grid>
                 <Grid item>
-                  <Button variant="contained" startIcon={<AddIcon />} onClick={handleShowGLProducts}>
+                  <Button
+                    variant="contained"
+                    startIcon={<AddIcon />}
+                    onClick={handleShowGLProducts}
+                  >
                     Add Products
                   </Button>
                 </Grid>
@@ -150,24 +254,25 @@ const ProductsDashboard = () => {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-       
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             <Button
               variant="contained"
-              style={{ marginBottom: '10px', display: 'block', width: '100%' }}
+              style={{ marginBottom: "10px", display: "block", width: "100%" }}
               onClick={handleUploadFromExcel} // Add onClick handler
             >
               UPLOAD PRODUCTS FROM EXCEL
             </Button>
-            <Button variant="contained" style={{ display: 'block', width: '100%' }}>
+            <Button
+              variant="contained"
+              style={{ display: "block", width: "100%" }}
+              onClick={handleSearchAndAdd}
+            >
               SEARCH AND ADD PRODUCTS TO THE CATALOG
             </Button>
           </DialogContentText>
         </DialogContent>
-        <DialogActions>
-        
-        </DialogActions>
+        <DialogActions></DialogActions>
       </Dialog>
     </MasterLayout>
   );
