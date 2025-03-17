@@ -10,21 +10,38 @@ import {
   Select,
   MenuItem,
   FormControl,
-  InputLabel,
+  InputLabel,styled
 } from "@mui/material";
 
-function GLProductGridView({ products, page, itemsPerPage, handlePageChange, handleItemsPerPageChange }) {
+function GLProductGridView({ products, page, itemsPerPage, handlePageChange, handleItemsPerPageChange,searchQuery }) {
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const currentProducts = products.slice(startIndex, endIndex);
+ // const currentProducts = products.slice(startIndex, endIndex);
+  const paginatedProducts = products.slice(startIndex, endIndex);
+
+
+    if (!paginatedProducts || paginatedProducts.length === 0) {
+      return (
+        <Grid item xs={12}>
+          <Typography variant="body1">No products found.</Typography>
+        </Grid>
+      );
+    }
+
+    const StyledCardContent = styled(CardContent)(({ theme }) => ({
+      display: "flex",
+      flexDirection: "column",
+      flexGrow: 1, // Allow content to grow and fill available space
+    }));
+    
 
   return (
     <Grid container spacing={2}>
-      {currentProducts.map((product) => (
-        <Grid item xs={12} sm={6} md={4} lg={3} key={product.title}>
-          <Card>
+      {paginatedProducts.map((product) => (
+        <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
+          <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }}>
             <CardMedia component="img" height="140" image={product.image} alt={product.title} />
-            <CardContent>
+            <StyledCardContent>
               <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
                 {product.title}
               </Typography>
@@ -37,10 +54,10 @@ function GLProductGridView({ products, page, itemsPerPage, handlePageChange, han
               <Typography variant="subtitle2" sx={{ fontSize: "0.9rem", fontWeight: 600 }}>
                 ${product.price} /each
               </Typography>
-              <Button variant="contained" fullWidth sx={{ mt: 1, textTransform: "none" }}>
+              <Button variant="contained" fullWidth sx={{ mt: 'auto', textTransform: "none" }}>
                 Add to List
               </Button>
-            </CardContent>
+            </StyledCardContent>
           </Card>
         </Grid>
       ))}
