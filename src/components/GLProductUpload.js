@@ -74,24 +74,7 @@ const GLProductUpload = () => {
         <Box sx={{  minHeight: "100vh" }}>
           {/* Back Button */}
 
-          <Box
-            sx={{
-              padding: "20px",
-              border: `1px solid ${theme.palette.divider}`,
-              borderRadius: "5px",
-              backgroundColor: theme.palette.background.paper,
-              marginBottom: 2,
-            }}
-          >
-            <Box
-              sx={{
-                backgroundColor: "theme.palette.background.paper",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "flex-end",
-                marginBottom: 2,
-              }}
-            >
+          
               <GLDynamicHeader
                 title="Product Upload "
                 descriptionContent={
@@ -104,13 +87,17 @@ const GLProductUpload = () => {
               />
 
               <Box sx={{ width: "100%" }}>
-                
+              <Box
+              sx={{ display: "flex", alignItems: "center", marginBottom: 2 }}
+            >
                 <DynamicAutocomplete
                   options={pcData}
+                 
                   getOptionLabel={(option) => option[labelKey]}
                 />
-              </Box>
-            </Box>
+                </Box>
+              
+          
             <Box
               sx={{ display: "flex", alignItems: "center", marginBottom: 2 }}
             >
@@ -135,7 +122,7 @@ const GLProductUpload = () => {
               Product catalog Template.xls
             </Link>{" "}
           </Box>
-
+       
           <TableContainer component={Paper}>
             <Table aria-label="product upload table">
               <TableHead sx={{ backgroundColor: theme.palette.action.hover }}>
@@ -213,8 +200,7 @@ const GLProductUpload = () => {
               </TableBody>
             </Table>
           </TableContainer>
-        </Box>
-      </Box>
+          </Box></Box>
     </MasterLayout>
   );
 };

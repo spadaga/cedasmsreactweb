@@ -20,6 +20,7 @@ import GLcednetcustomers from './components/GLcednetcustomers';
 import ProductsDashboard from './components/GLProductsDashboard';
 import GLProductUpload from './components/GLProductUpload';
 import GLSearchProductCatalog from './components/GLSearchProductCatalog';
+import GLProductDetails from './components/GLProductDetails';
 
 
 
@@ -66,6 +67,8 @@ function App() {
         <Route path="/glproductupload" element={<GLProductUpload />} />
 
         <Route path="/glproductsearch" element={<GLSearchProductCatalog />} />
+
+        <Route path="/glproductdetails" element={<GLProductDetails />} />
 
 
       </Routes>

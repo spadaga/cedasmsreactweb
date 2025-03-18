@@ -113,7 +113,7 @@ const LeftMenu = ({ open, onClose }) => {
         <Avatar sx={{ width: 60, height: 60, marginBottom: '8px' , cursor: 'pointer'}}>
           <AccountCircle sx={{ width: 40, height: 40 }} />
         </Avatar>
-        <Typography variant="subtitle1">Shahul Karthik Chandra</Typography>
+        <Typography variant="subtitle1">KMSACASK</Typography>
       </Box>
 
       <List sx={{ flexGrow: 1 }}>

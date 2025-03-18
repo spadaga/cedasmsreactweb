@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Tooltip, useTheme } from '@mui/material';
+import { Box, Typography, Button, Tooltip, useTheme , useMediaQuery } from '@mui/material';
 import { ArrowBack } from '@mui/icons-material';
 import { LoremIpsum } from 'react-lorem-ipsum';
 import { useRef, useEffect, useState } from 'react';
@@ -18,6 +18,9 @@ function GLDynamicHeader({
   const loremRef = useRef(null);
   const [fullText, setFullText] = useState("");
 
+  
+    const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
   useEffect(() => {
     if(loremRef.current && showDescription){
       setFullText(loremRef.current.textContent);
@@ -28,10 +31,11 @@ function GLDynamicHeader({
     <Box>
       <Box
         sx={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          mb: 0,
+          display: "flex",
+            flexDirection: isSmallScreen ? "column" : "row", // Stack on small screens
+            justifyContent: "space-between",
+            alignItems: isSmallScreen ? "flex-start" : "center", // Align left on small screens
+            mb: 2,
         }}
       >
         <Typography
@@ -40,11 +44,12 @@ function GLDynamicHeader({
             fontWeight: 600,
             fontSize: '1.5rem',
             color: theme.palette.text.primary,
+            mb: isSmallScreen ? 1 : 0, // Add margin bottom on small screens
           }}
         >
           {title}
         </Typography>
-        <Box display="flex">
+       <Box display="flex" sx={{ mt: isSmallScreen ? 1 : 0 }}>
           {showBackButton && (
             <Button
               variant="outlined"

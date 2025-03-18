@@ -12,12 +12,21 @@ import {
   FormControl,
   InputLabel,styled
 } from "@mui/material";
+import ImageChecker from "../controls/ImageChecker";
 
 function GLProductGridView({ products, page, itemsPerPage, handlePageChange, handleItemsPerPageChange,searchQuery }) {
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
  // const currentProducts = products.slice(startIndex, endIndex);
-  const paginatedProducts = products.slice(startIndex, endIndex);
+
+ const sortedProducts = [...products].sort((a, b) => {
+  // Example: Sort by product title alphabetically
+  if (a.title < b.title) return -1;
+  if (a.title > b.title) return 1;
+  return 0;
+});
+
+  const paginatedProducts = sortedProducts.slice(startIndex, endIndex);
 
 
     if (!paginatedProducts || paginatedProducts.length === 0) {
@@ -40,18 +49,21 @@ function GLProductGridView({ products, page, itemsPerPage, handlePageChange, han
       {paginatedProducts.map((product) => (
         <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
           <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }}>
-            <CardMedia component="img" height="140" image={product.image} alt={product.title} />
+           
+         
+          <ImageChecker imageUrl={product.image}  />
+         
             <StyledCardContent>
-              <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
+              <Typography variant="subtitle1" sx={{ fontWeight: 600 ,fontSize: "0.8rem" ,lineHeight:"1",pb:1}}>
                 {product.title}
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: "0.8rem" }}>
+              <Typography variant="body2" sx={{ fontSize: "0.8rem",opacity:0.7 }}>
                 {product.manufacturer}
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: "0.8rem" }}>
+              <Typography variant="body2" sx={{ fontSize: "0.8rem",opacity:0.7  }}>
                 {product.model}
               </Typography>
-              <Typography variant="subtitle2" sx={{ fontSize: "0.9rem", fontWeight: 600 }}>
+              <Typography variant="subtitle2" sx={{ fontSize: "0.9rem", fontWeight: 600,opacity:0.8}}>
                 ${product.price} /each
               </Typography>
               <Button variant="contained" fullWidth sx={{ mt: 'auto', textTransform: "none" }}>
@@ -61,7 +73,7 @@ function GLProductGridView({ products, page, itemsPerPage, handlePageChange, han
           </Card>
         </Grid>
       ))}
-      <Grid container justifyContent="space-between" alignItems="center" sx={{ mt: 2 }}>
+      <Grid container justifyContent="space-between" alignItems="center" sx={{ mt: 2,p:2 }}>
         <Grid item>
           <FormControl>
             <InputLabel id="items-per-page-label">Items per page</InputLabel>

@@ -96,7 +96,7 @@ const GlNewcustomer = () => {
       >
         {" "}
         {/* Use theme divider and background */}
-        <Box sx={{ padding: "20px 0px" }}>
+        <Box sx={{ padding: "0px 0px" }}>
           
         <GLDynamicHeader
         title="NEW GL CUSTOMES "

@@ -19,7 +19,7 @@ import {
   Link,
   Modal,
   Alert,
-  Snackbar,
+  Snackbar, useMediaQuery, // Import useMediaQuery
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import customersData from "../data/cednetcustomers.json";
@@ -27,6 +27,7 @@ import CustomAlertRibbon from "../controls/CustomAlertRibbon";
 import RightPanel from "../controls/RightPanelCednetcustomer";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { ArrowBack } from "@mui/icons-material";
+
 
 const GLcednetcustomers = () => {
   const [customers, setCustomers] = useState(customersData);
@@ -42,12 +43,13 @@ const GLcednetcustomers = () => {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
   const navigate = useNavigate(); // Initialize useNavigate
-  
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   const [panelTitle, setPanelTitle] = useState("Edit CEDNET Customer");
   const [isReadOnly, setIsReadOnly] = useState(false); // New state for readonly mode
 
-  const theme = useTheme();
+
 
   const handleBack = () => {
     navigate("/glmanagecustomer"); // Redirect to /glmanagecustomer
@@ -183,8 +185,9 @@ const GLcednetcustomers = () => {
         <Box
           sx={{
             display: "flex",
+            flexDirection: isSmallScreen ? "column" : "row", // Stack on small screens
             justifyContent: "space-between",
-            alignItems: "center",
+            alignItems: isSmallScreen ? "flex-start" : "center", // Align left on small screens
             mb: 2,
           }}
         >
@@ -194,11 +197,12 @@ const GLcednetcustomers = () => {
               fontWeight: 600,
               fontSize: "1.5rem",
               color: theme.palette.text.primary,
+              mb: isSmallScreen ? 1 : 0, // Add margin bottom on small screens
             }}
           >
             CEDNET Customers
           </Typography>
-          <Box display="flex">
+          <Box display="flex" sx={{ mt: isSmallScreen ? 1 : 0 }}>
             <Button
               variant="outlined"
               sx={{ mr: 1, textTransform: "none", fontWeight: 600 }}

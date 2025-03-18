@@ -12,7 +12,8 @@ import {
   ListItemText,
   ListItemIcon,
   Button,
-  Tooltip,
+  useTheme, // Import useTheme
+  Tooltip,useMediaQuery, // Import useMediaQuery
 } from "@mui/material";
 import {
   Brightness4,
@@ -37,6 +38,10 @@ const Header = ({ title }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [notificationOpen, setNotificationOpen] = useState(false);
   const navigate = useNavigate();
+  const mqTheme = useTheme(); // Access the MUI theme
+  const isSmallScreen = useMediaQuery(mqTheme.breakpoints.down('sm')); // Check if screen is small
+
+
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -103,7 +108,7 @@ const Header = ({ title }) => {
       </Box>
 
       <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
-        <Typography variant="h4">{title}</Typography>
+      {!isSmallScreen && <Typography variant="h4">{title}</Typography>}
       </Box>
       <Box sx={{ display: "flex", alignItems: "center" }}>
         <Tooltip title="Toggle Light/Dark Mode">

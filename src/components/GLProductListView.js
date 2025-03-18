@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import noImageFound from '../images/noimage.png';
 import {
   List,
   ListItem,
@@ -15,7 +16,10 @@ import {
   MenuItem,
   FormControl,
   InputLabel,
+  Box,
 } from "@mui/material";
+import ImageChecker from "../controls/ImageChecker";
+import ProductAvatar from "../controls/ProductAvatar";
 
 function GLProductListView({
   products,
@@ -28,6 +32,19 @@ function GLProductListView({
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentProducts = products.slice(startIndex, endIndex);
+
+    const [imageLoaded, setImageLoaded] = useState(false);
+    const [imageError, setImageError] = useState(false);
+  
+    const handleImageLoad = () => {
+      setImageLoaded(true);
+      setImageError(false);
+    };
+  
+    const handleImageError = () => {
+      setImageLoaded(false);
+      setImageError(true);
+    };
 
   console.log("items per page", itemsPerPage);
 
@@ -55,11 +72,25 @@ function GLProductListView({
               <Grid container alignItems="center">
                 <Grid item xs={2} sx={{ padding: 0 }}>
                   <ListItemAvatar sx={{ paddingLeft: 4 }} >
-                    <Avatar
-                      src={product.image}
+
+                    <ProductAvatar 
+                    title={product.title}
+                    imageurl={product.image}
+                    
+                    />
+
+                    {/* <Box sx={{ width: 60, height: 60,padding: 0  }} >
+
+                  <ImageChecker imageUrl={product.image} />
+
+                  </Box> */}
+                    {/* <Avatar
+                      src={imageError ? noImageFound : product.image}
                       alt={product.title}
                       sx={{ width: 60, height: 60,padding: 0  }}
-                    />
+                      onLoad={handleImageLoad}
+                      onError={handleImageError}
+                    /> */}
                   </ListItemAvatar>
                 </Grid>
                 <Grid item xs={6} >

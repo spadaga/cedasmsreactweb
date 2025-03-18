@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton, Box, Typography, Tooltip } from '@mui/material'; // Import Tooltip
+import { IconButton, Box, Typography, Tooltip, useMediaQuery, useTheme } from '@mui/material'; // Import useMediaQuery and useTheme
 
 const logoStyles = {
   square: {
@@ -25,14 +25,17 @@ const logoStyles = {
 };
 
 const Logo = () => {
+  const mqTheme = useTheme();
+  const isSmallScreen = useMediaQuery(mqTheme.breakpoints.down('sm'));
+
   return (
-    <Tooltip title="Navigate to General Ledger "> {/* Add Tooltip */}
-      <IconButton disableRipple sx={{ padding: '0px' }}>
+    <Tooltip title="Navigate to General Ledger ">
+      <IconButton disableRipple sx={{ padding: '0px',marginBottom:"10px" }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', transform: 'translateY(8px)' }}>
           <div style={logoStyles.square}>
             <Typography style={logoStyles.initials}>GL</Typography>
           </div>
-          <Typography style={logoStyles.text}>General Ledger</Typography>
+          {!isSmallScreen && <Typography style={logoStyles.text}>General Ledger</Typography>}
         </Box>
       </IconButton>
     </Tooltip>

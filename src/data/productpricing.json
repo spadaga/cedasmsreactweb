@@ -1,0 +1,345 @@
+[
+    {
+      "location": "0010-YALE-NEWARK 1703",
+      "customer": "ACCENT CONTROLS INC 1356-ACCENT CONTROLS INC",
+      "product": "BSLINE22",
+      "price": 116.05,
+      "unit": "Each"
+    },
+    {
+      "location": "0010-YALE-NEWARK 1703",
+      "customer": "ACCENT CONTROLS INC 1356-ACCENT CONTROLS INC",
+      "product": "BSLINE22",
+      "price": 116.05,
+      "unit": "Each"
+    },
+    {
+      "location": "0051-KANSAS-OMAHA CED AUTOMATION",
+      "customer": "ACCENT CONTROLS INC 1356-ACCENT CONTROLS INC",
+      "product": "",
+      "price": 116.05,
+      "unit": "Each"
+    },
+    {
+      "location": "0051-KANSAS-OMAHA CED AUTOMATION",
+      "customer": "ACCENT CONTROLS INC 1356-ACCENT CONTROLS INC",
+      "product": "",
+      "price": 116.05,
+      "unit": "Each"
+    },
+    {
+      "location": "0130-ALBERTVILLE-AFE",
+      "customer": "COD-BRYAN BROWN",
+      "product": "CAD1",
+      "price": 354.06,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0130-ALBERTVILLE-AFE",
+      "customer": "COD-BRYAN BROWN",
+      "product": "CAD1",
+      "price": 354.06,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0236-AUSTIN-CED GREENTECH",
+      "customer": "A J ELECTRIC SYSTEMS INC",
+      "product": "CHB3",
+      "price": 100,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0236-AUSTIN-CED GREENTECH",
+      "customer": "A J ELECTRIC SYSTEMS INC",
+      "product": "CHB3",
+      "price": 100,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0236-AUSTIN-CED GREENTECH",
+      "customer": "A J ELECTRIC SYSTEMS INC",
+      "product": "HEX1",
+      "price": 46.05,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0236-AUSTIN-CED GREENTECH",
+      "customer": "A J ELECTRIC SYSTEMS INC",
+      "product": "HEX1",
+      "price": 46.05,
+      "unit": "Thousand"
+    },
+      {
+      "location": "0011-YORK-NEWTOWN 1804",
+      "customer": "GLOBAL CONTROLS LLC 1457-GLOBAL CONTROLS LLC",
+      "product": "ASLINE23",
+      "price": 120.50,
+      "unit": "Each"
+    },
+    {
+      "location": "0011-YORK-NEWTOWN 1804",
+      "customer": "GLOBAL CONTROLS LLC 1457-GLOBAL CONTROLS LLC",
+      "product": "ASLINE23",
+      "price": 120.50,
+      "unit": "Each"
+    },
+    {
+      "location": "0052-KENTUCKY-LOUISVILLE ABC AUTOMATION",
+      "customer": "GLOBAL CONTROLS LLC 1457-GLOBAL CONTROLS LLC",
+      "product": "",
+      "price": 120.50,
+      "unit": "Each"
+    },
+    {
+      "location": "0052-KENTUCKY-LOUISVILLE ABC AUTOMATION",
+      "customer": "GLOBAL CONTROLS LLC 1457-GLOBAL CONTROLS LLC",
+      "product": "",
+      "price": 120.50,
+      "unit": "Each"
+    },
+    {
+      "location": "0131-BIRMINGHAM-BFE",
+      "customer": "DOE-JOHN SMITH",
+      "product": "BAD2",
+      "price": 360.10,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0131-BIRMINGHAM-BFE",
+      "customer": "DOE-JOHN SMITH",
+      "product": "BAD2",
+      "price": 360.10,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0237-DALLAS-CED BLUE TECH",
+      "customer": "B K ELECTRIC SYSTEMS INC",
+      "product": "DIB4",
+      "price": 110,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0237-DALLAS-CED BLUE TECH",
+      "customer": "B K ELECTRIC SYSTEMS INC",
+      "product": "DIB4",
+      "price": 110,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0237-DALLAS-CED BLUE TECH",
+      "customer": "B K ELECTRIC SYSTEMS INC",
+      "product": "IEY2",
+      "price": 47.10,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0237-DALLAS-CED BLUE TECH",
+      "customer": "B K ELECTRIC SYSTEMS INC",
+      "product": "IEY2",
+      "price": 47.10,
+      "unit": "Thousand"
+    },
+     {
+      "location": "0012-PHILLY-JERSEY 1905",
+      "customer": "POWER CONTROLS INC 1558-POWER CONTROLS INC",
+      "product": "CSLINE24",
+      "price": 125.75,
+      "unit": "Each"
+    },
+    {
+      "location": "0012-PHILLY-JERSEY 1905",
+      "customer": "POWER CONTROLS INC 1558-POWER CONTROLS INC",
+      "product": "CSLINE24",
+      "price": 125.75,
+      "unit": "Each"
+    },
+    {
+      "location": "0053-MICHIGAN-DETROIT DEF AUTOMATION",
+      "customer": "POWER CONTROLS INC 1558-POWER CONTROLS INC",
+      "product": "",
+      "price": 125.75,
+      "unit": "Each"
+    },
+    {
+      "location": "0053-MICHIGAN-DETROIT DEF AUTOMATION",
+      "customer": "POWER CONTROLS INC 1558-POWER CONTROLS INC",
+      "product": "",
+      "price": 125.75,
+      "unit": "Each"
+    },
+    {
+      "location": "0132-CHICAGO-CFE",
+      "customer": "ROE-JANE DOE",
+      "product": "CED3",
+      "price": 370.15,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0132-CHICAGO-CFE",
+      "customer": "ROE-JANE DOE",
+      "product": "CED3",
+      "price": 370.15,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0238-HOUSTON-CED ORANGE TECH",
+      "customer": "C L ELECTRIC SYSTEMS INC",
+      "product": "JEB5",
+      "price": 120,
+      "unit": "Thousand"
+    },
+    {
+      "location": "0238-HOUSTON-CED ORANGE TECH",
+      "customer": "C L ELECTRIC SYSTEMS INC",
+      "product": "JEB5",
+      "price": 120,
+      "unit": "Thousand"
+    },
+    {
+        "location": "0238-HOUSTON-CED ORANGE TECH",
+        "customer": "C L ELECTRIC SYSTEMS INC",
+        "product": "KEZ3",
+        "price": 48.15,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0013-BALTIMORE-ANNAPOLIS 2006",
+        "customer": "SMART CONTROLS INC 1659-SMART CONTROLS INC",
+        "product": "DSLINE25",
+        "price": 130.90,
+        "unit": "Each"
+      },
+      {
+        "location": "0013-BALTIMORE-ANNAPOLIS 2006",
+        "customer": "SMART CONTROLS INC 1659-SMART CONTROLS INC",
+        "product": "DSLINE25",
+        "price": 130.90,
+        "unit": "Each"
+      },
+      {
+        "location": "0054-WISCONSIN-MILWAUKEE GEH AUTOMATION",
+        "customer": "SMART CONTROLS INC 1659-SMART CONTROLS INC",
+        "product": "",
+        "price": 130.90,
+        "unit": "Each"
+      },
+      {
+        "location": "0054-WISCONSIN-MILWAUKEE GEH AUTOMATION",
+        "customer": "SMART CONTROLS INC 1659-SMART CONTROLS INC",
+        "product": "",
+        "price": 130.90,
+        "unit": "Each"
+      },
+      {
+        "location": "0133-DENVER-DFE",
+        "customer": "SOE-MIKE SMITH",
+        "product": "DEF4",
+        "price": 380.20,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0133-DENVER-DFE",
+        "customer": "SOE-MIKE SMITH",
+        "product": "DEF4",
+        "price": 380.20,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0239-PHOENIX-CED VIOLET TECH",
+        "customer": "D M ELECTRIC SYSTEMS INC",
+        "product": "LFB6",
+        "price": 130,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0239-PHOENIX-CED VIOLET TECH",
+        "customer": "D M ELECTRIC SYSTEMS INC",
+        "product": "LFB6",
+        "price": 130,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0239-PHOENIX-CED VIOLET TECH",
+        "customer": "D M ELECTRIC SYSTEMS INC",
+        "product": "MFG4",
+        "price": 49.20,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0239-PHOENIX-CED VIOLET TECH",
+        "customer": "D M ELECTRIC SYSTEMS INC",
+        "product": "MFG4",
+        "price": 49.20,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0014-RICHMOND-NORFOLK 2107",
+        "customer": "ADVANCED CONTROLS INC 1760-ADVANCED CONTROLS INC",
+        "product": "ESLINE26",
+        "price": 135.05,
+        "unit": "Each"
+      },
+      {
+        "location": "0014-RICHMOND-NORFOLK 2107",
+        "customer": "ADVANCED CONTROLS INC 1760-ADVANCED CONTROLS INC",
+        "product": "ESLINE26",
+        "price": 135.05,
+        "unit": "Each"
+      },
+      {
+        "location": "0055-MINNESOTA-MINNEAPOLIS HIF AUTOMATION",
+        "customer": "ADVANCED CONTROLS INC 1760-ADVANCED CONTROLS INC",
+        "product": "",
+        "price": 135.05,
+        "unit": "Each"
+      },
+      {
+        "location": "0055-MINNESOTA-MINNEAPOLIS HIF AUTOMATION",
+        "customer": "ADVANCED CONTROLS INC 1760-ADVANCED CONTROLS INC",
+        "product": "",
+        "price": 135.05,
+        "unit": "Each"
+      },
+      {
+        "location": "0134-SEATTLE-EFE",
+        "customer": "TOE-PETER SMITH",
+        "product": "EFG5",
+        "price": 390.25,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0134-SEATTLE-EFE",
+        "customer": "TOE-PETER SMITH",
+        "product": "EFG5",
+        "price": 390.25,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0240-PORTLAND-CED INDIGO TECH",
+        "customer": "E N ELECTRIC SYSTEMS INC",
+        "product": "NGB7",
+        "price": 140,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0240-PORTLAND-CED INDIGO TECH",
+        "customer": "E N ELECTRIC SYSTEMS INC",
+        "product": "NGB7",
+        "price": 140,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0240-PORTLAND-CED INDIGO TECH",
+        "customer": "E N ELECTRIC SYSTEMS INC",
+        "product": "OHH5",
+        "price": 50.30,
+        "unit": "Thousand"
+      },
+      {
+        "location": "0240-PORTLAND-CED INDIGO TECH",
+        "customer": "E N ELECTRIC SYSTEMS INC",
+        "product": "OHH5",
+        "price": 50.30,
+        "unit": "Thousand"
+      }
+    ]
