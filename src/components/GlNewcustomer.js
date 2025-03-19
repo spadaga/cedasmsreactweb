@@ -28,7 +28,6 @@ import { showToast } from "../utils/toastUtils";
 import { LoremIpsum } from 'react-lorem-ipsum';
 import GLDynamicHeader from "../controls/GLDynamicHeader";
 
-
 const GlNewcustomer = () => {
   const navigate = useNavigate();
   const theme = useTheme();
@@ -59,7 +58,7 @@ const GlNewcustomer = () => {
   }));
 
   const handleBack = () => {
-    console.log('Back button clicked');
+    navigate("/glcustomers");
     // Implement your back navigation logic here
   };
 
@@ -76,6 +75,15 @@ const GlNewcustomer = () => {
       navigate("/glmanagecustomer");
     }, 2500);
   };
+
+
+  
+  const backButtonHandler = () => {
+    navigate(-1); // Go back one page in history
+  }
+  
+
+  
   const loremRef = useRef(null);
   const [fullText, setFullText] = useState("");
 
@@ -101,8 +109,8 @@ const GlNewcustomer = () => {
         <GLDynamicHeader
         title="NEW GL CUSTOMES "
         descriptionContent={<p><LoremIpsum p={2} /></p>}
-        // showBackButton={true}
-        // backButtonHandler={handleBack}
+        showBackButton={true}
+        backButtonHandler={handleBack}
         showAddButton={true}
         addButtonText="SAVE"
         addButtonHandler={handleSave}

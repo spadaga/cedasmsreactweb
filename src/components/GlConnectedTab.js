@@ -21,19 +21,22 @@ const GlConnectedTab = ({
   theme,
   isSmallScreen,
 })  => {
+
 const navigate = useNavigate();
+
+const handlecustomercard = () => {
+  console.log(" clicked")
+
+  navigate("/glmanagecustomer");
+ 
+}
+
 
   if (value !== index) {
     return null;
   }
   
   
-
-const handlecustomercard = () => {
-
-  navigate("/glmanagecustomer");
- 
-}
 
 
 
@@ -58,10 +61,11 @@ const handlecustomercard = () => {
           <Grid item xs={12} sm={6} md={3} key={index}>
             {/* Card Content... (same as your original GLCustomerTabContent) */}
             <Card 
-            onClick={() => handlecustomercard}
+             onClick={handlecustomercard}
               sx={{
                 height: "100%",
                 borderRadius: "10px",
+                cursor:"pointer",
                
                 boxShadow:
                   theme.palette.mode === "dark"
@@ -88,6 +92,7 @@ const handlecustomercard = () => {
               }}
             >
               <CardContent
+               onClick ={handlecustomercard}
                 sx={{
                   display: "flex",
                   flexDirection: "column",
