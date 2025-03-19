@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import PersonOutline from "@mui/icons-material/PersonOutline";
 import logo from "../images/icon128x128.png";
+import { useNavigate } from "react-router-dom";
 
 const GlConnectedTab = ({
   value,
@@ -19,10 +20,23 @@ const GlConnectedTab = ({
   handleCreateNewCustomer,
   theme,
   isSmallScreen,
-}) => {
+})  => {
+const navigate = useNavigate();
+
   if (value !== index) {
     return null;
   }
+  
+  
+
+const handlecustomercard = () => {
+
+  navigate("/glmanagecustomer");
+ 
+}
+
+
+
 
   return (
     <Box sx={{ position: "relative" }}>
@@ -43,10 +57,12 @@ const GlConnectedTab = ({
         {GlCustomers.map((customer, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
             {/* Card Content... (same as your original GLCustomerTabContent) */}
-            <Card
+            <Card 
+            onClick={() => handlecustomercard}
               sx={{
                 height: "100%",
                 borderRadius: "10px",
+               
                 boxShadow:
                   theme.palette.mode === "dark"
                     ? "0px 0px 1px 0px rgba(255, 255, 255, 0.3)"
