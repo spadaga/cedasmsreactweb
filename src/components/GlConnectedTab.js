@@ -12,6 +12,7 @@ import {
 import PersonOutline from "@mui/icons-material/PersonOutline";
 import logo from "../images/icon128x128.png";
 import { useNavigate } from "react-router-dom";
+import GLCustomersStatsGrid from "./GLCustomersStatsGrid";
 
 const GlConnectedTab = ({
   value,
@@ -56,6 +57,8 @@ const handlecustomercard = () => {
       >
         Create New Customer
       </Button>
+
+      <GLCustomersStatsGrid/>
       <Grid container spacing={2}>
         {GlCustomers.map((customer, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
