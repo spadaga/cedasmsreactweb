@@ -150,6 +150,9 @@ const ConnectionForm = () => {
                   ),
                   readOnly: !isEditing && isConnected,
                 }}
+                sx={{
+                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                }}
               />
             </Grid>
             <Grid item xs={12} sx={{ mb: 2 }}>
@@ -167,6 +170,9 @@ const ConnectionForm = () => {
                     </Tooltip>
                   ),
                   readOnly: !isEditing && isConnected,
+                }}
+                sx={{
+                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
                 }}
               />
             </Grid>
@@ -186,6 +192,9 @@ const ConnectionForm = () => {
                   ),
                   readOnly: !isEditing && isConnected,
                 }}
+                sx={{
+                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                }}
               />
             </Grid>
             <Grid item xs={12} sx={{ mb: 2 }}>
@@ -204,6 +213,9 @@ const ConnectionForm = () => {
                   ),
                   readOnly: !isEditing && isConnected,
                 }}
+                sx={{
+                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                }}
               />
             </Grid>
             <Grid item xs={12} sx={{ mb: 2 }}>
@@ -221,6 +233,9 @@ const ConnectionForm = () => {
                     </Tooltip>
                   ),
                   readOnly: !isEditing && isConnected,
+                }}
+                sx={{
+                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
                 }}
               />
             </Grid>
