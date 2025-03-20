@@ -4,8 +4,12 @@ import MasterLayout from '../Layout/MasterLayout'; // Adjust the path as needed
 import GLDynamicHeader from '../controls/GLDynamicHeader';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import LoremIpsum from 'react-lorem-ipsum';
+import GLConnectionForm from './GLConnectionForm';
+import GLConnectionSetting from './GLConnectionSetting';
 
-const GLSamplewithMaster = () => {
+
+const GLConnections = () => {
+
   const theme = useTheme(); // Use useTheme hook
   const navigate = useNavigate(); // Initialize useNavigate
 
@@ -28,12 +32,12 @@ const GLSamplewithMaster = () => {
                         // addButtonHandler={handleEditToggle}
                       />
         {/* Your content will go here */}
-        <Typography variant="body1">
-          This page is currently empty.
-        </Typography>
+       <GLConnectionForm/>
+
+       <GLConnectionSetting/>
       </Box>
     </MasterLayout>
   );
 };
 
-export default GLSamplewithMaster;
+export default GLConnections;

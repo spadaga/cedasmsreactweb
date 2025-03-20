@@ -21,6 +21,7 @@ import ProductsDashboard from './components/GLProductsDashboard';
 import GLProductUpload from './components/GLProductUpload';
 import GLSearchProductCatalog from './components/GLSearchProductCatalog';
 import GLProductDetails from './components/GLProductDetails';
+import GLConnections from './components/GLConnections';
 
 
 
@@ -69,6 +70,8 @@ function App() {
         <Route path="/glproductsearch" element={<GLSearchProductCatalog />} />
 
         <Route path="/glproductdetails" element={<GLProductDetails />} />
+
+        <Route path="/glconnections" element={<GLConnections />} />
 
 
       </Routes>

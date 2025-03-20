@@ -108,6 +108,9 @@ function Dashboard() {
     navigate('/glproductdb'); // Navigate to the GLcednetcustomers route
   };
 
+  const handleconnectiosClick = () => {
+    navigate('/glconnections'); // Navigate to the GLcednetcustomers route
+  };
   
 
 
@@ -132,6 +135,7 @@ function Dashboard() {
               title="Connections"
               subtitle="NetSuite - 1 Connection"
               chip={{ label: 'Active', color: 'success' }}
+              onClick={handleconnectiosClick} // Add onClick handler
             />
             <DashboardCard
               icon={SettingsOutlined}
