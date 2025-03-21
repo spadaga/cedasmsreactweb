@@ -14,7 +14,7 @@ const GLConnections = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleBack = () => {
-    navigate('/glcustomers'); // Navigate to /glnewcustomers
+    navigate('/glmanagecustomer'); // Navigate to /glnewcustomers
 };
 
 

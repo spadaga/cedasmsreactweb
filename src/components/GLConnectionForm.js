@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   TextField,
   FormControl,
@@ -11,10 +11,17 @@ import {
   Button,
   Typography,
   Box,
+  Chip,
+  useTheme,
+  Paper,
 } from '@mui/material';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import CancelIcon from '@mui/icons-material/Cancel';
+import BusinessIcon from '@mui/icons-material/Business';
+import PeopleIcon from '@mui/icons-material/People';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LinkIcon from '@mui/icons-material/Link';
 
 const ConnectionForm = () => {
   const [connectionType, setConnectionType] = useState('Netsuite');
@@ -25,6 +32,13 @@ const ConnectionForm = () => {
   const [documentsFolderId, setDocumentsFolderId] = useState('pqrst');
   const [isConnected, setIsConnected] = useState(true);
   const [isEditing, setIsEditing] = useState(false);
+  const theme = useTheme();
+
+  const [approvedPOSavedSearchId, setApprovedPOSavedSearchId] = useState('');
+  const [exportFrequency, setExportFrequency] = useState('');
+  const [cedAcknowledgementNumber, setCedAcknowledgementNumber] = useState('');
+  const [cedReceivedDate, setCedReceivedDate] = useState('');
+  const [sendToCedDetails, setSendToCedDetails] = useState('');
 
   const handleConnectionTypeChange = (event) => {
     setConnectionType(event.target.value);
@@ -56,7 +70,43 @@ const ConnectionForm = () => {
     netsuiteAccessTokenSecret: 'Enter your Netsuite Access Token Secret.',
     cedCustomScriptFileId: 'Enter the CED Custom Script File ID.',
     documentsFolderId: 'Enter the Documents Folder ID.',
+    approvedPOSavedSearchId: 'Enter Approved PO Saved Search ID.',
+    exportFrequency: 'Select Export Frequency.',
+    cedAcknowledgementNumber: 'Enter CED Acknowledgement Number.',
+    cedReceivedDate: 'Enter CED Received Date.',
+    sendToCedDetails: 'Enter Send to CED Details.',
   };
+
+  const ConnectionStatusIndicator = ({ isConnected = true, size = 'medium' }) => {
+    return (
+      <Chip
+        icon={isConnected ? <CheckCircleIcon /> : <CancelIcon />}
+        label={isConnected ? 'Connected' : 'Disconnected'}
+        color={isConnected ? 'success' : 'error'}
+        variant="outlined"
+        size={size}
+        sx={{
+          borderRadius: '16px',
+          fontWeight: 500,
+          '& .MuiChip-icon': {
+            color: isConnected ? '#10b981' : 'error.main',
+          },
+          backgroundColor: isConnected ? '#ecfdf5' : '#fef2f2',
+          opacity: 0.8,
+          '& .MuiChip-label': {
+            px: 1,
+          },
+        }}
+      />
+    );
+  };
+
+  const stats = useMemo(() => [
+    { label: 'Total Companies', value: '24', icon: <BusinessIcon />, backgroundColor: theme.palette.mode === 'dark' ? '#333' : '#e0f7fa' },
+    { label: 'Active Accounts', value: '101', icon: <PeopleIcon />, backgroundColor: theme.palette.mode === 'dark' ? '#333' : '#e8f5e9' },
+    { label: 'Pending Settings', value: '12', icon: <SettingsIcon />, backgroundColor: theme.palette.mode === 'dark' ? '#333' : '#fffde7' },
+    { label: 'Connected', value: '89', icon: <LinkIcon />, backgroundColor: theme.palette.mode === 'dark' ? '#333' : '#f3e5f5' },
+  ], [theme.palette.mode]);
 
   return (
     <Grid container spacing={2}>
@@ -66,26 +116,20 @@ const ConnectionForm = () => {
           justifyContent="space-between"
           sx={{
             borderRadius: 4,
-            bgcolor: 'rgb(248, 250, 252)',
+            bgcolor: theme.palette.background.paper,
             padding: 2,
             alignItems: 'center',
           }}
         >
           <Box display="flex" alignItems="center">
             {isConnected ? (
-              <>
-                <CheckCircleOutlineIcon sx={{ color: 'green', mr: 1 }} />
-                <Typography variant="body1" sx={{ color: 'green' }}>
-                  Connected
-                </Typography>
-              </>
+              <Box>
+                <ConnectionStatusIndicator isConnected={true} size="small" />
+              </Box>
             ) : (
-              <>
-                <HighlightOffIcon sx={{ color: 'red', mr: 1 }} />
-                <Typography variant="body1" sx={{ color: 'red' }}>
-                  Not Connected
-                </Typography>
-              </>
+              <Box>
+                <ConnectionStatusIndicator isConnected={false} size="small" />
+              </Box>
             )}
           </Box>
           {isConnected ? (
@@ -151,7 +195,7 @@ const ConnectionForm = () => {
                   readOnly: !isEditing && isConnected,
                 }}
                 sx={{
-                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                  backgroundColor: !isEditing && isConnected ? theme.palette.action.disabledBackground : 'transparent',
                 }}
               />
             </Grid>
@@ -172,7 +216,7 @@ const ConnectionForm = () => {
                   readOnly: !isEditing && isConnected,
                 }}
                 sx={{
-                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                  backgroundColor: !isEditing && isConnected ? theme.palette.action.disabledBackground : 'transparent',
                 }}
               />
             </Grid>
@@ -180,8 +224,7 @@ const ConnectionForm = () => {
               <TextField
                 fullWidth
                 label="Netsuite Access Token Secret"
-                value={netsuiteAccessTokenSecret}
-                onChange={(e) => setNetsuiteAccessTokenSecret(e.target.value)}
+                value={netsuiteAccessTokenSecret } onChange={(e) => setNetsuiteAccessTokenSecret(e.target.value)}
                 InputProps={{
                   endAdornment: (
                     <Tooltip title={tooltips.netsuiteAccessTokenSecret}>
@@ -193,7 +236,7 @@ const ConnectionForm = () => {
                   readOnly: !isEditing && isConnected,
                 }}
                 sx={{
-                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                  backgroundColor: !isEditing && isConnected ? theme.palette.action.disabledBackground : 'transparent',
                 }}
               />
             </Grid>
@@ -214,34 +257,16 @@ const ConnectionForm = () => {
                   readOnly: !isEditing && isConnected,
                 }}
                 sx={{
-                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
+                  backgroundColor: !isEditing && isConnected ? theme.palette.action.disabledBackground : 'transparent',
                 }}
               />
             </Grid>
-            <Grid item xs={12} sx={{ mb: 2 }}>
-              <TextField
-                fullWidth
-                label="Documents Folder ID"
-                value={documentsFolderId}
-                onChange={(e) => setDocumentsFolderId(e.target.value)}
-                InputProps={{
-                  endAdornment: (
-                    <Tooltip title={tooltips.documentsFolderId}>
-                      <IconButton>
-                        <HelpOutlineIcon />
-                      </IconButton>
-                    </Tooltip>
-                  ),
-                  readOnly: !isEditing && isConnected,
-                }}
-                sx={{
-                  backgroundColor: !isEditing && isConnected ? '#f0f0f0' : 'transparent',
-                }}
-              />
-            </Grid>
+           
           </>
         )}
       </Box>
+
+      
     </Grid>
   );
 };

@@ -29,7 +29,7 @@ const GLmanagecustomer = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleBack = () => {
-    navigate('/glnewcustomers'); // Navigate to /glnewcustomers
+    navigate('/glcustomers'); // Navigate to /glnewcustomers
 };
 
   const StyledGrid = styled(Grid)(({ theme }) => ({

@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Grid, Switch, Typography, Box, Button } from '@mui/material';
 import SettingsIcon from '@mui/icons-material/Settings';
+import CeligoSettingsForm from './GLCeligoSettingsForm';
+import GLBillSettingsForm from './GLBillSettingsForm';
+import GLCreditSettingsForm from './GLCreditSettingsForm';
+import GLProductCatalogSettingsForm from './GLProductCatalogSettingsForm';
 
 const ConnectionSetting = () => {
   const [activeSection, setActiveSection] = useState(null);
@@ -10,52 +14,24 @@ const ConnectionSetting = () => {
   const sections = [
     {
       name: 'Purchase Order Workflow',
-      description: 'Automate your purchase order process with customizable workflows',
-      content: (
-        <Box display="flex" justifyContent="center" alignItems="center" height="100%">
-           <Box display="flex" flexDirection="column" alignItems="center">
-
-           <SettingsIcon sx={{ fontSize: 60, color: 'grey' }} />
-          <Typography>Purchase Order Workflow Settings</Typography>
-        </Box>   </Box>
-      ),
+      settingcomponent: 'Automate your purchase order process with customizable workflows',
+      content: <CeligoSettingsForm sectionName="Purchase Order Workflow" />,
     },
     {
       name: 'Bill Workflow',
       description: 'Streamline your billing process with automated workflows',
       isActive: true,
-      content: (
-        <Box display="flex" justifyContent="center" alignItems="center" height="100%">
-           <Box display="flex" flexDirection="column" alignItems="center">
-
-           <SettingsIcon sx={{ fontSize: 60, color: 'grey' }} />
-          <Typography>Bill Workflow Settings (Active)</Typography>
-        </Box> </Box>
-      ),
+      content: <GLBillSettingsForm sectionName="Purchase Order Workflow4" />,
     },
     {
       name: 'Credit Workflow',
       description: 'Manage credit applications and approvals efficiently',
-      content: (
-        <Box display="flex" justifyContent="center" alignItems="center" height="100%">
-          <Box display="flex" flexDirection="column" alignItems="center">
-            <SettingsIcon sx={{ fontSize: 60, color: 'grey' }} />
-            <Typography>Click on Settings to view/modify the appropriate settings</Typography>
-          </Box>
-        </Box>
-      ),
+      content: <GLCreditSettingsForm sectionName="Purchase Order Workflow3" />,
     },
     {
       name: 'Product Catalog Workflow',
       description: 'Automate your product catalog management process',
-      content: (
-        <Box display="flex" justifyContent="center" alignItems="center" height="100%">
-           <Box display="flex" flexDirection="column" alignItems="center">
-           <SettingsIcon sx={{ fontSize: 60, color: 'grey' }} />
-          <Typography>Product Catalog Workflow Settings</Typography>
-          </Box>
-        </Box>
-      ),
+      content: <GLProductCatalogSettingsForm sectionName="Purchase Order Workflow2" />,
     },
   ];
 
