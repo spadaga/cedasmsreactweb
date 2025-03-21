@@ -113,6 +113,12 @@ function Dashboard() {
   };
   
 
+  const handlecreditsmemosettingClick = () => {
+    navigate('/glmemosetting'); // Navigate to the GLcednetcustomers route
+  };
+  
+  
+
 
   return (
     <Box sx={{ bgcolor: theme.palette.background.default, minHeight: '100vh', py: 4 }}>
@@ -141,6 +147,7 @@ function Dashboard() {
               icon={SettingsOutlined}
               title="Bill/Credit Settings"
               subtitle="Automatic - Item Level"
+              onClick={handlecreditsmemosettingClick} // Add onClick handler
             />
             <DashboardCard
               icon={SettingsOutlined}

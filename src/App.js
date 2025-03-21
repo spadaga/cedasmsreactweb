@@ -22,6 +22,7 @@ import GLProductUpload from './components/GLProductUpload';
 import GLSearchProductCatalog from './components/GLSearchProductCatalog';
 import GLProductDetails from './components/GLProductDetails';
 import GLConnections from './components/GLConnections';
+import GLCreditMemoForm from './components/GLCreditMemoForm';
 
 
 
@@ -72,6 +73,8 @@ function App() {
         <Route path="/glproductdetails" element={<GLProductDetails />} />
 
         <Route path="/glconnections" element={<GLConnections />} />
+
+        <Route path="/glmemosetting" element={<GLCreditMemoForm />} />
 
 
       </Routes>
