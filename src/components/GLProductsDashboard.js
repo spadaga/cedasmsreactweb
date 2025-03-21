@@ -97,7 +97,7 @@ const ProductsDashboard = () => {
     setOpen(false);
   };
   const handleBack = () => {
-    navigate("/glmanagecustomer"); // Navigate to /glnewcustomers
+    navigate(-1); // Navigate to /glnewcustomers
   };
 
   return (

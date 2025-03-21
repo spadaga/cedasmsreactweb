@@ -23,6 +23,9 @@ import GLSearchProductCatalog from './components/GLSearchProductCatalog';
 import GLProductDetails from './components/GLProductDetails';
 import GLConnections from './components/GLConnections';
 import GLCreditMemoForm from './components/GLCreditMemoForm';
+import GLAcPaySettings from './components/GLAcPaySettings';
+import GLNotificationsettings from './components/GLNotificationsettings';
+import GLUploadProducts from './components/GLUploadProducts';
 
 
 
@@ -75,6 +78,13 @@ function App() {
         <Route path="/glconnections" element={<GLConnections />} />
 
         <Route path="/glmemosetting" element={<GLCreditMemoForm />} />
+
+        <Route path="/glacpayset" element={<GLAcPaySettings />} />
+
+        <Route path="/glnotification" element={<GLNotificationsettings />} />
+
+
+        <Route path="/gluploadproducts" element={<GLUploadProducts />} />
 
 
       </Routes>

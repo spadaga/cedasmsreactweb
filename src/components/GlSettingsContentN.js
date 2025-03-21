@@ -19,6 +19,7 @@ import {
   AccessTimeOutlined,
   CreditCardOutlined,
   ShoppingCartOutlined,
+  Inventory2,
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
@@ -105,7 +106,7 @@ function Dashboard() {
   };
 
   const handleProductoperationsClick = () => {
-    navigate('/glproductdb'); // Navigate to the GLcednetcustomers route
+    navigate('/glproductupload'); // Navigate to the GLcednetcustomers route
   };
 
   const handleconnectiosClick = () => {
@@ -116,7 +117,36 @@ function Dashboard() {
   const handlecreditsmemosettingClick = () => {
     navigate('/glmemosetting'); // Navigate to the GLcednetcustomers route
   };
+
+  const handlapsettingsClick = () => {
+    navigate('/glacpayset'); // Navigate to the GLcednetcustomers route
+  };
+
+  const handleNotificationClick = () => {
+    navigate('/glnotification'); // Navigate to the GLcednetcustomers route
+  };
+
+  const handleUploadProductsClick = () => {
+    navigate('/glproductdb'); // Navigate to the GLcednetcustomers route
+  };
+
+
   
+  const handleSearchProductsClick = () => {
+    navigate('/glproductsearch'); // Navigate to the GLcednetcustomers route
+  };
+  const handleProductcatalogClick = () => {
+    navigate('/glproductdb '); // Navigate to the GLcednetcustomers route
+  };
+
+
+  
+
+  
+//gluploadproducts
+
+  
+  //glnotification
   
 
 
@@ -153,11 +183,13 @@ function Dashboard() {
               icon={SettingsOutlined}
               title="A/P Settings"
               subtitle="⚠️ Requires Connection"
+              onClick={handlapsettingsClick} // Add onClick handler
             />
             <DashboardCard
               icon={NotificationsNoneOutlined}
               title="Notification Settings"
               subtitle="4 Active Settings"
+              onClick={handleNotificationClick} // Add onClick handler
             />
           </Grid>
 
@@ -166,6 +198,15 @@ function Dashboard() {
             <Typography variant="h6" sx={{ mb: 3 }}>
               Product Operations
             </Typography>
+
+            <DashboardCard
+              icon={Inventory2}
+              title="Product Catalog"
+              subtitle="166 Products"
+              onClick={handleProductcatalogClick} // Add onClick handler
+             
+            />
+
             <DashboardCard
               icon={Upload}
               title="Upload Products Excel"
@@ -181,6 +222,8 @@ function Dashboard() {
               icon={SearchOutlined}
               title="Search Products"
               subtitle="Add to Catalog"
+              onClick={handleSearchProductsClick} // Add onClick handler
+              
             />
             <DashboardCard
               icon={AccessTimeOutlined}

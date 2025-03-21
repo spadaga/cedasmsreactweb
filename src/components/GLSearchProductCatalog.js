@@ -72,7 +72,7 @@ const GLSearchProductCatalog = () => {
   };
 
   const handleGoBack = () => {
-    navigate("/glproductdb", { state: { fromUpload: true } });
+    navigate(-1, { state: { fromUpload: true } });
   };
 
   const startIndex = (page - 1) * itemsPerPage;

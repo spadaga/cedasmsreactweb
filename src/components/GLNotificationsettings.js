@@ -4,8 +4,9 @@ import MasterLayout from '../Layout/MasterLayout'; // Adjust the path as needed
 import GLDynamicHeader from '../controls/GLDynamicHeader';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import LoremIpsum from 'react-lorem-ipsum';
+import GLNotificationComponent from './GLNotificationComponent';
 
-const GLSamplewithMaster = () => {
+const GLNotificationsettings = () => {
   const theme = useTheme(); // Use useTheme hook
   const navigate = useNavigate(); // Initialize useNavigate
 
@@ -15,11 +16,11 @@ const GLSamplewithMaster = () => {
 
 
   return (
-    <MasterLayout title="GL CONNECTIONS">
+    <MasterLayout title="Notification Settings">
       <Box sx={{ padding: '20px', border: `1px solid ${theme.palette.divider}`, borderRadius: '5px', backgroundColor: theme.palette.background.paper }}> {/* Use theme divider and background */}
 
          <GLDynamicHeader
-                        title="CONNECTIONS "
+                        title="Notification Settings "
                         descriptionContent={<p><LoremIpsum p={2} /></p>}
                         showBackButton={true}
                         backButtonHandler={handleBack}
@@ -28,12 +29,10 @@ const GLSamplewithMaster = () => {
                         // addButtonHandler={handleEditToggle}
                       />
         {/* Your content will go here */}
-        <Typography variant="body1">
-          This page is currently empty.
-        </Typography>
+      <GLNotificationComponent/>
       </Box>
     </MasterLayout>
   );
 };
 
-export default GLSamplewithMaster;
+export default GLNotificationsettings;

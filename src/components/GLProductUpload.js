@@ -53,7 +53,7 @@ const GLProductUpload = () => {
   };
 
   const handleGoBack = () => {
-    navigate("/glproductdb", { state: { fromUpload: true } });
+    navigate(-1, { state: { fromUpload: true } });
   };
 
   const labelKey = 'PCNAME'; // Or 'ID', or any other key from your JSON
