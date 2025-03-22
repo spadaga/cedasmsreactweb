@@ -57,7 +57,7 @@ const EmployeeList = () => {
     setIsLoading(true); // Start loading
     console.log('fetchEmployees: isLoading set to true'); // Add this line
      // Add a delay here (e.g., 2 seconds)
-  await new Promise(resolve => setTimeout(resolve, 1500));
+  await new Promise(resolve => setTimeout(resolve, 2500));
     try {
       const response = await getEmployees();
       setEmployees(response.data);
