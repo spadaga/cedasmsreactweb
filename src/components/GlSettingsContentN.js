@@ -153,7 +153,7 @@ function Dashboard() {
     navigate('/glcustbill '); // Navigate to the GLcednetcustomers route
   };
   const handlecustomerCreditClick = () => {
-   // navigate('/glpo '); // Navigate to the GLcednetcustomers route
+    navigate('/glcc '); // Navigate to the GLcednetcustomers route
   };
 
 

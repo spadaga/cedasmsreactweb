@@ -30,6 +30,9 @@ import GLTransactionhistory from './components/GLTransactionhistory';
 import GLPO from './components/GLPO';
 import GLCustomerBills from './components/GLCustomerBills';
 import GLBillDetails from './components/GLBillDetails';
+import GLCustomerCredit from './components/GLCustomerCredit';
+import GLCustomerCreditDetails from './components/GLCustomerCreditDetails';
+import GLCustomerCreditDetailsComponent from './components/GLCustomerCreditDetailsComponent';
 
 
 
@@ -98,6 +101,10 @@ function App() {
         <Route path="/glcustbill" element={<GLCustomerBills />} />
 
         <Route path="/glbilldet" element={<GLBillDetails />} />
+
+        <Route path="/glcc" element={<GLCustomerCredit />} />
+
+        <Route path="/glccdet" element={<GLCustomerCreditDetails />} />
       </Routes>
     </Router>
   </ThemeContextProvider>
