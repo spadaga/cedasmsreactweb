@@ -28,7 +28,7 @@ import GLNotificationsettings from './components/GLNotificationsettings';
 import GLUploadProducts from './components/GLUploadProducts';
 import GLTransactionhistory from './components/GLTransactionhistory';
 import GLPO from './components/GLPO';
-import { Analytics } from "@vercel/analytics/react"
+
 
 
 
