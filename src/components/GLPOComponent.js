@@ -20,7 +20,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import CloseIcon from "@mui/icons-material/Close";
 import { styled } from "@mui/material/styles";
-import ReactJson from "react-json-view"; // Import the library
+// import ReactJson from "react-json-view"; // Import the library
 import { Tooltip } from "@mui/material";
 
 import FileDownloadIcon from "@mui/icons-material/FileDownload"; // Import the download icon
@@ -753,57 +753,7 @@ function GLPOComponent() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={modalStyle}>
-            <Box style={{display:"flex",justifyContent: 'space-between',alignItems: 'center',backgroundColor: "#f0f0f0",  }}>
-          <Typography
-            id="modal-modal-title"
-            variant="h6"
-            component="h2"
-            sx={{
-               
-              backgroundColor: "#f0f0f0", // Light gray background
-              borderLeft: "4px solid #1976d2", // Blue left border
-              padding: "8px 16px", // Add some padding
-              marginBottom: "16px", // Add some spacing below
-            }}
-          >
-            PO Details
-          </Typography>
-<Box sx={{mr:2}}>
-          <select sx={{}} value={jsontheme} onChange={(e) => setjsonTheme(e.target.value)}>
-                {themeOptions.map((option) => (
-                  <option key={option} value={option}>
-                    {option}
-                  </option>
-                ))}
-              </select></Box>
-              </Box>
-          {selectedRow && selectedRow.details && (
-            <Box>
-              
-              <ReactJson
-                src={selectedRow.details}
-                theme={jsontheme}
-                collapsed={2}
-                displayDataTypes={false}
-              />
-            </Box>
-          )}
-          {/* {selectedRow && selectedRow.details && (
-            <Box>
-              {Object.entries(selectedRow.details).map(([key, value]) => (
-                <Typography key={key} id="modal-modal-description" sx={{ mt: 2 }}>
-                  <strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value, null, 2) : String(value)}
-                </Typography>
-              ))}
-            </Box>
-          )} */}
-          <IconButton
-            aria-label="close"
-            onClick={handleCloseModal}
-            style={{ position: "absolute", top: 8, right: 8 }}
-          >
-            <CloseIcon />
-          </IconButton>
+           test
         </Box>
       </Modal>
     </div>
@@ -811,3 +761,60 @@ function GLPOComponent() {
 }
 
 export default GLPOComponent;
+
+{/* 
+     "react-json-view": "^1.21.3",
+    <Box style={{display:"flex",justifyContent: 'space-between',alignItems: 'center',backgroundColor: "#f0f0f0",  }}>
+<Typography
+  id="modal-modal-title"
+  variant="h6"
+  component="h2"
+  sx={{
+     
+    backgroundColor: "#f0f0f0", // Light gray background
+    borderLeft: "4px solid #1976d2", // Blue left border
+    padding: "8px 16px", // Add some padding
+    marginBottom: "16px", // Add some spacing below
+  }}
+>
+  PO Details
+</Typography>
+<Box sx={{mr:2}}>
+<select sx={{}} value={jsontheme} onChange={(e) => setjsonTheme(e.target.value)}>
+      {themeOptions.map((option) => (
+        <option key={option} value={option}>
+          {option}
+        </option>
+      ))}
+    </select></Box>
+    </Box>
+{selectedRow && selectedRow.details && (
+  <Box>
+    
+    <ReactJson
+      src={selectedRow.details}
+      theme={jsontheme}
+      collapsed={2}
+      displayDataTypes={false}
+    />
+  </Box>
+)}
+
+<IconButton
+  aria-label="close"
+  onClick={handleCloseModal}
+  style={{ position: "absolute", top: 8, right: 8 }}
+>
+  <CloseIcon />
+</IconButton> */}
+
+
+{/* {selectedRow && selectedRow.details && (
+  <Box>
+    {Object.entries(selectedRow.details).map(([key, value]) => (
+      <Typography key={key} id="modal-modal-description" sx={{ mt: 2 }}>
+        <strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value, null, 2) : String(value)}
+      </Typography>
+    ))}
+  </Box>
+)} */}
