@@ -37,12 +37,31 @@ const StyledTableHead = styled(TableHead)(({ theme }) => ({
 function GLPOComponent() {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
   const [orderBy, setOrderBy] = useState("PO_NUMBER");
   const [order, setOrder] = useState("asc");
   const [searchQuery, setSearchQuery] = useState("");
   const [openModal, setOpenModal] = useState(false);
   const [selectedRow, setSelectedRow] = useState(null);
+  const [jsontheme, setjsonTheme] = useState('monokai');
+
+  const themeOptions = [
+    'monokai',
+    'bright',
+    'summerfruit',
+    'eighties',
+    'ocean',
+    'grayscale',
+    'shapeshifter',
+    'brewer',
+    'embers',
+    'isotope',
+    'colors',
+    'mosaic',
+    'tomorrow',
+    'pop',
+    'solarized'
+  ];
 
   useEffect(() => {
     // Replace with your actual data fetching logic
@@ -621,7 +640,7 @@ function GLPOComponent() {
           variant="outlined"
           value={searchQuery}
           onChange={handleSearchChange}
-          sx={{ width: '400px' }} // Increase the width here
+          sx={{ width: "400px" }} // Increase the width here
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
@@ -631,7 +650,7 @@ function GLPOComponent() {
           }}
         />
         <Tooltip title="Export Data">
-          <IconButton sx={{color: "primary.main"}}>
+          <IconButton sx={{ color: "primary.main" }}>
             <FileDownloadIcon />
           </IconButton>
         </Tooltip>
@@ -719,7 +738,7 @@ function GLPOComponent() {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[10, 25, 50]}
+       rowsPerPageOptions={[5, 10, 25]}
         component="div"
         count={filteredData.length}
         rowsPerPage={rowsPerPage}
@@ -734,11 +753,13 @@ function GLPOComponent() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={modalStyle}>
+            <Box style={{display:"flex",justifyContent: 'space-between',alignItems: 'center',backgroundColor: "#f0f0f0",  }}>
           <Typography
             id="modal-modal-title"
             variant="h6"
             component="h2"
             sx={{
+               
               backgroundColor: "#f0f0f0", // Light gray background
               borderLeft: "4px solid #1976d2", // Blue left border
               padding: "8px 16px", // Add some padding
@@ -747,11 +768,21 @@ function GLPOComponent() {
           >
             PO Details
           </Typography>
+<Box sx={{mr:2}}>
+          <select sx={{}} value={jsontheme} onChange={(e) => setjsonTheme(e.target.value)}>
+                {themeOptions.map((option) => (
+                  <option key={option} value={option}>
+                    {option}
+                  </option>
+                ))}
+              </select></Box>
+              </Box>
           {selectedRow && selectedRow.details && (
             <Box>
+              
               <ReactJson
                 src={selectedRow.details}
-                theme="monokai"
+                theme={jsontheme}
                 collapsed={2}
                 displayDataTypes={false}
               />

@@ -149,6 +149,12 @@ function Dashboard() {
     navigate('/glpo '); // Navigate to the GLcednetcustomers route
   };
 
+  const handlecustomerBillsClick = () => {
+    navigate('/glcustbill '); // Navigate to the GLcednetcustomers route
+  };
+  const handlecustomerCreditClick = () => {
+   // navigate('/glpo '); // Navigate to the GLcednetcustomers route
+  };
 
 
   
@@ -256,12 +262,14 @@ function Dashboard() {
               title="Customer Bills"
               subtitle="100 Records"
               extraContent="Last Transmitted on 12/20/2021"
+              onClick={handlecustomerBillsClick}
             />
             <DashboardCard
               icon={CreditCardOutlined}
               title="Customer Credits"
               subtitle="100 Records"
               extraContent="Last Transmitted on 12/20/2021"
+              onClick={handlecustomerCreditClick}
             />
             <DashboardCard
               icon={ShoppingCartOutlined}

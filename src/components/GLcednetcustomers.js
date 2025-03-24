@@ -32,7 +32,7 @@ import { ArrowBack } from "@mui/icons-material";
 const GLcednetcustomers = () => {
   const [customers, setCustomers] = useState(customersData);
   const [page, setPage] = useState(1);
-  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
   const [searchTerm, setSearchTerm] = useState("");
   const [sortColumn, setSortColumn] = useState(null);
   const [sortDirection, setSortDirection] = useState("asc");

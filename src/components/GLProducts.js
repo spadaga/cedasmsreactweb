@@ -28,7 +28,7 @@ import ButtonLayout from '../controls/ButtonLayout';
 const GLProducts = () => {
   const theme = useTheme();
   const [searchTerm, setSearchTerm] = useState('');
-  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
   const [page, setPage] = useState(1);
   const [filteredProducts, setFilteredProducts] = useState(glProductsData);
   const [order, setOrder] = useState('asc');

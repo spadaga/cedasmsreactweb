@@ -28,6 +28,8 @@ import GLNotificationsettings from './components/GLNotificationsettings';
 import GLUploadProducts from './components/GLUploadProducts';
 import GLTransactionhistory from './components/GLTransactionhistory';
 import GLPO from './components/GLPO';
+import GLCustomerBills from './components/GLCustomerBills';
+import GLBillDetails from './components/GLBillDetails';
 
 
 
@@ -93,7 +95,9 @@ function App() {
 
         <Route path="/glpo" element={<GLPO />} />
 
+        <Route path="/glcustbill" element={<GLCustomerBills />} />
 
+        <Route path="/glbilldet" element={<GLBillDetails />} />
       </Routes>
     </Router>
   </ThemeContextProvider>
