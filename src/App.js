@@ -26,6 +26,8 @@ import GLCreditMemoForm from './components/GLCreditMemoForm';
 import GLAcPaySettings from './components/GLAcPaySettings';
 import GLNotificationsettings from './components/GLNotificationsettings';
 import GLUploadProducts from './components/GLUploadProducts';
+import GLTransactionhistory from './components/GLTransactionhistory';
+import GLPO from './components/GLPO';
 
 
 
@@ -85,6 +87,11 @@ function App() {
 
 
         <Route path="/gluploadproducts" element={<GLUploadProducts />} />
+
+
+        <Route path="/gltranshistory" element={<GLTransactionhistory />} />
+
+        <Route path="/glpo" element={<GLPO />} />
 
 
       </Routes>

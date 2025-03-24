@@ -140,6 +140,17 @@ function Dashboard() {
   };
 
 
+  const handleTransactionhistoryClick = () => {
+    navigate('/gltranshistory '); // Navigate to the GLcednetcustomers route
+  };
+
+
+  const handlePOClick = () => {
+    navigate('/glpo '); // Navigate to the GLcednetcustomers route
+  };
+
+
+
   
 
   
@@ -230,6 +241,8 @@ function Dashboard() {
               title="Transmit History"
               subtitle="100 Records"
               extraContent="Last Transmitted on 12/20/2021"
+
+           onClick={handleTransactionhistoryClick}   
             />
           </Grid>
 
@@ -255,6 +268,7 @@ function Dashboard() {
               title="Purchase Orders"
               subtitle="166 Orders"
               extraContent="Last Received on 01/01/2024"
+              onClick={handlePOClick}   
             />
           </Grid>
         </Grid>

@@ -42,16 +42,7 @@ const GLNotificationComponent = () => {
       }}
     >
       <Paper elevation={3} sx={{ padding: 3 }}>
-        <Typography
-          variant="h5" // Changed to h5 for a slightly larger header
-          gutterBottom
-          sx={{
-            fontWeight: 600, // Make the header bold
-            color: theme.palette.primary.main, // Use the primary color from the theme
-          }}
-        >
-          Notification Settings
-        </Typography>
+       
         <Typography
           variant="body2"
           color="text.secondary"
