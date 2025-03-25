@@ -1,6 +1,7 @@
 // GlPendingConnection.js
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import GlPendingConnectionComponentWrapper from "./GlPendingConnectionComponent";
 
 const GlPendingConnection = ({ value, index, theme }) => {
   if (value !== index) {
@@ -16,7 +17,7 @@ const GlPendingConnection = ({ value, index, theme }) => {
     >
       {value === index && (
         <Box sx={{ p: 3, backgroundColor: theme.palette.background.paper }}>
-          <Typography>Pending Connection Content</Typography>
+         <GlPendingConnectionComponentWrapper/>
         </Box>
       )}
     </Box>

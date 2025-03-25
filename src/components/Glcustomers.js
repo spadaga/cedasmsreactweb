@@ -10,6 +10,7 @@ import Loading from "../utils/Loading";
 import GlCommonTab from "../controls/GlCommonTab";
 import GlConnectedTab from "./GlConnectedTab";
 import GlPendingConnection from "./GlPendingConnection";
+import GLBills from "./GLBills";
 
 const Glcustomers = () => {
   const navigate = useNavigate();
@@ -46,7 +47,7 @@ const Glcustomers = () => {
 
   return (
     <MasterLayout title={"GL CUSTOMERS"}>
-      <GlCommonTab value={value} handleChange={handleChange} theme={theme} labels={["CONNECTED/DISCONNECTED", "PENDING CONNECTION"]}>
+      <GlCommonTab value={value} handleChange={handleChange} theme={theme} labels={["CONNECTED/DISCONNECTED", "PRODCUT CATALOG","BILLS"]}>
         <GlConnectedTab
           value={value}
           index={0}
@@ -56,6 +57,9 @@ const Glcustomers = () => {
           isSmallScreen={isSmallScreen}
         />
         <GlPendingConnection value={value} index={1} theme={theme} />
+
+
+        <GLBills value={value} index={1} theme={theme} />
       </GlCommonTab>
       <Loading isLoading={isLoading} />
     </MasterLayout>
