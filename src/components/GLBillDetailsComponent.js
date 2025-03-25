@@ -24,6 +24,7 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import { styled } from "@mui/material/styles";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import GLBillMemoLinesComponent from "./GLBillMemoLinesComponent";
+import { useThemeContext } from '../context/ThemeContext';
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
     backgroundColor: theme.palette.action.hover,
@@ -44,7 +45,7 @@ function GLBillDetailsComponent() {
   const [searchQuery, setSearchQuery] = useState("");
   const [orderBy, setOrderBy] = useState("SEQ_NO");
   const [order, setOrder] = useState("asc");
-
+  const {darkMode} = useThemeContext()
   const data = [
     {
       SEQ_NO: 1,
@@ -198,7 +199,7 @@ function GLBillDetailsComponent() {
             <Typography
               variant="body1"
               style={{
-                backgroundColor: "#ffe0e0",
+                backgroundColor: darkMode ? '#333' :"#ffe0e0",
                 padding: "4px",
                 borderRadius: "4px",
               }}
@@ -298,7 +299,7 @@ function GLBillDetailsComponent() {
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead sx={{ backgroundColor: "#f0f0f0" }}>
-            <TableRow>
+            <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
               <TableCell sx={commonTableCellStyle}>
                 <TableSortLabel
                   active={orderBy === "SEQ_NO"}
@@ -370,13 +371,13 @@ function GLBillDetailsComponent() {
               <TableCell
                 colSpan={5}
                 align="right"
-                style={{ backgroundColor: "#f0f0f0" }}
+                style={{ backgroundColor:  darkMode ? '#333' : "#f0f0f0" }}
               >
                 <Typography variant="subtitle1" fontWeight="bold">
                   Tax Amount (5.28%)
                 </Typography>
               </TableCell>
-              <TableCell align="left" style={{ backgroundColor: "#f0f0f0" }}>
+              <TableCell align="left" style={{ backgroundColor:  darkMode ? '#333' : "#f0f0f0" }}>
                 <Typography variant="subtitle1" fontWeight="bold">
                   $220.90
                 </Typography>
@@ -386,13 +387,13 @@ function GLBillDetailsComponent() {
               <TableCell
                 colSpan={5}
                 align="right"
-                style={{ backgroundColor: "#e0e0e0" }}
+                style={{ backgroundColor: darkMode ? '#333' :  "#e0e0e0" }}
               >
                 <Typography variant="h6" fontWeight="bold">
                   Total
                 </Typography>
               </TableCell>
-              <TableCell align="left" style={{ backgroundColor: "#e0e0e0" }}>
+              <TableCell align="left" style={{ backgroundColor:  darkMode ? '#333' : "#e0e0e0" }}>
                 <Typography variant="h6" fontWeight="bold">
                   $4,403.40
                 </Typography>

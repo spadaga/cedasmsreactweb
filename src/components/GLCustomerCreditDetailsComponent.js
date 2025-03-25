@@ -20,6 +20,8 @@ import {
 } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import GLCCMemoLinesComponent from './GLCCMemoLinesComponent';
+import { useThemeContext } from '../context/ThemeContext';
+
 
 function GLCustomerCreditDetailsComponent() {
   const [page, setPage] = useState(0);
@@ -27,6 +29,7 @@ function GLCustomerCreditDetailsComponent() {
   const [orderBy, setOrderBy] = useState('SEQ_NO');
   const [order, setOrder] = useState('asc');
   const [search, setSearch] = useState('');
+    const {darkMode} = useThemeContext()
 
   const billDetails = {
     billNumber: '9876549',
@@ -231,7 +234,7 @@ function GLCustomerCreditDetailsComponent() {
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="bill details table">
             <TableHead sx={{ backgroundColor: '#f0f0f0' }}>
-            <TableRow>
+            <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
               <TableCell fontWeight="bold" sx={{fontWeight:"bold"}}>
                 <TableSortLabel
                   active={orderBy === 'SEQ_NO'}
@@ -309,16 +312,16 @@ function GLCustomerCreditDetailsComponent() {
                   <TableCell>{row.BILL_NUMBER}</TableCell>
                 </TableRow>
               ))}
-             <TableRow sx={{ backgroundColor: '#fff9c4', fontWeight: 'bold' }}>
-              <TableCell colSpan={5} align="right" sx={{ backgroundColor: '#fff9c4', fontWeight: 'bold' }}>
+             <TableRow sx={{ backgroundColor: darkMode ? '#333' :'#fff9c4', fontWeight: 'bold' }}>
+              <TableCell colSpan={5} align="right" sx={{ backgroundColor:darkMode ? '#333' : '#fff9c4', fontWeight: 'bold' }}>
                 Tax Amount (5.28%)
               </TableCell>
               <TableCell align="left">
                 <Typography variant="body2">$2,000.00</Typography>
               </TableCell>
             </TableRow>
-            <TableRow sx={{ backgroundColor: '#e3f2fd', fontWeight: 'bold' }}>
-              <TableCell colSpan={5} align="right" sx={{ backgroundColor: '#e3f2fd', fontWeight: 'bold' }}>
+            <TableRow sx={{ backgroundColor: darkMode ? '#333' :'#e3f2fd', fontWeight: 'bold' }}>
+              <TableCell colSpan={5} align="right" sx={{ backgroundColor: darkMode ? '#333' : '#e3f2fd', fontWeight: 'bold' }}>
                 Total
               </TableCell>
               <TableCell align="left">

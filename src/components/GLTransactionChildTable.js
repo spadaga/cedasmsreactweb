@@ -1,38 +1,56 @@
-import React from 'react';
-import { Table, TableBody, TableCell, TableHead, TableRow,styled } from '@mui/material';
-
-
-
+import React from "react";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+  styled,
+} from "@mui/material";
+import { useThemeContext } from "../context/ThemeContext";
 
 function GLTransactionChildTable({ details }) {
+  const { darkMode } = useThemeContext();
 
-    const ParentTableHeader = styled(TableHead)(({ theme }) => ({
-        backgroundColor: '#e0e0e0', // Light gray background for parent header
-        '& .MuiTableCell-head': {
-          fontWeight: 'bold', // Bold font for header cells
-          padding: theme.spacing(1.5), // Add padding
-        },
-      }));
+  const ParentTableHeader = styled(TableHead)(({ theme }) => ({
+    backgroundColor: darkMode ? "#333" : "#e0e0e0",
+    "& .MuiTableCell-head": {
+      fontWeight: "bold",
+      padding: theme.spacing(1.5),
+    },
+  }));
+
+  const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    backgroundColor: darkMode ? "#222" : "#fff", // Darker background for rows in dark mode
+    "&:nth-of-type(odd)": {
+      backgroundColor: darkMode ? "#282828" : "#f9f9f9", // Slightly different shade for odd rows
+    },
+  }));
+
+  const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    color: darkMode ? "#fff" : "#000", // White text in dark mode, black in light mode
+  }));
+
   return (
     <Table size="small" aria-label="product details">
       <ParentTableHeader>
         <TableRow>
-          <TableCell>PC/ACCOUNT</TableCell>
-          <TableCell>VENDOR CODE</TableCell>
-          <TableCell>PRICE</TableCell>
-          <TableCell>VENDOR NAME</TableCell>
+          <StyledTableCell>PC/ACCOUNT</StyledTableCell>
+          <StyledTableCell>VENDOR CODE</StyledTableCell>
+          <StyledTableCell>PRICE</StyledTableCell>
+          <StyledTableCell>VENDOR NAME</StyledTableCell>
         </TableRow>
       </ParentTableHeader>
       <TableBody>
         {details.map((detail) => (
-          <TableRow key={detail.PC_ACCOUNT}>
-            <TableCell component="th" scope="row">
+          <StyledTableRow key={detail.PC_ACCOUNT}>
+            <StyledTableCell component="th" scope="row">
               {detail.PC_ACCOUNT}
-            </TableCell>
-            <TableCell>{detail.VENDOR_CODE}</TableCell>
-            <TableCell>{detail.PRICE}</TableCell>
-            <TableCell>{detail.VENDOR_NAME}</TableCell>
-          </TableRow>
+            </StyledTableCell>
+            <StyledTableCell>{detail.VENDOR_CODE}</StyledTableCell>
+            <StyledTableCell>{detail.PRICE}</StyledTableCell>
+            <StyledTableCell>{detail.VENDOR_NAME}</StyledTableCell>
+          </StyledTableRow>
         ))}
       </TableBody>
     </Table>

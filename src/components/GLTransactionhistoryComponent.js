@@ -27,7 +27,7 @@ import {
 import SearchIcon from '@mui/icons-material/Search';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import GLTransactionProductModal from './GLTransactionProductModal';
-
+import { useThemeContext } from '../context/ThemeContext';
 // Generate 50 mock transactions
 const generateMockData = () => {
   const statuses = ['Success', 'Failed', 'Pending'];
@@ -62,7 +62,7 @@ const GLTransactionHistoryComponent = () => {
   const [totalTransactions, setTotalTransactions] = useState(0);
   const [successCount, setSuccessCount] = useState(0);
   const [failedCount, setFailedCount] = useState(0);
-  
+  const {darkMode} = useThemeContext()
   // Sorting states
   const [orderBy, setOrderBy] = useState('transmitted');
   const [order, setOrder] = useState('desc');
@@ -267,7 +267,7 @@ const GLTransactionHistoryComponent = () => {
       <TableContainer component={Paper} elevation={3} sx={{ mb: 3 }}>
         <Table>
           <TableHead sx={{ bgcolor: 'grey.100' }}>
-            <TableRow>
+            <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
               <TableCell sx={{ fontWeight: 'bold' }}>
                 <TableSortLabel
                   active={orderBy === 'id'}

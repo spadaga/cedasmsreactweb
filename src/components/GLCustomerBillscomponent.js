@@ -22,7 +22,7 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import ReplayIcon from '@mui/icons-material/Replay';
 import { useNavigate } from 'react-router-dom';
-
+import { useThemeContext } from '../context/ThemeContext';
 function GLCustomerBillsComponent() {
     const [data, setData] = useState([]);
     const [page, setPage] = useState(0);
@@ -33,7 +33,7 @@ function GLCustomerBillsComponent() {
     const [successFilter, setSuccessFilter] = useState(true);
     const [failedFilter, setFailedFilter] = useState(true);
     const navigate = useNavigate();
-
+    const {darkMode} = useThemeContext()
     const handleBillNumberClick = (billNumber) => {
         // Implement your navigation logic here
         // Example: Open a new tab with the bill number as a parameter
@@ -177,7 +177,7 @@ function GLCustomerBillsComponent() {
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead sx={{ backgroundColor: "#f0f0f0" }}>
-              <TableRow>
+              <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
                 <TableCell>
                   <TableSortLabel
                     active={orderBy === "BILL_NUMBER"}

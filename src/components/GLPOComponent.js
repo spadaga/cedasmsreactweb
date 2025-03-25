@@ -20,9 +20,9 @@ import SearchIcon from "@mui/icons-material/Search";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import CloseIcon from "@mui/icons-material/Close";
 import { styled } from "@mui/material/styles";
-// import ReactJson from "react-json-view"; // Import the library
+import ReactJson from "react-json-view"; // Import the library
 import { Tooltip } from "@mui/material";
-
+import { useThemeContext } from '../context/ThemeContext';
 import FileDownloadIcon from "@mui/icons-material/FileDownload"; // Import the download icon
 
 // Styled Components for Table Header
@@ -32,7 +32,26 @@ const StyledTableHead = styled(TableHead)(({ theme }) => ({
     fontWeight: "bold",
     padding: theme.spacing(1.5),
   },
+
 }));
+
+
+const styles = {
+
+  jsonPreview: {
+    backgroundColor: '#111827', // very dark gray
+    color: '#f3f4f6', // light gray text
+    padding: '1rem',
+    borderRadius: '0.5rem',
+    fontFamily: 'monospace',
+    fontSize: '0.875rem',
+    whiteSpace: 'pre-wrap',
+    wordBreak: 'break-all',
+    overflowX: 'auto',
+    border: '1px solid #374151', // dark border
+  }
+}
+
 
 function GLPOComponent() {
   const [data, setData] = useState([]);
@@ -43,26 +62,7 @@ function GLPOComponent() {
   const [searchQuery, setSearchQuery] = useState("");
   const [openModal, setOpenModal] = useState(false);
   const [selectedRow, setSelectedRow] = useState(null);
-  const [jsontheme, setjsonTheme] = useState('monokai');
-
-  const themeOptions = [
-    'monokai',
-    'bright',
-    'summerfruit',
-    'eighties',
-    'ocean',
-    'grayscale',
-    'shapeshifter',
-    'brewer',
-    'embers',
-    'isotope',
-    'colors',
-    'mosaic',
-    'tomorrow',
-    'pop',
-    'solarized'
-  ];
-
+  const {darkMode} = useThemeContext()
   useEffect(() => {
     // Replace with your actual data fetching logic
     const mockData = [
@@ -640,7 +640,7 @@ function GLPOComponent() {
           variant="outlined"
           value={searchQuery}
           onChange={handleSearchChange}
-          sx={{ width: "400px" }} // Increase the width here
+          sx={{ width: "90%" }} // Increase the width here
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
@@ -658,7 +658,7 @@ function GLPOComponent() {
       <TableContainer component={Paper}>
         <Table>
           <StyledTableHead>
-            <TableRow>
+           <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
               <TableCell>
                 <TableSortLabel
                   active={orderBy === "PO_NUMBER"}
@@ -738,7 +738,7 @@ function GLPOComponent() {
         </Table>
       </TableContainer>
       <TablePagination
-       rowsPerPageOptions={[5, 10, 25]}
+        rowsPerPageOptions={[10, 25, 50]}
         component="div"
         count={filteredData.length}
         rowsPerPage={rowsPerPage}
@@ -753,7 +753,48 @@ function GLPOComponent() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={modalStyle}>
-           test
+          <Typography
+            id="modal-modal-title"
+            variant="h6"
+            component="h2"
+            sx={{
+              backgroundColor: darkMode ? '#333' : '#f5f5f5', // Light gray background
+              borderLeft: "4px solid #1976d2", // Blue left border
+              padding: "8px 16px", // Add some padding
+              marginBottom: "16px", // Add some spacing below
+            }}
+          >
+            PO Details
+          </Typography>
+          {selectedRow && selectedRow.details && (
+            <Box>
+              <pre style={styles.jsonPreview}>
+                {JSON.stringify(selectedRow.details, null, 2)}
+              </pre>
+              {/* <ReactJson
+                src={selectedRow.details}
+                theme="monokai"
+                collapsed={2}
+                displayDataTypes={false}
+              /> */}
+            </Box>
+          )}
+          {/* {selectedRow && selectedRow.details && (
+            <Box>
+              {Object.entries(selectedRow.details).map(([key, value]) => (
+                <Typography key={key} id="modal-modal-description" sx={{ mt: 2 }}>
+                  <strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value, null, 2) : String(value)}
+                </Typography>
+              ))}
+            </Box>
+          )} */}
+          <IconButton
+            aria-label="close"
+            onClick={handleCloseModal}
+            style={{ position: "absolute", top: 8, right: 8 }}
+          >
+            <CloseIcon />
+          </IconButton>
         </Box>
       </Modal>
     </div>
@@ -761,60 +802,3 @@ function GLPOComponent() {
 }
 
 export default GLPOComponent;
-
-{/* 
-     "react-json-view": "^1.21.3",
-    <Box style={{display:"flex",justifyContent: 'space-between',alignItems: 'center',backgroundColor: "#f0f0f0",  }}>
-<Typography
-  id="modal-modal-title"
-  variant="h6"
-  component="h2"
-  sx={{
-     
-    backgroundColor: "#f0f0f0", // Light gray background
-    borderLeft: "4px solid #1976d2", // Blue left border
-    padding: "8px 16px", // Add some padding
-    marginBottom: "16px", // Add some spacing below
-  }}
->
-  PO Details
-</Typography>
-<Box sx={{mr:2}}>
-<select sx={{}} value={jsontheme} onChange={(e) => setjsonTheme(e.target.value)}>
-      {themeOptions.map((option) => (
-        <option key={option} value={option}>
-          {option}
-        </option>
-      ))}
-    </select></Box>
-    </Box>
-{selectedRow && selectedRow.details && (
-  <Box>
-    
-    <ReactJson
-      src={selectedRow.details}
-      theme={jsontheme}
-      collapsed={2}
-      displayDataTypes={false}
-    />
-  </Box>
-)}
-
-<IconButton
-  aria-label="close"
-  onClick={handleCloseModal}
-  style={{ position: "absolute", top: 8, right: 8 }}
->
-  <CloseIcon />
-</IconButton> */}
-
-
-{/* {selectedRow && selectedRow.details && (
-  <Box>
-    {Object.entries(selectedRow.details).map(([key, value]) => (
-      <Typography key={key} id="modal-modal-description" sx={{ mt: 2 }}>
-        <strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value, null, 2) : String(value)}
-      </Typography>
-    ))}
-  </Box>
-)} */}

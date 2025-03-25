@@ -12,6 +12,7 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import GLTransactionChildTable from './GLTransactionChildTable';
 
+
 function GLTransactionProductModal({ open, onClose, transactionId, transactionStatus }) {
   const { darkMode } = useThemeContext();
   const [products, setProducts] = useState([]); // Replace with actual product data
@@ -32,7 +33,7 @@ function GLTransactionProductModal({ open, onClose, transactionId, transactionSt
     }));
     
     const ChildTableContainer = styled(Box)(({ theme }) => ({
-      backgroundColor: '#f5f5f5', // Lighter gray background for child table
+      backgroundColor: darkMode ? '#333' :'#f5f5f5', // Lighter gray background for child table
       padding: theme.spacing(2),
       margin: theme.spacing(1),
     }));
@@ -405,7 +406,7 @@ function GLTransactionProductModal({ open, onClose, transactionId, transactionSt
         <TableContainer component={Paper}>
           <Table>
           <ParentTableHeader> {/* Use styled ParentTableHeader */}
-              <TableRow>
+              <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
                 <TableCell />
                 <TableCell>
                   <TableSortLabel

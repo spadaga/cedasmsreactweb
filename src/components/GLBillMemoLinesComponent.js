@@ -10,8 +10,11 @@ import {
   TableRow,
   Paper,
 } from '@mui/material';
+import { useThemeContext } from '../context/ThemeContext';
 
 function GLBillMemoLinesComponent() {
+
+  const {darkMode} = useThemeContext()
   const memoLines = [
     {
       seqNo: 1,
@@ -43,7 +46,7 @@ function GLBillMemoLinesComponent() {
 
   return (
     <Box sx={{ padding: 1 }}>
-        <Box sx={{ backgroundColor: '#f0f0f0',p:1 }}>
+        <Box sx={{ backgroundColor: darkMode ? '#333' :'#f0f0f0',p:1 }}>
      <Typography variant="h7" gutterBottom sx={headerStyle}>
         Memo Lines
       </Typography>
@@ -53,7 +56,7 @@ function GLBillMemoLinesComponent() {
 
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} aria-label="memo lines table">
-          <TableHead sx={{ backgroundColor: '#f0f0f0' }}>
+          <TableHead sx={{ backgroundColor:  darkMode ? '#333' :  '#f0f0f0' }}>
             <TableRow>
               <TableCell>Seq No</TableCell>
               <TableCell>Description</TableCell>
@@ -65,7 +68,7 @@ function GLBillMemoLinesComponent() {
                 <TableRow
                 key={memo.seqNo}
                 sx={{
-                  backgroundColor: index % 2 === 1 ? '#f9f9f9' : 'transparent', // Alternate background color
+                  backgroundColor: index % 2 === 1 ? darkMode ? '#333' :'#f9f9f9' : 'transparent', // Alternate background color
                 }}
               >
                 <TableCell>{memo.seqNo}</TableCell>

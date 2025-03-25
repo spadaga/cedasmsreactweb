@@ -21,7 +21,7 @@ import {
 import SearchIcon from "@mui/icons-material/Search";
 import {  useNavigate } from "react-router-dom";
 import { PictureAsPdfOutlined } from "@mui/icons-material";
-
+import { useThemeContext } from '../context/ThemeContext';
 function GLCustomerCreditComponent() {
   const navigate = useNavigate();
 
@@ -32,6 +32,7 @@ function GLCustomerCreditComponent() {
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
   const [dateFilter, setDateFilter] = useState("Last 30 days");
+  const {darkMode} = useThemeContext()
 
   const credits = [
     {
@@ -173,7 +174,7 @@ function GLCustomerCreditComponent() {
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="customer credit table">
             <TableHead sx={{ backgroundColor: "#f0f0f0" }}>
-              <TableRow>
+             <TableRow style={{ backgroundColor: darkMode ? '#333' : '#f5f5f5' }}>
                 <TableCell>
                   <TableSortLabel
                     active={orderBy === "creditNumber"}
