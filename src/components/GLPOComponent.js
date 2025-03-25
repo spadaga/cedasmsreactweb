@@ -20,7 +20,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import CloseIcon from "@mui/icons-material/Close";
 import { styled } from "@mui/material/styles";
-import ReactJson from "react-json-view"; // Import the library
+
 import { Tooltip } from "@mui/material";
 import { useThemeContext } from '../context/ThemeContext';
 import FileDownloadIcon from "@mui/icons-material/FileDownload"; // Import the download icon
